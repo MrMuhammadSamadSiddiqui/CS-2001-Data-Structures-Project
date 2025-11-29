@@ -1,5 +1,61 @@
 #include<iostream>
 using namespace std;
+
+/*
+    This is a BST
+    Why I added this ? you may ask 
+    While entring slots we need to make sure all teachers name or classroom names are valid. 
+    for this we need a string through which we will use KMP or Boyre moore to validate
+    BUT !!!
+    we also need a storage and we can't just update string everytime separately. 
+    So here is the BST
+    It will make Teacher's or any Node's own BST, add into it, and will update List. 
+    This is how we will acquire the List of Teachers or any Node anytime, irrespective of update. this will always give us alphabetical order 
+
+    NOTE: I ADDED LIST TO THIS JUST SO WE CAN APPLY BOYRE MOORE OR KMP FOR MULTIPLE SUBSTIRNG SEARCH OTHERWISE BST SEARCHING IS ALOT FASTER BUT STRICT 
+*/
+template<typename T>
+class BST {
+	T* head;
+	string List;
+	void add_entity_main(T*& head, T* newone) {
+		if (head == nullptr) {
+			head = newone;
+			return;
+		}
+		if (newone->name < head->name) add_entity_main(head->left, newone);
+		else add_entity_main(head->right, newone);
+	}
+	void display_main(T*& head) {
+		if (head == nullptr) return;
+		display_main(head->left);
+		cout << head->name << ",";
+		display_main(head->right);
+	}
+	void update_string_main(T* head) {
+		if (head == nullptr) return;
+		update_string_main(head->left);
+		List += head->name;
+		List += ',';
+		update_string_main(head->right);
+	}
+public:
+	BST():head(nullptr),List(""){}
+	void add_entity(T* newone) {
+		this->add_entity_main(this->head,newone);
+		List = "";
+		this->update_string_main(this->head);
+	}
+	void display() {
+		this->display_main(this->head);
+	}
+	string get_List() {
+		return this->List;
+	}
+};
+
+
+
 struct Node {
     Node* next   ; 
     string course_name  ; 

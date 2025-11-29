@@ -1,5 +1,34 @@
+// NOTE TO ALL COLLABORATORS: PLEASE ADD COMMENTS WITH YOUR CODE JUST SO WE CAN UNDERSTAND WHAT YOU INTENDED TO ACHIEVE. NOT DETAILED ONES, JUST ENOUGH TO MAKE US UNDERSTAND. 
+
 #include<iostream>
 using namespace std;
+
+class Teacher {    // TEACHER NODE
+public:
+	string name;
+	// location of teacher
+	// courses that the teacher will teach
+	// TimeTable
+	Teacher* left;
+	Teacher* right;
+
+	// Helper functions needed !!!
+	Teacher() :left(nullptr), right(nullptr) {}
+	Teacher(string a):name(a),left(nullptr),right(nullptr) {}
+};
+
+class Classroom { // CLASSROOM NODE
+public:
+	string name;
+	// availibility status (bool ? i guess ) 
+	Classroom* left;
+	Classroom* right;
+
+	// helper functions needed !!!
+	Classroom() :left(nullptr), right(nullptr) {}
+	Classroom(string a):name(a),left(nullptr),right(nullptr){}
+
+};
 
 /*
     This is a BST
@@ -180,21 +209,6 @@ public:
     }
 };
 
-class Rooms{
-     Search_For_Free_Rooms(string day , ){
-       
-     }    
-};
-class Teachers{
-     Search_Teacher(string name){
-       
-     }
-     Search_Teacher_Timetable(string name){
-       
-     }
-
-      
-};
 class Timetable {
     Search_Timetable(string day){
 

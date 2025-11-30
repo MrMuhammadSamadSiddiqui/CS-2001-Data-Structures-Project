@@ -4,6 +4,14 @@
 #include<iostream>
 using namespace std;
 
+class Section{
+public:
+	string name;
+	Section* next;
+	Section():next(nullptr){}
+	Section(string a):next(nullptr),name(a){}
+};
+
 class Course_Name{
     string course_code;
     string short_form;
@@ -55,18 +63,19 @@ class Slot{
     Teacher* teacher;
     Time* time_of_class;
     Classroom* classroom;
-    Course_Name* course;
+    Course_Name* course;	
+	Section* section;
     Slot* next;
     public:
-    Slot():next(nullptr){}
+    Slot():next(nullptr),teacher(nullptr),time_of_class(nullptr),classroom(nullptr),course(nullptr),section(nullptr){}
 };
 
 class Teacher {    // TEACHER NODE
 public:
-	string name;
-	// location of teacher
-	// courses that the teacher will teach
+	// Courses 
 	// TimeTable
+	string name;
+	location* office;
     string email  ; 
 	Teacher* left;
 	Teacher* right;

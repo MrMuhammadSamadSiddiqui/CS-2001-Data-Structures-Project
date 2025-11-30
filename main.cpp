@@ -18,7 +18,11 @@ class Course_Name{
     string full_form;
     Course_Name* next;
     public:
+	string name; // NAME SO THAT WE CAN MAKE THREE DIFF BST'S FOR COURSE NAME, FULL FORM AND SHORT FORM BUT FOR THIS WE NEED TO USE TRIGGERS OR FLAGS WHCIH WILL BE IMPLEMENTED SOON IN BST TREE
     Course_Name():next(nullptr){}
+	Course_Name(string a, string b, string c):course_code(a),short_form(b), full_form(c), next(nullptr){
+		name=course_code+" "+short_form+" "+full_form;
+	}
 };
  
 struct location{

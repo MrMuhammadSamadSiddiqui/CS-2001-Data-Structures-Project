@@ -31,7 +31,13 @@ class Slot {
   string room  ; 
   Time start_time   ;
   Time end_time  ; // end_time will calculate this 
-  
+  Slot* next  = nullptr  ;
+  Slot(string t  , string r  , Time s , int n ){
+    teacher = t  ;
+    room = r  ; 
+    start_time = s   ; 
+    end_time  = end_time.end_time(n  , s ) ; 
+  } 
 
 };
 class Teacher {    // TEACHER NODE
@@ -127,6 +133,14 @@ struct Node {
           next  = nullptr ; 
      }
 };
+
+void add_students_slots(){
+      Slot* Monday = nullptr ; 
+      Slot* Tuesday = nullptr ; 
+      Slot* Wednesday = nullptr ; 
+      Slot* Thursday = nullptr ;
+      Slot* Friday  = nullptr ;  
+}
 
 class Add_My_Classes {
 public:
@@ -241,14 +255,14 @@ public:
 };
 
 class Timetable {
-    Search_Timetable(string day){
+    void Search_Timetable(string day){
+    
+}
 
-    }
-
-    Search_Timetable(){
+    void Search_Timetable(){
       
     }
-    Sort_Timetable(string day){
+    void Sort_Timetable(string day){
       
     }
     

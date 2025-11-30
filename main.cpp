@@ -2,7 +2,38 @@
 
 #include<iostream>
 using namespace std;
+struct Time {
+    public : 
+    int minutes  ; 
+    int hours  ; 
+    Time(){
+        minutes   = 0 ; 
+        hours  = 0  ; 
+    }
+    
+    
+    // function to calculate end time of class  n is basically the number of slots the class is in 2 slot 3 slot etc.
+    Time end_time(int n , Time t){
+        Time end_time  ; 
+        end_time.minutes = t.minutes +(50*n) + ((n-1)*5) ;
+        end_time.hours = t.hours + (end_time.minutes/60)  ; 
+        end_time.minutes   = end_time.minutes%60  ;  
+         return end_time ; 
+    }
 
+    void print_time(){
+      cout << hours << " : " << minutes << endl   ; 
+    }
+};
+
+class Slot {
+  string teacher  ; 
+  string room  ; 
+  Time start_time   ;
+  Time end_time  ; // end_time will calculate this 
+  
+
+};
 class Teacher {    // TEACHER NODE
 public:
 	string name;

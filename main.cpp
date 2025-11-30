@@ -51,20 +51,16 @@ struct Time {
     }
 };
 
-class Slot {
-  string teacher  ; 
-  string room  ; 
-  Time start_time   ;
-  Time end_time  ; // end_time will calculate this 
-  Slot* next  = nullptr  ;
-  Slot(string t  , string r  , Time s , int n ){
-    teacher = t  ;
-    room = r  ; 
-    start_time = s   ; 
-    end_time  = end_time.end_time(n  , s ) ; 
-  } 
-
+class Slot{
+    Teacher* teacher;
+    Time* time_of_class;
+    Classroom* classroom;
+    Course_Name* course;
+    Slot* next;
+    public:
+    Slot():next(nullptr){}
 };
+
 class Teacher {    // TEACHER NODE
 public:
 	string name;

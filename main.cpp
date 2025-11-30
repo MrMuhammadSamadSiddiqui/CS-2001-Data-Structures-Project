@@ -1,7 +1,23 @@
+
 // NOTE TO ALL COLLABORATORS: PLEASE ADD COMMENTS WITH YOUR CODE JUST SO WE CAN UNDERSTAND WHAT YOU INTENDED TO ACHIEVE. NOT DETAILED ONES, JUST ENOUGH TO MAKE US UNDERSTAND. 
 
 #include<iostream>
 using namespace std;
+ 
+struct location{
+    // location of the teacher_office  
+    public  : 
+    string building  ; 
+    string floor   ; 
+    string room_number   ; 
+    location(string b , string fl , string rn ){
+        building  = b ; 
+        floor  = fl   ; 
+        room_number = rn  ; 
+    }
+
+ } ; 
+
 struct Time {
     public : 
     int minutes  ; 
@@ -18,7 +34,7 @@ struct Time {
         end_time.minutes = t.minutes +(50*n) + ((n-1)*5) ;
         end_time.hours = t.hours + (end_time.minutes/60)  ; 
         end_time.minutes   = end_time.minutes%60  ;  
-         return end_time ; 
+        return end_time ; 
     }
 
     void print_time(){
@@ -46,6 +62,7 @@ public:
 	// location of teacher
 	// courses that the teacher will teach
 	// TimeTable
+    string email  ; 
 	Teacher* left;
 	Teacher* right;
 

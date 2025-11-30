@@ -3,6 +3,15 @@
 
 #include<iostream>
 using namespace std;
+
+class Course_Name{
+    string course_code;
+    string short_form;
+    string full_form;
+    Course_Name* next;
+    public:
+    Course_Name():next(nullptr){}
+};
  
 struct location{
     // location of the teacher_office  

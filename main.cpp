@@ -93,19 +93,6 @@ public:
 
 };
 
-/*
-    This is a BST
-    Why I added this ? you may ask 
-    While entring slots we need to make sure all teachers name or classroom names are valid. 
-    for this we need a string through which we will use KMP or Boyre moore to validate
-    BUT !!!
-    we also need a storage and we can't just update string everytime separately. 
-    So here is the BST
-    It will make Teacher's or any Node's own BST, add into it, and will update List. 
-    This is how we will acquire the List of Teachers or any Node anytime, irrespective of update. this will always give us alphabetical order 
-
-    NOTE: I ADDED LIST TO THIS JUST SO WE CAN APPLY BOYRE MOORE OR KMP FOR MULTIPLE SUBSTIRNG SEARCH OTHERWISE BST SEARCHING IS ALOT FASTER BUT STRICT 
-*/
 template<typename T>
 class BST {
 	T* head;

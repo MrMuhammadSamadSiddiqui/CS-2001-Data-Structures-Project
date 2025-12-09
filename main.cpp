@@ -12,6 +12,266 @@ public:
 	Section(string a):next(nullptr),name(a){}
 };
 
+
+// AVL code needs modification as per our program 
+
+#include <iostream>
+using namespace std;
+
+struct Node {
+    int key;
+    Node* left;
+    Node* right;
+    int height;
+    Node(int k) {
+        key = k;
+        left = nullptr;
+        right = nullptr;
+        height = 1;
+    }
+};
+
+// Utility functions (no <algorithm> used)
+int maxVal(int a, int b) {
+    return (a > b) ? a : b;
+}
+
+int height(Node* n) {
+    if (n == nullptr) return 0;
+    return n->height;
+}
+
+int getBalance(Node* n) {
+    if (n == nullptr) return 0;
+    return height(n->left) - height(n->right);
+}
+
+// Rotations
+Node* rightRotate(Node* y) {
+    Node* x = y->left;
+    Node* T2 = x->right;
+
+    x->right = y;
+    y->left = T2;
+
+    y->height = maxVal(height(y->left), height(y->right)) + 1;
+    x->height = maxVal(height(x->left), height(x->right)) + 1;
+
+    return x;
+}
+
+Node* leftRotate(Node* x) {
+    Node* y = x->right;
+    Node* T2 = y->left;
+
+    y->left = x;
+    x->right = T2;
+
+    x->height = maxVal(height(x->left), height(x->right)) + 1;
+    y->height = maxVal(height(y->left), height(y->right)) + 1;
+
+    return y;
+}
+
+// BST insert + AVL balancing
+Node* insertNode(Node* node, int key) {
+    if (node == nullptr)
+        return new Node(key);
+
+    if (key < node->key)
+        node->left = insertNode(node->left, key);
+    else if (key > node->key)
+        node->right = insertNode(node->right, key);
+    else
+        return node; // duplicates not allowed
+
+    node->height = 1 + maxVal(height(node->left), height(node->right));
+    int balance = getBalance(node);
+
+    // LL
+    if (balance > 1 && key < node->left->key)
+        return rightRotate(node);
+
+    // RR
+    if (balance < -1 && key > node->right->key)
+        return leftRotate(node);
+
+    // LR
+    if (balance > 1 && key > node->left->key) {
+        node->left = leftRotate(node->left);
+        return rightRotate(node);
+    }
+
+    // RL
+    if (balance < -1 && key < node->right->key) {
+        node->right = rightRotate(node->right);
+        return leftRotate(node);
+    }
+
+    return node;
+}
+
+// Smallest node finder
+Node* minValueNode(Node* node) {
+    Node* current = node;
+    while (current->left != nullptr)
+        current = current->left;
+    return current;
+}
+
+// BST delete + AVL balancing
+Node* deleteNode(Node* root, int key) {
+    if (root == nullptr)
+        return root;
+
+    if (key < root->key)
+        root->left = deleteNode(root->left, key);
+    else if (key > root->key)
+        root->right = deleteNode(root->right, key);
+    else {
+        if (root->left == nullptr || root->right == nullptr) {
+            Node* temp;
+            if (root->left != nullptr)
+                temp = root->left;
+            else
+                temp = root->right;
+
+            if (temp == nullptr) {
+                temp = root;
+                root = nullptr;
+            } else {
+                *root = *temp;
+            }
+            delete temp;
+        } else {
+            Node* temp = minValueNode(root->right);
+            root->key = temp->key;
+            root->right = deleteNode(root->right, temp->key);
+        }
+    }
+
+    if (root == nullptr)
+        return root;
+
+    root->height = 1 + maxVal(height(root->left), height(root->right));
+    int balance = getBalance(root);
+
+    // LL
+    if (balance > 1 && getBalance(root->left) >= 0)
+        return rightRotate(root);
+
+    // LR
+    if (balance > 1 && getBalance(root->left) < 0) {
+        root->left = leftRotate(root->left);
+        return rightRotate(root);
+    }
+
+    // RR
+    if (balance < -1 && getBalance(root->right) <= 0)
+        return leftRotate(root);
+
+    // RL
+    if (balance < -1 && getBalance(root->right) > 0) {
+        root->right = rightRotate(root->right);
+        return leftRotate(root);
+    }
+
+    return root;
+}
+
+// Search
+bool searchNode(Node* root, int key) {
+    if (root == nullptr) return false;
+    if (root->key == key) return true;
+    if (key < root->key) return searchNode(root->left, key);
+    return searchNode(root->right, key);
+}
+
+// Traversals
+void inOrder(Node* root) {
+    if (root == nullptr) return;
+    inOrder(root->left);
+    cout << root->key << " ";
+    inOrder(root->right);
+}
+
+void preOrder(Node* root) {
+    if (root == nullptr) return;
+    cout << root->key << " ";
+    preOrder(root->left);
+    preOrder(root->right);
+}
+
+void postOrder(Node* root) {
+    if (root == nullptr) return;
+    postOrder(root->left);
+    postOrder(root->right);
+    cout << root->key << " ";
+}
+
+// Pretty print tree (no strings used)
+void printTree(Node* root, int space = 0) {
+    if (root == nullptr) return;
+
+    space += 6;
+    printTree(root->right, space);
+
+    cout << endl;
+    for (int i = 6; i < space; i++)
+        cout << " ";
+    cout << root->key << "(" << root->height << ")\n";
+
+    printTree(root->left, space);
+}
+
+// ================= MAIN =================
+int main() {
+    Node* root = nullptr;
+
+    int arr[] = {20, 4, 15, 70, 50, 100, 80, 90, 85};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "Inserting values:\n";
+    for (int i = 0; i < n; i++) {
+        root = insertNode(root, arr[i]);
+    }
+
+    cout << "\nInOrder: ";
+    inOrder(root);
+
+    cout << "\nPreOrder: ";
+    preOrder(root);
+
+    cout << "\nPostOrder: ";
+    postOrder(root);
+
+    cout << "\n\nAVL Tree Structure:\n";
+    printTree(root);
+
+    cout << "\nDeleting 70\n";
+    root = deleteNode(root, 70);
+    printTree(root);
+
+    cout << "\nDeleting 100\n";
+    root = deleteNode(root, 100);
+    printTree(root);
+
+    cout << "\nSearch 85: ";
+    if (searchNode(root, 85))
+        cout << "Found\n";
+    else
+        cout << "Not Found\n";
+
+    cout << "Search 70: ";
+    if (searchNode(root, 70))
+        cout << "Found\n";
+    else
+        cout << "Not Found\n";
+
+    return 0;
+}
+
+
 class Course_Name{
     string course_code;
     string short_form;

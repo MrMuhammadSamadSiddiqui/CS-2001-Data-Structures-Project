@@ -1,0 +1,54 @@
+abcd,asdf
+Fahad Samad,Computer Science
+Abdul Aziz,Computer Science
+Zulfiqar Ali Memon,Computer Science
+Jawwad A. Shamsi,Computer Science
+Ghufran Ahmed,Computer Science
+Nouman Durrani,Computer Science
+Fahad Sherwani,Computer Science
+Shakil Ahmed,Computer Science
+Nadeem Kafi,Computer Science
+Farrukh Hasan Syed,Computer Science
+Farrukh Salim Shaikh,Computer Science
+Aqsa Aslam,Computer Science
+Nasir Uddin,Computer Science
+Waheed Ahmed Abro,Computer Science
+Abdul Rahman,Computer Science
+Muhammad Jamil,Computer Science
+Rabia Tabassum,Computer Science
+Syed Kashan Hussain Naqvi,Computer Science
+Shahar Bano Husnine,Computer Science
+Shoaib Rauf,Computer Science
+Basit Ali,Computer Science
+Syed Zain Ul Hassan,Computer Science
+Sobia Iftikhar,Computer Science
+Shahbaz Siddiqui,Cyber Security
+Sufian Hameed,Cyber Security
+Shoaib Raza,Cyber Security
+Rabia Ahmed Ansari,Cyber Security
+Abuzar Zafar,Cyber Security
+Abeer Gauher,Cyber Security
+Muhammad Ali Naseer Shah,Cyber Security
+Sandesh Kumar,Cyber Security
+Muhammad Nouman Rajput,Cyber Security
+Muhammad Usman,Cyber Security
+Muhammad Nouman Hanif,Cyber Security
+Waseem Rauf,Cyber Security
+Saqib Shah,Cyber Security
+Amna Aslam,Cyber Security
+Anam Qureshi,Software Engineering
+Syed Muazzam Ali Shah,Software Engineering
+Imran Ali Bhatti,Software Engineering
+Muhammad Ali Shah Fatmi,Software Engineering
+Syeda Rubab,Software Engineering
+Minhal Raza,Software Engineering
+Alina Arshad,Software Engineering
+Hira Tunio,Software Engineering
+Fizza Mansoor,Software Engineering
+Muhammad Nadeem,Software Engineering
+Syeda Ravia Ejaz,Software Engineering
+Kinza Mushtaq,Software Engineering
+Muhammad Shahzad Shaikh,Sciences & Humanities
+Syed Muhammad Fahad Riaz,Sciences & Humanities
+Khusro Mian,Sciences & Humanities
+Nazish Kanwal,Sciences & Humanities

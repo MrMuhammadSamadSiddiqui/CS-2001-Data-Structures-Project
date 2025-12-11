@@ -1,0 +1,21 @@
+a,b,c
+CS101,DS,Data Structures And Algorithms
+CS102,DS,Discrete Structures
+CS103,OOP,Object Oriented Programming
+CS104,PF,Programming Fundamentals
+CS105,DB,Database Systems
+CS106,OS,Operating Systems
+CS107,CO,Computer Organization
+CS108,CA,Computer Architecture
+CS109,ALGO,Design And Analysis Of Algorithms
+CS110,SE,Software Engineering
+MT1001,LA,Linear Algebra
+MT1002,CAL,Calculus And Analytical Geometry
+MT1003,STAT,Probability And Statistics
+EE2001,DLD,Digital Logic Design
+EE2002,ES,Electronic Systems
+MG3001,MAN,Principles Of Management
+MG3002,ENT,Entrepreneurship
+SS2001,ENG,Technical And Business Writing
+SS2002,ISL,Islamic Studies
+SS2003,PAK,Pakistan Studies

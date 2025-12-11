@@ -1,557 +1,568 @@
-
-// NOTE TO ALL COLLABORATORS: PLEASE ADD COMMENTS WITH YOUR CODE JUST SO WE CAN UNDERSTAND WHAT YOU INTENDED TO ACHIEVE. NOT DETAILED ONES, JUST ENOUGH TO MAKE US UNDERSTAND. 
-
 #include<iostream>
+#include<fstream>
+#include<string>
+#include<vector>
+#include<limits>
 using namespace std;
 
-class Section{
-public:
-	string name;
-	Section* next;
-	Section():next(nullptr){}
-	Section(string a):next(nullptr),name(a){}
-};
+class Slot;
+class Teacher;
+class Classroom;
+class Course_Name;
+class Section;
+class Time;
 
 
-// AVL code needs modification as per our program 
-
-#include <iostream>
-using namespace std;
-
-struct Node {
-    int key;
-    Node* left;
-    Node* right;
-    int height;
-    Node(int k) {
-        key = k;
-        left = nullptr;
-        right = nullptr;
-        height = 1;
-    }
-};
-
-// Utility functions (no <algorithm> used)
-int maxVal(int a, int b) {
-    return (a > b) ? a : b;
-}
-
-int height(Node* n) {
-    if (n == nullptr) return 0;
-    return n->height;
-}
-
-int getBalance(Node* n) {
-    if (n == nullptr) return 0;
-    return height(n->left) - height(n->right);
-}
-
-// Rotations
-Node* rightRotate(Node* y) {
-    Node* x = y->left;
-    Node* T2 = x->right;
-
-    x->right = y;
-    y->left = T2;
-
-    y->height = maxVal(height(y->left), height(y->right)) + 1;
-    x->height = maxVal(height(x->left), height(x->right)) + 1;
-
-    return x;
-}
-
-Node* leftRotate(Node* x) {
-    Node* y = x->right;
-    Node* T2 = y->left;
-
-    y->left = x;
-    x->right = T2;
-
-    x->height = maxVal(height(x->left), height(x->right)) + 1;
-    y->height = maxVal(height(y->left), height(y->right)) + 1;
-
-    return y;
-}
-
-// BST insert + AVL balancing
-Node* insertNode(Node* node, int key) {
-    if (node == nullptr)
-        return new Node(key);
-
-    if (key < node->key)
-        node->left = insertNode(node->left, key);
-    else if (key > node->key)
-        node->right = insertNode(node->right, key);
-    else
-        return node; // duplicates not allowed
-
-    node->height = 1 + maxVal(height(node->left), height(node->right));
-    int balance = getBalance(node);
-
-    // LL
-    if (balance > 1 && key < node->left->key)
-        return rightRotate(node);
-
-    // RR
-    if (balance < -1 && key > node->right->key)
-        return leftRotate(node);
-
-    // LR
-    if (balance > 1 && key > node->left->key) {
-        node->left = leftRotate(node->left);
-        return rightRotate(node);
-    }
-
-    // RL
-    if (balance < -1 && key < node->right->key) {
-        node->right = rightRotate(node->right);
-        return leftRotate(node);
-    }
-
-    return node;
-}
-
-// Smallest node finder
-Node* minValueNode(Node* node) {
-    Node* current = node;
-    while (current->left != nullptr)
-        current = current->left;
-    return current;
-}
-
-// BST delete + AVL balancing
-Node* deleteNode(Node* root, int key) {
-    if (root == nullptr)
-        return root;
-
-    if (key < root->key)
-        root->left = deleteNode(root->left, key);
-    else if (key > root->key)
-        root->right = deleteNode(root->right, key);
-    else {
-        if (root->left == nullptr || root->right == nullptr) {
-            Node* temp;
-            if (root->left != nullptr)
-                temp = root->left;
-            else
-                temp = root->right;
-
-            if (temp == nullptr) {
-                temp = root;
-                root = nullptr;
-            } else {
-                *root = *temp;
-            }
-            delete temp;
-        } else {
-            Node* temp = minValueNode(root->right);
-            root->key = temp->key;
-            root->right = deleteNode(root->right, temp->key);
+string to_lowercase(string a) {
+    string ret = "";
+    for (int i = 0; i < a.size(); i++) {
+        if (a[i] != ' ') {
+        if (a[i] >= 'A' && a[i] <= 'Z') ret += a[i] + 32;
+        else ret += a[i];
         }
     }
+    return ret;
+}
 
-    if (root == nullptr)
-        return root;
-
-    root->height = 1 + maxVal(height(root->left), height(root->right));
-    int balance = getBalance(root);
-
-    // LL
-    if (balance > 1 && getBalance(root->left) >= 0)
-        return rightRotate(root);
-
-    // LR
-    if (balance > 1 && getBalance(root->left) < 0) {
-        root->left = leftRotate(root->left);
-        return rightRotate(root);
+class Section {
+public:
+    string name;
+    string full_name;
+    Section* left;
+    Section* right;
+    Slot* slots=nullptr;
+    Section() :left(nullptr),right(nullptr),slots(nullptr) {}
+    Section(string a) :left(nullptr),right(nullptr), slots(nullptr), full_name(a) {
+        name=to_lowercase(full_name);
     }
+    void add_slot(Slot* newone);
+    bool check_collision(Time* t);
+    void print();
+    
+    
+};
 
-    // RR
-    if (balance < -1 && getBalance(root->right) <= 0)
-        return leftRotate(root);
-
-    // RL
-    if (balance < -1 && getBalance(root->right) > 0) {
-        root->right = rightRotate(root->right);
-        return leftRotate(root);
-    }
-
-    return root;
-}
-
-// Search
-bool searchNode(Node* root, int key) {
-    if (root == nullptr) return false;
-    if (root->key == key) return true;
-    if (key < root->key) return searchNode(root->left, key);
-    return searchNode(root->right, key);
-}
-
-// Traversals
-void inOrder(Node* root) {
-    if (root == nullptr) return;
-    inOrder(root->left);
-    cout << root->key << " ";
-    inOrder(root->right);
-}
-
-void preOrder(Node* root) {
-    if (root == nullptr) return;
-    cout << root->key << " ";
-    preOrder(root->left);
-    preOrder(root->right);
-}
-
-void postOrder(Node* root) {
-    if (root == nullptr) return;
-    postOrder(root->left);
-    postOrder(root->right);
-    cout << root->key << " ";
-}
-
-// Pretty print tree (no strings used)
-void printTree(Node* root, int space = 0) {
-    if (root == nullptr) return;
-
-    space += 6;
-    printTree(root->right, space);
-
-    cout << endl;
-    for (int i = 6; i < space; i++)
-        cout << " ";
-    cout << root->key << "(" << root->height << ")\n";
-
-    printTree(root->left, space);
-}
-
-// ================= MAIN =================
-int main() {
-    Node* root = nullptr;
-
-    int arr[] = {20, 4, 15, 70, 50, 100, 80, 90, 85};
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    cout << "Inserting values:\n";
-    for (int i = 0; i < n; i++) {
-        root = insertNode(root, arr[i]);
-    }
-
-    cout << "\nInOrder: ";
-    inOrder(root);
-
-    cout << "\nPreOrder: ";
-    preOrder(root);
-
-    cout << "\nPostOrder: ";
-    postOrder(root);
-
-    cout << "\n\nAVL Tree Structure:\n";
-    printTree(root);
-
-    cout << "\nDeleting 70\n";
-    root = deleteNode(root, 70);
-    printTree(root);
-
-    cout << "\nDeleting 100\n";
-    root = deleteNode(root, 100);
-    printTree(root);
-
-    cout << "\nSearch 85: ";
-    if (searchNode(root, 85))
-        cout << "Found\n";
-    else
-        cout << "Not Found\n";
-
-    cout << "Search 70: ";
-    if (searchNode(root, 70))
-        cout << "Found\n";
-    else
-        cout << "Not Found\n";
-
-    return 0;
-}
-
-
-class Course_Name{
+class Course_Name {
     string course_code;
     string short_form;
     string full_form;
-    Course_Name* next;
     public:
-	string name; // NAME SO THAT WE CAN MAKE THREE DIFF BST'S FOR COURSE NAME, FULL FORM AND SHORT FORM BUT FOR THIS WE NEED TO USE TRIGGERS OR FLAGS WHCIH WILL BE IMPLEMENTED SOON IN BST TREE
-    Course_Name():next(nullptr){}
-	Course_Name(string a, string b, string c):course_code(a),short_form(b), full_form(c), next(nullptr){
-		name=course_code+" "+short_form+" "+full_form;
-	}
-};
- 
-struct location{
-    // location of the teacher_office  
-    public  : 
-    string building  ; 
-    string floor   ; 
-    string room_number   ; 
-    location(string b , string fl , string rn ){
-        building  = b ; 
-        floor  = fl   ; 
-        room_number = rn  ; 
-    }
+    Course_Name* left;
+    Course_Name* right;
+    string name; 
+    string full_name;
 
- } ; 
+    Course_Name() :left(nullptr),right(nullptr) {}
+    Course_Name(string a, string b, string c) :course_code(a), short_form(b), full_form(c), left(nullptr),right(nullptr) {
+        name = to_lowercase(course_code) + "," + to_lowercase(short_form) + "," + to_lowercase(full_form);
+        full_name =course_code + "," +short_form + "," +full_form;
+    }
+};
+
+class location {
+public:
+    string building;
+    string floor;
+    string room_number;
+    location(string b, string fl, string rn) {
+        building = b;
+        floor = fl;
+        room_number = rn;
+    }
+};
 
 struct Time {
-    public : 
-    int minutes  ; 
-    int hours  ; 
-    Time(){
-        minutes   = 0 ; 
-        hours  = 0  ; 
-    }
-    
-    
-    // function to calculate end time of class  n is basically the number of slots the class is in 2 slot 3 slot etc.
-    Time end_time(int n , Time t){
-        Time end_time  ; 
-        end_time.minutes = t.minutes +(50*n) + ((n-1)*5) ;
-        end_time.hours = t.hours + (end_time.minutes/60)  ; 
-        end_time.minutes   = end_time.minutes%60  ;  
-        return end_time ; 
-    }
-
-    void print_time(){
-      cout << hours << " : " << minutes << endl   ; 
-    }
-};
-
-class Slot{
-    Teacher* teacher;
-    Time* time_of_class;
-    Classroom* classroom;
-    Course_Name* course;	
-	Section* section;
-    Slot* next;
-    public:
-    Slot():next(nullptr),teacher(nullptr),time_of_class(nullptr),classroom(nullptr),course(nullptr),section(nullptr){}
-};
-
-class Teacher {    // TEACHER NODE
 public:
-	// Courses 
-	// TimeTable
-	string name;
-	location* office;
-    string email  ; 
-	Teacher* left;
-	Teacher* right;
+    string day;
+    int s_hours;
+    int s_minutes;
+    int e_hours;
+    int e_minutes;
+    string starttime;
+    string endtime;
+    Time() : day(""), s_hours(0), s_minutes(0), e_hours(0), e_minutes(0),
+        starttime(""), endtime("") {
+    }
+    Time(string day, string starttime, int n)
+    : day(day), starttime(starttime)
+{
+    // DYNAMIC PARSING
+    int pos = starttime.find(':');
+    s_hours = stoi(starttime.substr(0, pos));
+    s_minutes = stoi(starttime.substr(pos + 1));
 
-	// Helper functions needed !!!
-	Teacher() :left(nullptr), right(nullptr) {}
-	Teacher(string a):name(a),left(nullptr),right(nullptr) {}
+    // Duration calculation
+    int duration = (50 * n) + ((n - 1) * 5);
+    int totalMin = s_minutes + duration;
+
+    e_hours = s_hours + (totalMin / 60);
+    e_minutes = totalMin % 60;
+
+    endtime = make_time(e_hours, e_minutes);
+}
+
+    string make_time(int h, int m) {
+        string hh = (h < 10 ? "0" : "") + to_string(h);
+        string mm = (m < 10 ? "0" : "") + to_string(m);
+        return hh + ":" + mm;
+    }
+    void print_time() {
+
+        cout << "Start: " << starttime << "  End: " << endtime << endl;
+    }
+    void print_time_with_day() {
+        cout<<day<<endl;
+        cout << "Start: " << starttime << "  End: " << endtime << endl;
+    }
 };
 
-class Classroom { // CLASSROOM NODE
+
+
+
+class Teacher {   
 public:
-	string name;
-	// availibility status (bool ? i guess ) 
-	Classroom* left;
-	Classroom* right;
+    string full_name="";
+    string name="";
+    string email="";
+    string department="";
+    Teacher* left=nullptr;
+    Teacher* right=nullptr;
+    Course_Name* courses=nullptr;
+    location* office=nullptr;
+    Slot* slots = nullptr;
 
-	// helper functions needed !!!
-	Classroom() :left(nullptr), right(nullptr) {}
-	Classroom(string a):name(a),left(nullptr),right(nullptr){}
+    Teacher(){}
+    Teacher(string a, string b) :full_name(a),department(b){
+        name = to_lowercase(full_name);
+    }
+    void add_slot(Slot* newone);
+    bool check_collision(Time* t);
+    void print();
+    
+};  
 
+class Classroom { 
+public:
+    Slot* slots=nullptr;
+    string full_name;
+    string name;
+    Classroom* left;
+    Classroom* right;
+    Classroom():left(nullptr), right(nullptr){}
+    Classroom(string a):full_name(a),left(nullptr),right(nullptr){
+        name = to_lowercase(full_name);
+    }
+    void add_slot(Slot* newone);
+    bool check_collision(Time* t);
+    void print();
 };
 
 template<typename T>
 class BST {
-	T* head;
-	string List;
-	void add_entity_main(T*& head, T* newone) {
-		if (head == nullptr) {
-			head = newone;
-			return;
-		}
-		if (newone->name < head->name) add_entity_main(head->left, newone);
-		else add_entity_main(head->right, newone);
-	}
-	void display_main(T*& head) {
-		if (head == nullptr) return;
-		display_main(head->left);
-		cout << head->name << ",";
-		display_main(head->right);
-	}
-	void update_string_main(T* head) {
-		if (head == nullptr) return;
-		update_string_main(head->left);
-		List += head->name;
-		List += ',';
-		update_string_main(head->right);
-	}
-public:
-	BST():head(nullptr),List(""){}
-	void add_entity(T* newone) {
-		this->add_entity_main(this->head,newone);
-		List = "";
-		this->update_string_main(this->head);
-	}
-	void display() {
-		this->display_main(this->head);
-	}
-	string get_List() {
-		return this->List;
-	}
-};
-
-
-
-struct Node {
-    Node* next   ; 
-    string course_name  ; 
-     string section  ; 
-     Node(){ next  = nullptr ; }
-     Node(string c , string s ){
-          course_name = c ; 
-          section = s ; 
-          next  = nullptr ; 
-     }
-};
-
-void add_students_slots(){
-      Slot* Monday = nullptr ; 
-      Slot* Tuesday = nullptr ; 
-      Slot* Wednesday = nullptr ; 
-      Slot* Thursday = nullptr ;
-      Slot* Friday  = nullptr ;  
-}
-
-class Add_My_Classes {
-public:
-    Node* head;     
-    int total_classes;  
-
-    Add_My_Classes() {
-        head = nullptr;
-        total_classes = 0;
-    }
-
-    
-    void Insert_Classes(string course, string section) {
-        if (Search_Class(course)) {
-            cout << "This course is already added!" << endl;
+    string List;
+    void add_entity_main(T*& head, T* newone) {
+        if (head == nullptr) {
+            head = newone;
             return;
         }
+        if (newone->name < head->name) add_entity_main(head->left, newone);
+        else add_entity_main(head->right, newone);
+    }
+    void display_main(T*& head) {
+        if (head == nullptr) return;
+        display_main(head->left);
+        cout << head->name << ":";
+        display_main(head->right);
+    }
+    void update_string_main(T* head) {
+        if (head == nullptr) return;
+        update_string_main(head->left);
+        List += head->name;
+        List += ':';
+        update_string_main(head->right);
+    }
 
-        Node* newNode = new Node(course, section);
+    T* searchHelper(T* node, string target) {
+        if (!node) return nullptr;
 
-        if (head == nullptr) {
-            head = newNode;
+        if (node->name == target)  
+            return node;
+
+        if (target < node->name)
+            return searchHelper(node->left, target);
+        else
+            return searchHelper(node->right, target);
+    }
+public:
+    T* head;
+    BST() :head(nullptr), List("") {}
+    void add_entity(T* newone) {
+        this->add_entity_main(this->head, newone);
+        List = "";
+        this->update_string_main(this->head);
+    }
+    void display() {
+        this->display_main(this->head);
+    }
+    T* search(string newone) {
+        return searchHelper(this->head, newone);
+    }
+    string get_List() {
+        return this->List;
+    }
+};
+
+
+
+void setup_file_data(BST<Course_Name>& courses, BST<Teacher>& teachers, BST<Classroom>& rooms,BST<Section>& section) {
+    fstream file;
+    file.open("Courses.txt");
+    string line;
+    while (getline(file, line)) {
+        string code = "";
+        string form = "";
+        string full = "";
+        int index = 0;
+        for (int i = 0; line[i] != ','; i++, index++) code += line[i];
+        for (int i = index + 1; line[i] != ','; i++, index++) form += line[i];
+        for (int i = index + 2; i < line.size(); i++) full += line[i];
+        Course_Name* newone = new Course_Name(code, form, full);
+        courses.add_entity(newone);
+    }
+    file.close();
+    file.open("Teachers.txt");
+    line = "";
+    while (getline(file, line)) {
+        string name = "";
+        string dep = "";
+        int index = 0;
+        for (int i = 0; line[i] != ','; i++, index++) name += line[i];
+        for (int i = index + 1; i < line.size(); i++, index++) dep += line[i];
+        Teacher* newone = new Teacher(name, dep);
+        teachers.add_entity(newone);
+    }
+    file.close();
+    file.open("Classrooms.txt");
+    line = "";
+    while (getline(file, line)) {
+        string name = "";
+        int index = 0;
+        for (int i = 0; i < line.size(); i++, index++) name += line[i];
+        Classroom* newone = new Classroom(name);
+        rooms.add_entity(newone);
+    }
+    file.close();
+    file.open("Sections.txt");
+    line = "";
+    while (getline(file, line)) {
+        string name = "";
+        int index = 0;
+        for (int i = 0; i < line.size(); i++, index++) name += line[i];
+        Section* newone = new Section(name);
+        section.add_entity(newone);
+    }
+    file.close();
+    
+}
+
+// KMP STRING SEARCH
+template <typename T>
+void findMatches(BST<T> tree,string big, string pattern) {
+    bool found=false;
+    int n = big.size();
+    int m = pattern.size();
+
+    // lowercase copies for matching
+    string bigLow = "";
+    for (char c : big) bigLow += tolower(c);
+    string patLow = "";
+    for (char c : pattern) patLow += tolower(c);
+
+    // Build KMP LPS table
+    vector<int> lps(m, 0);
+    for (int i = 1, len = 0; i < m; ) {
+        if (patLow[i] == patLow[len]) lps[i++] = ++len;
+        else if (len) len = lps[len - 1];
+        else lps[i++] = 0;
+    }
+
+    // KMP search + immediate printing
+    for (int i = 0, j = 0; i < n; ) {
+
+        if (bigLow[i] == patLow[j]) {
+            i++;
+            j++;
+
+            if (j == m) {
+                int matchStart = i - j;
+
+                // Go LEFT until ':'
+                int L = matchStart;
+                while (L > 0 && big[L] != ':') L--;
+                if (big[L] == ':') L++;
+
+                // Go RIGHT until ':'
+                int R = matchStart;
+                while (R < n && big[R] != ':') R++;
+
+                // Extract & print full name
+                     
+                if(!found)  cout << "Did you mean ?\n";
+                found=true;
+                string match = big.substr(L, R - L);
+                cout << tree.search(match)->full_name;
+                cout << endl;
+
+                
+
+                j = lps[j - 1];  // continue
+            }
         }
         else {
-            Node* temp = head;
-            while (temp->next != nullptr)
-                temp = temp->next;
-
-            temp->next = newNode;
+            if (j) j = lps[j - 1];
+            else i++;
         }
-
-        total_classes++;
-        cout << "Class added successfully: " << course << " - Section " << section << endl;
     }
+    if(!found) cout<<"NO SUCH ENTITY EXISTS!"<<endl;
+}
 
-
-    bool Search_Class(string course) {
-        Node* temp = head;
-
-        while (temp != nullptr) {
-            if (temp->course_name == course)
-                return true;
-            temp = temp->next;
-        }
-        return false;
+class Slot {
+public:
+    Time* time_of_class;
+    Teacher* teacher;
+    Classroom* classroom;
+    Course_Name* course;
+    Section* section;
+    Slot* next;
+    Slot():next(nullptr){}
+    Slot(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4) :next(nullptr), teacher(t1), time_of_class(t), classroom(t2), course(t3), section(t4) {}
+    void print(){
+        cout<<time_of_class->starttime<<" - "<<time_of_class->endtime<<"\n"<<classroom->full_name<<"\n"<<section->full_name<<"\n"<<course->full_name<<"\n"<<teacher->full_name<<endl;
     }
-
-    void Update_Section(string course, string newSection) {
-        Node* temp = head;
-
-        while (temp != nullptr) {
-            if (temp->course_name == course) {
-                temp->section = newSection;
-                cout << "Section updated successfully!" << endl;
-                return;
-            }
-            temp = temp->next;
-        }
-
-        cout << "Course not found!" << endl;
-    }
-
-    void Delete_Class(string course) {
-        if (head == nullptr) {
-            cout << "No classes to delete." << endl;
-            return;
-        }
-
-        Node* temp = head;
-        Node* prev = nullptr;
-
-        if (temp->course_name == course) {
-            head = head->next;
-            delete temp;
-            total_classes--;
-            cout << "Class removed successfully!" << endl;
-            return;
-        }
-
-        while (temp != nullptr && temp->course_name != course) {
-            prev = temp;
-            temp = temp->next;
-        }
-
-        if (temp == nullptr) {
-            cout << "Course not found!" << endl;
-            return;
-        }
-
-        prev->next = temp->next;
-        delete temp;
-        total_classes--;
-        cout << "Class removed successfully!" << endl;
-    }
-
-    void Display_Classes() {
-        if (head == nullptr) {
-            cout << "No classes added yet!" << endl;
-            return;
-        }
-
-        cout << "\n===== Added Classes =====\n";
-        Node* temp = head;
-
-        while (temp != nullptr) {
-            cout << "Course: " << temp->course_name
-                 << " | Section: " << temp->section << endl;
-            temp = temp->next;
-        }
-        cout << "Total Classes: " << total_classes << endl;
+    Slot(Slot& other) {
+    time_of_class = other.time_of_class;
+    teacher = other.teacher;
+    classroom = other.classroom;
+    course = other.course;
+    section = other.section;
+    next = nullptr;
     }
 };
 
-class Timetable {
-    void Search_Timetable(string day){
-    
+void Section::add_slot(Slot* newone) {
+        if (slots == nullptr) slots = newone;
+        else {
+            Slot* temp = slots;
+            while (temp ->next!= nullptr) temp = temp->next;
+            temp->next = newone;
+        }
 }
 
-    void Search_Timetable(){
-      
+void Teacher::add_slot(Slot* newone) {
+        if (slots == nullptr) slots = newone;
+        else {
+            Slot* temp = slots;
+            while (temp ->next!= nullptr) temp = temp->next;
+
+            temp->next = newone;
+        }
+}
+
+void Classroom::add_slot(Slot* newone) {
+        if (slots == nullptr) slots = newone;
+        else {
+            Slot* temp = slots;
+            while (temp ->next!= nullptr) temp = temp->next;
+
+
+            temp->next = newone;
+        }
+}
+
+bool Teacher::check_collision(Time* t){
+    Slot* temp=slots;
+    int newstart=t->s_hours*60+t->s_minutes;
+    int newend=t->e_hours*60+t->e_minutes;
+    if(temp==nullptr) return 1;
+    while(temp!=nullptr){
+        if(t->day==temp->time_of_class->day){
+            if(newstart<temp->time_of_class->e_hours*60+temp->time_of_class->e_minutes&&newend>temp->time_of_class->s_hours*60+temp->time_of_class->s_minutes){
+                cout<<"OVERLAP FOUND!"<<endl;
+                temp->print();
+                return 0;
+            }
+        }
+        temp=temp->next;
     }
-    void Sort_Timetable(string day){
-      
+    return 1;
+}
+
+
+bool Classroom::check_collision(Time* t){
+    Slot* temp=slots;
+    int newstart=t->s_hours*60+t->s_minutes;
+    int newend=t->e_hours*60+t->e_minutes;
+    if(temp==nullptr) return 1;
+    while(temp!=nullptr){
+        if(t->day==temp->time_of_class->day){
+            if(newstart<temp->time_of_class->e_hours*60+temp->time_of_class->e_minutes&&newend>temp->time_of_class->s_hours*60+temp->time_of_class->s_minutes){
+                cout<<"OVERLAP FOUND!"<<endl;
+                temp->print();
+                return 0;
+            }
+        }
+        temp=temp->next;
     }
-    
+    return 1;
+}
 
 
-}; 
+bool Section::check_collision(Time* t){
+    Slot* temp=slots;
+    int newstart=t->s_hours*60+t->s_minutes;
+    int newend=t->e_hours*60+t->e_minutes;
+    if(temp==nullptr) return 1;
+    while(temp!=nullptr){
+        if(t->day==temp->time_of_class->day){
+            if(newstart<temp->time_of_class->e_hours*60+temp->time_of_class->e_minutes&&newend>temp->time_of_class->s_hours*60+temp->time_of_class->s_minutes){
+                cout<<"OVERLAP FOUND!"<<endl;
+                temp->print();
+                return 0;
+            }
+        }
+        temp=temp->next;
+    }
+    return 1;
+}
 
-int main(){
-  cout<<"Welcome to FAST NATIONAL UNIVERISTY KARACHI CAMPUS timetable management system" << endl ; 
+void Teacher::print(){
+    Slot* temp=slots;
+    while(temp!=nullptr){
+        temp->print();
+        cout<<endl;
+        temp=temp->next;
+    }
+}
+
+void Classroom::print(){
+    Slot* temp=slots;
+    while(temp!=nullptr){
+        temp->print();
+        cout<<endl;
+        temp=temp->next;
+    }
+}
+
+void Section::print(){
+    Slot* temp=slots;
+    while(temp!=nullptr){
+        temp->print();
+        cout<<endl;
+        temp=temp->next;
+    }
+}
+
+
+
+int main() {
+    BST<Course_Name> courses;
+    BST<Teacher> teachers;
+    BST<Classroom> rooms;
+    BST<Section> section;
+    setup_file_data(courses, teachers, rooms, section);    
+    int choice;
+    while(1){
+            cout << "----- FAST TIMETABLE -----" << endl;
+    cout << "1. Enter Slot\n2. Search by Teacher\n3. Search by Section\n4. Exit\nEnter your choice:" << endl;
+    cin >> choice;
+    if (choice == 1) {
+        string day;
+        cout << "Enter the day: ";
+        cin >> day;
+        if (to_lowercase(day) == "monday" || to_lowercase(day) == "tuesday" || to_lowercase(day) == "wednesday" || to_lowercase(day) == "thursday" || to_lowercase(day) == "friday") {
+            string option;
+            int n;
+            cout << "Enter the Starting time: ";
+            cin >> option;
+            cout << "Enter the number of slots: ";
+            cin >> n;
+            Time* t=new Time(day, option, n);
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            Teacher* t1;
+            while (1) {
+                string teacher_name="";
+                cout << endl;
+                cout << "Enter the teacher name: ";
+                getline(cin, teacher_name);            
+                if (teachers.search(to_lowercase(teacher_name)) != nullptr) {
+                    t1=teachers.search(to_lowercase(teacher_name));
+                    break;
+                }
+                else {
+                    findMatches(teachers, teachers.get_List(), to_lowercase(teacher_name));
+                }
+            }
+            if(t1->check_collision(t)==1){
+            Classroom* t2;
+            while (1) {
+                string classroom_name="";
+                cout << endl;
+                cout << "Enter the Classroom: ";
+                getline(cin, classroom_name);            
+                if (rooms.search(to_lowercase(classroom_name)) != nullptr) {
+                    t2=rooms.search(to_lowercase(classroom_name));
+                    break;
+                }
+                else {
+                    findMatches(rooms, rooms.get_List(), to_lowercase(classroom_name));
+                }
+            }
+            if(t2->check_collision(t)==1){
+            Course_Name* t3;
+            while (1) {
+                string course_name="";
+                cout << endl;
+                cout << "Enter the Course: ";
+                getline(cin, course_name);            
+                if (courses.search(to_lowercase(course_name)) != nullptr) {
+                    t3=courses.search(to_lowercase(course_name));
+                    break;
+                }
+                else {
+                    findMatches(courses, courses.get_List(), to_lowercase(course_name));
+                }
+            }            
+             
+
+            Section* t4;
+            while (1) {
+                string section_name="";
+                cout << endl;
+                cout << "Enter the Section: ";
+                getline(cin, section_name);            
+                if (section.search(to_lowercase(section_name)) != nullptr) {
+                    t4=section.search(to_lowercase(section_name));
+                    break;
+                }
+                else {
+                    findMatches(section, section.get_List(), to_lowercase(section_name));
+                }
+            }
+            if(t4->check_collision(t)==1){
+                Slot* S=new Slot(t,t1, t2, t3, t4);
+               Slot* S_teacher = new Slot(*S); 
+                Slot* S_section = new Slot(*S);
+                Slot* S_room    = new Slot(*S);
+                
+
+                t1->add_slot(S_teacher);
+                    t4->add_slot(S_section);
+                t2->add_slot(S_room);
+                }
+            }
+            }   
+        }
+    }
+    else break;   
+    }
 }

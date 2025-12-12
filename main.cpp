@@ -3,8 +3,12 @@
 #include<string>
 #include<vector>
 #include<limits>
+#include <windows.h>
+#include <conio.h>
+#include <iomanip>
 using namespace std;
-
+const string username = "Abdul Samad" ; 
+const string password  = "12Ab45"  ; 
 class Slot;
 class Teacher;
 class Classroom;
@@ -461,21 +465,110 @@ void Section::print(){
         temp=temp->next;
     }
 }
+// Move cursor to (x,y)
+void goToXY(int x, int y) {
+    COORD pos = { (SHORT)x, (SHORT)y };
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
+}
+
+// Print message centered horizontally at given row (vertical)
+void inputCentered(const string& message, int row) {
+    CONSOLE_SCREEN_BUFFER_INFO csbi;
+    GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &csbi);
+
+    int width = csbi.srWindow.Right - csbi.srWindow.Left + 1;
+    int x = (width - message.length()) / 2;  // center horizontally
+
+    goToXY(x, row);
+    cout << message;
+}
+
+
+int Login(int i , int centerRow ){
+    
+   
+     system("cls") ; 
+        if (i==4){
+            return 0 ; 
+        }
+         string user_name  ; 
+         string pass_word  ; 
+        cout  << endl ; 
+        cin.ignore() ; 
+        inputCentered("Enter username: " , centerRow);
+        getline (cin , user_name) ; 
+        cin.ignore()  ; 
+       inputCentered("Enter password: " , centerRow+2);
+        getline (cin , pass_word) ; 
+        if (user_name == username && password==pass_word){
+            return 1 ; 
+            // code  ; 
+        }
+        else if (user_name != username && password==pass_word){
+            inputCentered( "Warning wrong username entered !!!" , centerRow+4) ; 
+            getch() ; 
+            i++ ; 
+            Login(i , centerRow ) ; 
+        }
+        else if (user_name == username && password!=pass_word){
+            inputCentered ("Warning wrong username or password entered !!!" , centerRow+4) ; 
+            getch() ; 
+            i++ ; 
+            Login(i , centerRow ) ; 
+        }
+        else if (user_name != username && password!=pass_word){
+            inputCentered("Warning wrong username or password entered !!!" , centerRow+4) ; 
+            getch() ; 
+            i++ ; 
+            Login(i , centerRow ) ; 
+        } 
+        
+
+    
+
+}
 
 
 
 int main() {
+    int opt  ; 
     BST<Course_Name> courses;
     BST<Teacher> teachers;
     BST<Classroom> rooms;
     BST<Section> section;
-    setup_file_data(courses, teachers, rooms, section);    
+    setup_file_data(courses, teachers, rooms, section); 
+    int  i =  1 ;
+     // Get console size
+    CONSOLE_SCREEN_BUFFER_INFO csbi;
+    GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &csbi);
+    int height = csbi.srWindow.Bottom - csbi.srWindow.Top + 1;
+    int centerRow = height / 2;
+    string user_name  ; 
+    string pass_word  ;  
     int choice;
     while(1){
-            cout << "----- FAST TIMETABLE -----" << endl;
-    cout << "1. Enter Slot\n2. Search by Teacher\n3. Search by Section\n4. Exit\nEnter your choice:" << endl;
-    cin >> choice;
-    if (choice == 1) {
+            inputCentered("----- FAST TIMETABLE -----" , centerRow-2) ;  
+            cout << endl  ; 
+            inputCentered ("OPTION 1 : Admin Mode" , centerRow) ; 
+            inputCentered ("OPTION 2 : Student Mode" , centerRow+2) ; 
+            inputCentered ("Enter Option : " , centerRow+4) ; 
+            cin >> opt  ;
+    while (opt!=1 && opt!=2){
+        system("cls") ; 
+        inputCentered ("Warning invalid option entered  " , centerRow) ;
+        inputCentered ("Enter correct Option : " , centerRow+2) ;
+        cin >> opt ;    
+        }
+    if (opt==1){
+      int  n = Login(i , centerRow) ; 
+      if (n==1){  
+        system("cls")  ; 
+        inputCentered("1. Enter Slot" , centerRow ) ; 
+        cout << endl  ;  
+        inputCentered("Enter your choice: "   , centerRow+2 )  ; 
+        cin >> choice;
+        if (choice == 1) {
+            system("cls") ; 
         string day;
         cout << "Enter the day: ";
         cin >> day;
@@ -563,6 +656,28 @@ int main() {
             }   
         }
     }
+
     else break;   
     }
+    
+    else {
+        system("cls")  ; 
+        inputCentered ("Access denied check credentials and try again !!!" , centerRow)  ; 
+        return 0 ; 
+    }
+}
+    else if(opt==2){
+        system ("cls") ; 
+      cout << endl  ;     
+            inputCentered("2. Search by Teacher" , centerRow+2)  ; 
+            cout  << endl  ; 
+            inputCentered("3. Search by Section" , centerRow+4) ; 
+            cout << endl  ; 
+            inputCentered("4. Exit" , centerRow+6 )   ; 
+            cout << endl  ; 
+            inputCentered("Enter your choice: "   , centerRow + 8 )  ; 
+             cin >> choice;  
+    }            
+
+}
 }

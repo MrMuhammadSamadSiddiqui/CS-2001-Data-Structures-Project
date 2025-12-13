@@ -15,6 +15,7 @@ class Classroom;
 class Course_Name;
 class Section;
 class Time;
+static int r  = 0 ; 
 
 
 string to_lowercase(string a) {
@@ -342,8 +343,11 @@ void findMatches(BST<T> tree,string big, string pattern) {
                 if(!found)  cout << "Did you mean ?\n";
                 found=true;
                 string match = big.substr(L, R - L);
-                cout << tree.search(match)->full_name;
-                cout << endl;
+                cout << left << setw(50) << tree.search(match)->full_name;  // Fixed width
+                if (r%3 == 0){  // After every 3rd item, add newline
+                cout << endl; 
+}
+                r++;
 
                 
 
@@ -780,22 +784,23 @@ int main() {
             if (choice == 1) {
             system("cls"); 
             string day;
-            cout << "Enter the day: ";
+            cout << endl <<  "\t\tEnter the Day: ";
             cin >> day;
             if (to_lowercase(day) == "monday" || to_lowercase(day) == "tuesday" || to_lowercase(day) == "wednesday" || to_lowercase(day) == "thursday" || to_lowercase(day) == "friday") {
                 string option;
                 int n;
-                cout << "Enter the Starting time: ";
+                cout << endl <<  "\t\tEnter the Starting time: ";
                 cin >> option;
-                cout << "Enter the number of slots: ";
+                cout  << endl << "\t\tEnter the number of slots: ";
                 cin >> n;
                 Time* t=new Time(day, option, n);
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 Teacher* t1;
                 while (1) {
                     string teacher_name="";
-                    cout << "Enter the teacher name: ";
+                    cout << endl << endl << "\t\tEnter the Teacher Name : ";
                     getline(cin, teacher_name);            
+                    r= 1  ; 
                     if (teachers.search(to_lowercase(teacher_name)) != nullptr) {
                         t1=teachers.search(to_lowercase(teacher_name));
                         break;
@@ -808,8 +813,9 @@ int main() {
                 Classroom* t2;
                 while (1) {
                     string classroom_name="";                    
-                    cout << "Enter the Classroom: ";
-                    getline(cin, classroom_name);            
+                    cout << endl << endl << "\t\tEnter the Classroom: ";
+                    getline(cin, classroom_name);  
+                    r= 0 ;           
                     if (rooms.search(to_lowercase(classroom_name)) != nullptr) {
                         t2=rooms.search(to_lowercase(classroom_name));
                         break;
@@ -822,8 +828,9 @@ int main() {
                 Course_Name* t3;
                 while (1) {
                     string course_name="";
-                    cout << "Enter the Course: ";
+                    cout << endl << endl << "\t\tEnter the Course: ";
                     getline(cin, course_name);            
+                    r= 1 ; 
                     if (courses.search(to_lowercase(course_name)) != nullptr) {
                         t3=courses.search(to_lowercase(course_name));
                         break;
@@ -837,8 +844,9 @@ int main() {
                 Section* t4;
                 while (1) {
                     string section_name="";
-                    cout << "Enter the Section: ";
+                    cout << endl << endl << "\t\tEnter the Section: "; 
                     getline(cin, section_name);            
+                    r= 0 ; 
                     if (section.search(to_lowercase(section_name)) != nullptr) {
                         t4=section.search(to_lowercase(section_name));
                         break;

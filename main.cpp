@@ -778,7 +778,6 @@ int main() {
             inputCentered("1. Enter Slot" , centerRow ) ; 
             inputCentered("2. Delete Slot" , centerRow+2 ) ; 
             inputCentered("3. Exit Admin Mode" , centerRow+4 ) ; 
-            cout << endl  ;  
             inputCentered("Enter your choice: "   , centerRow+6 )  ; 
             cin >> choice;
             if (choice == 1) {

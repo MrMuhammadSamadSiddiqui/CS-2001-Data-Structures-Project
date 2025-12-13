@@ -560,7 +560,7 @@ int Login(int i , int centerRow ){
 
 void delete_node_teacher(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4){
     
-    t1->print_slots_list();
+    
     if(equal_time(t1->slots->time_of_class,t)&&equal_room(t1->slots->classroom,t2)&&equal_course(t1->slots->course,t3)&&equal_section(t1->slots->section,t4)){
         Slot* del = t1->slots;         
         t1->slots = t1->slots->next;   
@@ -621,7 +621,7 @@ void delete_node_classroom(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3,
 
 void delete_node_section(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4){
         
-    t4->print_slots_list();
+    
     if(equal_time(t4->slots->time_of_class,t)&&equal_teacher(t4->slots->teacher,t1)&&equal_course(t4->slots->course,t3)&&equal_room(t4->slots->classroom,t2)){
         Slot* del = t4->slots;         
         t4->slots = t4->slots->next;   

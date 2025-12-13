@@ -41,10 +41,14 @@ public:
     }
     void add_slot(Slot* newone);
     bool check_collision(Time* t);
-    void print();
+    void print_slots_list();
     
     
 };
+
+bool equal_section(Section* t, Section* t1){
+    return (t->full_name==t1->full_name);
+}
 
 class Course_Name {
     string course_code;
@@ -62,6 +66,11 @@ class Course_Name {
         full_name =course_code + "," +short_form + "," +full_form;
     }
 };
+
+bool equal_course(Course_Name* t, Course_Name* t1){
+    return (t->name==t1->name);
+}
+
 
 class location {
 public:
@@ -118,9 +127,12 @@ public:
         cout<<day<<endl;
         cout << "Start: " << starttime << "  End: " << endtime << endl;
     }
+    
 };
 
-
+bool equal_time(Time* t, Time* t1){
+    return (t->day==t1->day&&t->s_hours==t1->s_hours&&t->s_minutes==t1->s_minutes&&t->e_hours==t1->e_hours&&t->e_minutes==t1->e_minutes);
+}
 
 
 class Teacher {   
@@ -131,19 +143,31 @@ public:
     string department="";
     Teacher* left=nullptr;
     Teacher* right=nullptr;
-    Course_Name* courses=nullptr;
-    location* office=nullptr;
+    // Course_Name* courses=nullptr;
+    // location* office=nullptr;
     Slot* slots = nullptr;
-
     Teacher(){}
     Teacher(string a, string b) :full_name(a),department(b){
         name = to_lowercase(full_name);
+        for(int i=0;i<full_name.size();i++){
+            if(full_name[i]>='A'&&full_name[i]<='Z') email+=full_name[i]+32;
+            else if(full_name[i]==' ') email+='.';
+            else email+=full_name[i];
+        }
+        email+="@nu.edu.pk";
     }
     void add_slot(Slot* newone);
     bool check_collision(Time* t);
-    void print();
-    
+    void print_slots_list();
+    void print_info(){
+        cout<<full_name<<"\n"<<department<<"\n"<<email<<endl;
+    }
 };  
+
+bool equal_teacher(Teacher* t, Teacher* t1){
+    return (t->full_name==t1->full_name);
+}
+
 
 class Classroom { 
 public:
@@ -158,8 +182,12 @@ public:
     }
     void add_slot(Slot* newone);
     bool check_collision(Time* t);
-    void print();
+    void print_slots_list();
 };
+
+bool equal_room(Classroom* t, Classroom* t1){
+    return (t->full_name==t1->full_name);
+}
 
 template<typename T>
 class BST {
@@ -439,7 +467,7 @@ bool Section::check_collision(Time* t){
     return 1;
 }
 
-void Teacher::print(){
+void Teacher::print_slots_list(){
     Slot* temp=slots;
     while(temp!=nullptr){
         temp->print();
@@ -448,7 +476,7 @@ void Teacher::print(){
     }
 }
 
-void Classroom::print(){
+void Classroom::print_slots_list(){
     Slot* temp=slots;
     while(temp!=nullptr){
         temp->print();
@@ -457,7 +485,7 @@ void Classroom::print(){
     }
 }
 
-void Section::print(){
+void Section::print_slots_list(){
     Slot* temp=slots;
     while(temp!=nullptr){
         temp->print();
@@ -522,13 +550,187 @@ int Login(int i , int centerRow ){
             i++ ; 
             Login(i , centerRow ) ; 
         } 
-        
-
-    
-
 }
 
 
+
+void delete_node_teacher(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4){
+    
+    t1->print_slots_list();
+    if(equal_time(t1->slots->time_of_class,t)&&equal_room(t1->slots->classroom,t2)&&equal_course(t1->slots->course,t3)&&equal_section(t1->slots->section,t4)){
+        Slot* del = t1->slots;         
+        t1->slots = t1->slots->next;   
+        delete del;                    
+    }
+    else{
+        Slot* temp=t1->slots;
+        while (temp != nullptr) {
+            if(equal_time(temp->next->time_of_class,t)&&equal_room(temp->next->classroom,t2)&&equal_course(temp->next->course,t3)&&equal_section(temp->next->section,t4)){
+                Slot* del=temp->next;
+                if(temp->next->next!=nullptr){
+                    temp->next=temp->next->next;
+                    delete del;
+                }
+                else{
+                    delete del;
+                    temp->next=nullptr;
+                }
+            }
+            temp = temp->next;  
+        }
+    }
+    
+    
+    
+    
+}
+
+
+void delete_node_classroom(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4){
+        
+    
+    if(equal_time(t2->slots->time_of_class,t)&&equal_teacher(t2->slots->teacher,t1)&&equal_course(t2->slots->course,t3)&&equal_section(t2->slots->section,t4)){
+        Slot* del = t2->slots;         
+        t2->slots = t2->slots->next;   
+        delete del;                    
+    }
+    else{
+        Slot* temp=t2->slots;
+         while (temp != nullptr) {
+            if(equal_time(temp->next->time_of_class,t)&&equal_teacher(temp->next->teacher,t1)&&equal_course(temp->next->course,t3)&&equal_section(temp->next->section,t4)){
+                Slot* del=temp->next;
+                if(temp->next->next!=nullptr){
+                    temp->next=temp->next->next;
+                    delete del;
+                }
+                else{
+                    delete del;
+                    temp->next=nullptr;
+                }
+            }
+            temp = temp->next;  
+        }
+    }
+      
+    
+}
+
+void delete_node_section(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4){
+        
+    t4->print_slots_list();
+    if(equal_time(t4->slots->time_of_class,t)&&equal_teacher(t4->slots->teacher,t1)&&equal_course(t4->slots->course,t3)&&equal_room(t4->slots->classroom,t2)){
+        Slot* del = t4->slots;         
+        t4->slots = t4->slots->next;   
+        delete del;                    
+    }
+    else{
+        Slot* temp=t4->slots;
+        while (temp != nullptr) {
+            if(equal_time(temp->next->time_of_class,t)&&equal_teacher(temp->next->teacher,t1)&&equal_course(temp->next->course,t3)&&equal_room(temp->next->classroom,t2)){
+                Slot* del=temp->next;
+                if(temp->next->next!=nullptr){
+                    temp->next=temp->next->next;
+                    delete del;
+                }
+                else{
+                    delete del;
+                    temp->next=nullptr;
+                }
+            }
+            temp = temp->next;  
+        }
+    }
+}
+
+class Admin{
+    public:
+    string username;
+    string password;
+    Admin* next=nullptr;
+    Admin():next(nullptr),username(""),password(""){}
+    Admin(string a, string b):next(nullptr),username(a),password(b){
+    }
+};
+
+class HashMap{
+    public:
+    Admin* table[26]={nullptr};
+    HashMap(){
+        fstream file;
+        file.open("Admins.txt");
+        string line;
+        while (getline(file, line)) {
+            string username="";
+            string password="";
+            int hash=0;
+            int index=0;
+            for(int i=0;line[i]!=',';i++,index++){
+                 username+=line[i];
+            }
+            hash=calculate_hash(username);
+            for(int i=index+1;i<line.size();i++) password+=line[i];
+            if(table[hash]==nullptr) table[hash]=new Admin(username,password);
+            else{
+                Admin* temp=table[hash];
+                while(temp->next!=nullptr) temp=temp->next;
+                temp->next=new Admin(username, password);
+            } 
+        }
+        file.close();
+    }
+
+    int calculate_hash(string username){
+        int hash=0;
+            for(int i=0;i<username.size();i++){
+                 if(username[i]>='A'&&username[i]<='Z')  hash+=(username[i]+32);
+                 else if (username[i]>='a'&&username[i]<='z')hash+=username[i];
+                 hash=hash%26;
+            }
+        return hash;
+    }
+
+    string search(string username, string password){
+        string stat="";
+        int hash=calculate_hash(username);
+        if(table[hash]==nullptr){
+            stat="00";
+            return stat;
+        }
+        Admin* temp=table[hash];
+        while(temp!=nullptr){
+            stat="";
+            if(temp->username==username) stat+="1";
+            if(temp->password==password) stat+="1";
+            if(stat=="11"){
+                return stat;
+            }
+            temp=temp->next;
+        }
+        return stat;
+    }
+};
+
+
+int Login_Admin(HashMap& H, int centerRow){
+    system("cls") ; 
+    string user_name  ; 
+    string pass_word  ; 
+    cout  << endl ; 
+    cin.ignore() ; 
+    inputCentered("Enter username: " , centerRow);
+    getline (cin , user_name) ; 
+    cin.ignore() ; 
+    inputCentered("Enter password: " , centerRow+2);
+    getline (cin , pass_word) ; 
+    string stat=H.search(user_name,pass_word);
+    if(stat=="11") return 1;
+    else if(stat=="00"){
+        cin.ignore()  ;
+        inputCentered ("Warning wrong username or password entered !!!" , centerRow+4) ; 
+        _getch();
+    }
+    return 0;
+}
 
 int main() {
     int opt  ; 
@@ -536,7 +738,8 @@ int main() {
     BST<Teacher> teachers;
     BST<Classroom> rooms;
     BST<Section> section;
-    setup_file_data(courses, teachers, rooms, section); 
+    setup_file_data(courses, teachers, rooms, section);   
+    HashMap Admins;
     int  i =  1 ;
      // Get console size
     CONSOLE_SCREEN_BUFFER_INFO csbi;
@@ -547,137 +750,264 @@ int main() {
     string pass_word  ;  
     int choice;
     while(1){
+            system("cls");
             inputCentered("----- FAST TIMETABLE -----" , centerRow-2) ;  
             cout << endl  ; 
             inputCentered ("OPTION 1 : Admin Mode" , centerRow) ; 
             inputCentered ("OPTION 2 : Student Mode" , centerRow+2) ; 
-            inputCentered ("Enter Option : " , centerRow+4) ; 
-            cin >> opt  ;
-    while (opt!=1 && opt!=2){
+            inputCentered ("OPTION 3 : Exit" , centerRow+4) ; 
+            cout<<endl;
+            inputCentered ("Enter Option : " , centerRow+6) ; 
+            cin >> opt ;
+    while (opt!=1 && opt!=2&&opt!=3){
         system("cls") ; 
         inputCentered ("Warning invalid option entered  " , centerRow) ;
         inputCentered ("Enter correct Option : " , centerRow+2) ;
         cin >> opt ;    
         }
     if (opt==1){
-      int  n = Login(i , centerRow) ; 
+    //   int  n = Login(i , centerRow); 
+    int n=Login_Admin(Admins,centerRow);
       if (n==1){  
-        system("cls")  ; 
-        inputCentered("1. Enter Slot" , centerRow ) ; 
-        cout << endl  ;  
-        inputCentered("Enter your choice: "   , centerRow+2 )  ; 
-        cin >> choice;
-        if (choice == 1) {
-            system("cls") ; 
-        string day;
-        cout << "Enter the day: ";
-        cin >> day;
-        if (to_lowercase(day) == "monday" || to_lowercase(day) == "tuesday" || to_lowercase(day) == "wednesday" || to_lowercase(day) == "thursday" || to_lowercase(day) == "friday") {
-            string option;
-            int n;
-            cout << "Enter the Starting time: ";
-            cin >> option;
-            cout << "Enter the number of slots: ";
-            cin >> n;
-            Time* t=new Time(day, option, n);
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            Teacher* t1;
-            while (1) {
-                string teacher_name="";
-                cout << endl;
-                cout << "Enter the teacher name: ";
-                getline(cin, teacher_name);            
-                if (teachers.search(to_lowercase(teacher_name)) != nullptr) {
-                    t1=teachers.search(to_lowercase(teacher_name));
-                    break;
+        while(1){
+            system("cls")  ; 
+            inputCentered("1. Enter Slot" , centerRow ) ; 
+            inputCentered("2. Delete Slot" , centerRow+2 ) ; 
+            inputCentered("3. Exit Admin Mode" , centerRow+4 ) ; 
+            cout << endl  ;  
+            inputCentered("Enter your choice: "   , centerRow+6 )  ; 
+            cin >> choice;
+            if (choice == 1) {
+            system("cls"); 
+            string day;
+            cout << "Enter the day: ";
+            cin >> day;
+            if (to_lowercase(day) == "monday" || to_lowercase(day) == "tuesday" || to_lowercase(day) == "wednesday" || to_lowercase(day) == "thursday" || to_lowercase(day) == "friday") {
+                string option;
+                int n;
+                cout << "Enter the Starting time: ";
+                cin >> option;
+                cout << "Enter the number of slots: ";
+                cin >> n;
+                Time* t=new Time(day, option, n);
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                Teacher* t1;
+                while (1) {
+                    string teacher_name="";
+                    cout << "Enter the teacher name: ";
+                    getline(cin, teacher_name);            
+                    if (teachers.search(to_lowercase(teacher_name)) != nullptr) {
+                        t1=teachers.search(to_lowercase(teacher_name));
+                        break;
+                    }
+                    else {
+                        findMatches(teachers, teachers.get_List(), to_lowercase(teacher_name));
+                    }
                 }
-                else {
-                    findMatches(teachers, teachers.get_List(), to_lowercase(teacher_name));
+                if(t1->check_collision(t)==1){
+                Classroom* t2;
+                while (1) {
+                    string classroom_name="";                    
+                    cout << "Enter the Classroom: ";
+                    getline(cin, classroom_name);            
+                    if (rooms.search(to_lowercase(classroom_name)) != nullptr) {
+                        t2=rooms.search(to_lowercase(classroom_name));
+                        break;
+                    }
+                    else {
+                        findMatches(rooms, rooms.get_List(), to_lowercase(classroom_name));
+                    }
                 }
-            }
-            if(t1->check_collision(t)==1){
-            Classroom* t2;
-            while (1) {
-                string classroom_name="";
-                cout << endl;
-                cout << "Enter the Classroom: ";
-                getline(cin, classroom_name);            
-                if (rooms.search(to_lowercase(classroom_name)) != nullptr) {
-                    t2=rooms.search(to_lowercase(classroom_name));
-                    break;
+                if(t2->check_collision(t)==1){
+                Course_Name* t3;
+                while (1) {
+                    string course_name="";
+                    cout << "Enter the Course: ";
+                    getline(cin, course_name);            
+                    if (courses.search(to_lowercase(course_name)) != nullptr) {
+                        t3=courses.search(to_lowercase(course_name));
+                        break;
+                    }
+                    else {
+                        findMatches(courses, courses.get_List(), to_lowercase(course_name));
+                    }
+                }            
+                 
+    
+                Section* t4;
+                while (1) {
+                    string section_name="";
+                    cout << "Enter the Section: ";
+                    getline(cin, section_name);            
+                    if (section.search(to_lowercase(section_name)) != nullptr) {
+                        t4=section.search(to_lowercase(section_name));
+                        break;
+                    }
+                    else {
+                        findMatches(section, section.get_List(), to_lowercase(section_name));
+                    }
                 }
-                else {
-                    findMatches(rooms, rooms.get_List(), to_lowercase(classroom_name));
-                }
-            }
-            if(t2->check_collision(t)==1){
-            Course_Name* t3;
-            while (1) {
-                string course_name="";
-                cout << endl;
-                cout << "Enter the Course: ";
-                getline(cin, course_name);            
-                if (courses.search(to_lowercase(course_name)) != nullptr) {
-                    t3=courses.search(to_lowercase(course_name));
-                    break;
-                }
-                else {
-                    findMatches(courses, courses.get_List(), to_lowercase(course_name));
-                }
-            }            
-             
-
-            Section* t4;
-            while (1) {
-                string section_name="";
-                cout << endl;
-                cout << "Enter the Section: ";
-                getline(cin, section_name);            
-                if (section.search(to_lowercase(section_name)) != nullptr) {
-                    t4=section.search(to_lowercase(section_name));
-                    break;
-                }
-                else {
-                    findMatches(section, section.get_List(), to_lowercase(section_name));
-                }
-            }
-            if(t4->check_collision(t)==1){
-                Slot* S=new Slot(t,t1, t2, t3, t4);
-               Slot* S_teacher = new Slot(*S); 
-                Slot* S_section = new Slot(*S);
-                Slot* S_room    = new Slot(*S);
-                
-
-                t1->add_slot(S_teacher);
+                if(t4->check_collision(t)==1){
+                    Slot* S=new Slot(t,t1, t2, t3, t4);
+                    Slot* S_teacher = new Slot(*S); 
+                    Slot* S_section = new Slot(*S);
+                    Slot* S_room    = new Slot(*S);
+                    t1->add_slot(S_teacher);
                     t4->add_slot(S_section);
-                t2->add_slot(S_room);
+                    t2->add_slot(S_room);
+                    cout<<"----- NEW SLOT ADDED -----"<<endl;
+                    S->print();
+                    cout<<"\nPress Any key to continue: ";
+                    _getch();                    
+                }
+                else{
+                    cout<<"\nPress Any key to continue: ";
+                    _getch(); 
+                }
+                }
+                else{
+                    cout<<"\nPress Any key to continue: ";
+                    _getch(); 
+                }
+                }
+                else{
+                    cout<<"\nPress Any key to continue: ";
+                    _getch(); 
+                }
+                }
+                else{
+                    cout<<"Enter Valid Day"<<endl;
+                    cout<<"\nPress Any key to continue: ";
+                    _getch(); 
+                }   
+            }
+
+            else if(choice==2){
+                system("cls");
+                string day;
+                string time;
+                int n;
+                cout<<"Enter the Day: ";
+                cin>>day;
+                cout<<"Enter the Starting time of Slot: ";
+                cin>>time;
+                cout<<"Enter the number of slots: ";
+                cin>>n;
+                Time* t=new Time(day,time,n);
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                Teacher* t1;
+                while (1) {
+                    string teacher_name="";
+                    cout << "Enter the Teacher name: ";
+                    getline(cin, teacher_name);            
+                    if (teachers.search(to_lowercase(teacher_name)) != nullptr) {
+                        t1=teachers.search(to_lowercase(teacher_name));
+                        break;
+                    }
+                    else {
+                        findMatches(teachers, teachers.get_List(), to_lowercase(teacher_name));
+                    }
+                }
+                Classroom* t2;
+                while (1) {
+                    string classroom_name="";                    
+                    cout << "Enter the Classroom: ";
+                    getline(cin, classroom_name);            
+                    if (rooms.search(to_lowercase(classroom_name)) != nullptr) {
+                        t2=rooms.search(to_lowercase(classroom_name));
+                        break;
+                    }
+                    else {
+                        findMatches(rooms, rooms.get_List(), to_lowercase(classroom_name));
+                    }
+                }
+                Course_Name* t3;
+                while (1) {
+                    string course_name="";
+                    cout << "Enter the Course: ";
+                    getline(cin, course_name);            
+                    if (courses.search(to_lowercase(course_name)) != nullptr) {
+                        t3=courses.search(to_lowercase(course_name));
+                        break;
+                    }
+                    else {
+                        findMatches(courses, courses.get_List(), to_lowercase(course_name));
+                    }
+                }  
+                Section* t4;
+                while (1) {
+                    string section_name="";
+                    cout << "Enter the Section: ";
+                    getline(cin, section_name);            
+                    if (section.search(to_lowercase(section_name)) != nullptr) {
+                        t4=section.search(to_lowercase(section_name));
+                        break;
+                    }
+                    else {
+                        findMatches(section, section.get_List(), to_lowercase(section_name));
+                    }
+                }
+                Slot* temp=t1->slots;
+                bool found=false;
+                while(temp!=nullptr){
+                    if(equal_time(temp->time_of_class,t)&&equal_room(temp->classroom,t2)&&equal_course(temp->course,t3)&&equal_section(temp->section,t4)){
+                        cout<<"----- FOUND ONE SLOT -----"<<endl;
+                        temp->print();
+                        found=true;
+                        break;
+                    }
+                    temp=temp->next;
+                }
+                if(found){
+                    string confirm="";
+                    while(1){
+                        cout<<"Do you want to delete it ? Y/N: ";
+                    cin>>confirm;
+                    if(confirm=="Y"||confirm=="y"){
+                        delete_node_teacher(t,t1,t2,t3,t4);
+                        delete_node_classroom(t,t1,t2,t3,t4);
+                        delete_node_section(t,t1,t2,t3,t4);
+                        cout<<"NODE DELETED SUCCESSFULLY "<<endl;
+                        cout<<"\nPress Any key to continue: ";
+                        _getch(); 
+                        break;
+                    }
+                    else if(confirm=="N"||confirm=="n") break;
+                    else cout<<"Only (Y/y) or (N/n) inputs are accepted"<<endl;
+                    }
+                }
+                else{
+                    cout<<"No Slot found"<<endl;
+                    cout<<"\nPress Any key to continue: ";
+                    _getch(); 
                 }
             }
-            }   
+            else if(choice==3) break;   
         }
     }
-
-    else break;   
-    }
-    
     else {
         system("cls")  ; 
         inputCentered ("Access denied check credentials and try again !!!" , centerRow)  ; 
-        return 0 ; 
+        break;
     }
 }
     else if(opt==2){
-        system ("cls") ; 
-      cout << endl  ;     
-            inputCentered("2. Search by Teacher" , centerRow+2)  ; 
+        while(1){
+            system ("cls") ; 
+            cout << endl  ;     
+            inputCentered("1. Search by Teacher" , centerRow+2)  ; 
             cout  << endl  ; 
-            inputCentered("3. Search by Section" , centerRow+4) ; 
+            inputCentered("2. Search by Section" , centerRow+4) ; 
             cout << endl  ; 
-            inputCentered("4. Exit" , centerRow+6 )   ; 
+            inputCentered("3. Exit" , centerRow+6 )   ; 
             cout << endl  ; 
             inputCentered("Enter your choice: "   , centerRow + 8 )  ; 
-             cin >> choice;  
-    }            
-
+            cin >> choice;  
+            if(choice==1){}
+            else if(choice==2){}
+            else if(choice ==3) break;
+        }
+    }     
+    else if(opt==3) break;
 }
 }

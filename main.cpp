@@ -42,9 +42,15 @@ public:
     }
     void add_slot(Slot* newone);
     bool check_collision(Time* t);
-    void print_slots_list();
-    
-    
+    void print_slots_list(string day);
+    void print_info(string day){
+        cout<<"----- SECTION: "<<full_name<<" -----"<<endl;
+        if(this->slots!=nullptr){
+            cout<<"----- SLOT LIST -----"<<endl;
+            this->print_slots_list( day);
+        }
+        else cout<<"NO CLASSES RIGHT NOW"<<endl;
+    }
 };
 
 bool equal_section(Section* t, Section* t1){
@@ -159,9 +165,16 @@ public:
     }
     void add_slot(Slot* newone);
     bool check_collision(Time* t);
-    void print_slots_list();
-    void print_info(){
-        cout<<full_name<<"\n"<<department<<"\n"<<email<<endl;
+    void print_slots_list(string day);
+    void print_info(string day){
+        cout<<"Full Name: "<<full_name<<endl;
+        cout<<"Department: "<<department<<endl;
+        cout<<"Email: "<<email<<endl;
+        if(this->slots!=nullptr){
+            cout<<"----- SLOT LIST -----"<<endl;
+            this->print_slots_list(day);
+        }
+        else cout<<"NO CLASSES RIGHT NOW"<<endl;
     }
 };  
 
@@ -173,17 +186,31 @@ bool equal_teacher(Teacher* t, Teacher* t1){
 class Classroom { 
 public:
     Slot* slots=nullptr;
+    string building;
+    string room;
     string full_name;
     string name;
     Classroom* left;
     Classroom* right;
     Classroom():left(nullptr), right(nullptr){}
-    Classroom(string a):full_name(a),left(nullptr),right(nullptr){
+    Classroom(string a):full_name(a),left(nullptr),right(nullptr),building(""),room(""){
         name = to_lowercase(full_name);
+        int i;
+        for(i=0;full_name[i]!=',';i++) building+=full_name[i];
+        for(int j=i+1;j<full_name.size();j++) room+=full_name[j];
     }
     void add_slot(Slot* newone);
     bool check_collision(Time* t);
-    void print_slots_list();
+    void print_slots_list(string day);
+    void print_info(string day){
+        cout<<"Building: "<<building<<endl;
+        cout<<"Room: "<<room<<endl;
+         if(this->slots!=nullptr){
+            cout<<"----- SLOT LIST -----"<<endl;
+            this->print_slots_list(day);
+        }
+        else cout<<"NO CLASSES RIGHT NOW"<<endl;
+    }
 };
 
 bool equal_room(Classroom* t, Classroom* t1){
@@ -343,14 +370,11 @@ void findMatches(BST<T> tree,string big, string pattern) {
                 if(!found)  cout << "Did you mean ?\n";
                 found=true;
                 string match = big.substr(L, R - L);
-                cout << left << setw(50) << tree.search(match)->full_name;  // Fixed width
+                cout << setw(50) << tree.search(match)->full_name;  // Fixed width
                 if (r%3 == 0){  // After every 3rd item, add newline
                 cout << endl; 
-}
+                }
                 r++;
-
-                
-
                 j = lps[j - 1];  // continue
             }
         }
@@ -360,6 +384,7 @@ void findMatches(BST<T> tree,string big, string pattern) {
         }
     }
     if(!found) cout<<"NO SUCH ENTITY EXISTS!"<<endl;
+    else cout<<endl;
 }
 
 class Slot {
@@ -373,7 +398,7 @@ public:
     Slot():next(nullptr){}
     Slot(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4) :next(nullptr), teacher(t1), time_of_class(t), classroom(t2), course(t3), section(t4) {}
     void print(){
-        cout<<time_of_class->starttime<<" - "<<time_of_class->endtime<<"\n"<<classroom->full_name<<"\n"<<section->full_name<<"\n"<<course->full_name<<"\n"<<teacher->full_name<<endl;
+        cout<<time_of_class->day<<"\n"<<time_of_class->starttime<<" - "<<time_of_class->endtime<<"\n"<<classroom->full_name<<"\n"<<section->full_name<<"\n"<<course->full_name<<"\n"<<teacher->full_name<<endl;
     }
     Slot(Slot& other) {
     time_of_class = other.time_of_class;
@@ -385,33 +410,132 @@ public:
     }
 };
 
+int get_day_order(string a){
+    if(a=="monday") return 0;
+    else if(a=="tuesday") return 1;
+    else if(a=="wednesday") return 2;
+    else if(a=="thursday") return 3;
+    else if(a=="friday") return 4;
+    return -1;
+}
+
 void Section::add_slot(Slot* newone) {
-        if (slots == nullptr) slots = newone;
+        if (slots == nullptr){
+             slots = newone;
+             return;
+        }
         else {
-            Slot* temp = slots;
-            while (temp ->next!= nullptr) temp = temp->next;
-            temp->next = newone;
+            
+            if(get_day_order(newone->time_of_class->day)<get_day_order(slots->time_of_class->day)){
+                newone->next=slots;
+                slots=newone;
+                return;
+            }
+            Slot* prev=slots;
+            Slot* prev2=slots;
+            while(1){
+                if(get_day_order(newone->time_of_class->day)==get_day_order(prev->time_of_class->day)) break;
+                if(prev->next!=nullptr&&get_day_order(newone->time_of_class->day)<get_day_order(prev->next->time_of_class->day)){
+                    newone->next=prev->next;
+                    prev->next=newone;
+                    return;
+                }
+                if(prev->next==nullptr&&get_day_order(newone->time_of_class->day)>get_day_order(prev->time_of_class->day)){
+                    prev->next=newone;
+                    return;
+                }
+                prev2=prev;
+                prev=prev->next;
+            }
+            while(prev->next!=nullptr&&get_day_order(newone->time_of_class->day)==get_day_order(prev->time_of_class->day)){
+                if(newone->time_of_class->s_hours*60 + newone->time_of_class->s_minutes<prev->time_of_class->s_hours*60 + prev->time_of_class->s_minutes){
+                    newone->next=prev;
+                    prev2->next=newone;
+                    return;
+                }
+                prev2=prev;
+                prev=prev->next;
+            }
         }
 }
 
 void Teacher::add_slot(Slot* newone) {
-        if (slots == nullptr) slots = newone;
-        else {
-            Slot* temp = slots;
-            while (temp ->next!= nullptr) temp = temp->next;
-
-            temp->next = newone;
+        if (slots == nullptr){
+             slots = newone;
+             return;
         }
+        else {
+            
+            if(get_day_order(newone->time_of_class->day)<get_day_order(slots->time_of_class->day)){
+                newone->next=slots;
+                slots=newone;
+                return;
+            }
+            Slot* prev=slots;
+            Slot* prev2=slots;
+            while(1){
+                if(get_day_order(newone->time_of_class->day)==get_day_order(prev->time_of_class->day)) break;
+                if(prev->next!=nullptr&&get_day_order(newone->time_of_class->day)<get_day_order(prev->next->time_of_class->day)){
+                    newone->next=prev->next;
+                    prev->next=newone;
+                    return;
+                }
+                if(prev->next==nullptr&&get_day_order(newone->time_of_class->day)>get_day_order(prev->time_of_class->day)){
+                    prev->next=newone;
+                    return;
+                }
+                prev2=prev;
+                prev=prev->next;
+            }
+            while(prev->next!=nullptr&&get_day_order(newone->time_of_class->day)==get_day_order(prev->time_of_class->day)){
+                if(newone->time_of_class->s_hours*60 + newone->time_of_class->s_minutes<prev->time_of_class->s_hours*60 + prev->time_of_class->s_minutes){
+                    newone->next=prev;
+                    prev2->next=newone;
+                    return;
+                }
+                prev2=prev;
+                prev=prev->next;
+            }
+        }        
 }
 
 void Classroom::add_slot(Slot* newone) {
-        if (slots == nullptr) slots = newone;
+        if (slots == nullptr){
+             slots = newone;
+             return;
+        }
         else {
-            Slot* temp = slots;
-            while (temp ->next!= nullptr) temp = temp->next;
-
-
-            temp->next = newone;
+            
+            if(get_day_order(newone->time_of_class->day)<get_day_order(slots->time_of_class->day)){
+                newone->next=slots;
+                slots=newone;
+                return;
+            }
+            Slot* prev=slots;
+            Slot* prev2=slots;
+            while(1){
+                if(get_day_order(newone->time_of_class->day)==get_day_order(prev->time_of_class->day)) break;
+                if(prev->next!=nullptr&&get_day_order(newone->time_of_class->day)<get_day_order(prev->next->time_of_class->day)){
+                    newone->next=prev->next;
+                    prev->next=newone;
+                    return;
+                }
+                if(prev->next==nullptr&&get_day_order(newone->time_of_class->day)>get_day_order(prev->time_of_class->day)){
+                    prev->next=newone;
+                    return;
+                }
+                prev2=prev;
+                prev=prev->next;
+            }
+            while(prev->next!=nullptr&&get_day_order(newone->time_of_class->day)==get_day_order(prev->time_of_class->day)){
+                if(newone->time_of_class->s_hours*60 + newone->time_of_class->s_minutes<prev->time_of_class->s_hours*60 + prev->time_of_class->s_minutes){
+                    newone->next=prev;
+                    prev2->next=newone;
+                    return;
+                }
+                prev2=prev;
+                prev=prev->next;
+            }
         }
 }
 
@@ -471,29 +595,32 @@ bool Section::check_collision(Time* t){
     return 1;
 }
 
-void Teacher::print_slots_list(){
+void Teacher::print_slots_list(string day){
     Slot* temp=slots;
     while(temp!=nullptr){
-        temp->print();
         cout<<endl;
+        if(day=="all") temp->print();
+        else if(day==temp->time_of_class->day) temp->print();
         temp=temp->next;
     }
 }
 
-void Classroom::print_slots_list(){
+void Classroom::print_slots_list(string day){
     Slot* temp=slots;
     while(temp!=nullptr){
-        temp->print();
         cout<<endl;
+        if(day=="all") temp->print();
+        else if(day==temp->time_of_class->day) temp->print();
         temp=temp->next;
     }
 }
 
-void Section::print_slots_list(){
+void Section::print_slots_list(string day){
     Slot* temp=slots;
     while(temp!=nullptr){
-        temp->print();
         cout<<endl;
+        if(day=="all") temp->print();
+        else if(day==temp->time_of_class->day) temp->print();
         temp=temp->next;
     }
 }
@@ -736,6 +863,10 @@ int Login_Admin(HashMap& H, int centerRow){
     return 0;
 }
 
+bool validate_day(string day){
+    return(to_lowercase(day) == "monday" || to_lowercase(day) == "tuesday" || to_lowercase(day) == "wednesday" || to_lowercase(day) == "thursday" || to_lowercase(day) == "friday");
+}
+
 int main() {
     int opt  ; 
     BST<Course_Name> courses;
@@ -783,21 +914,21 @@ int main() {
             if (choice == 1) {
             system("cls"); 
             string day;
-            cout << endl <<  "\t\tEnter the Day: ";
+            cout <<"Enter the Day: ";
             cin >> day;
-            if (to_lowercase(day) == "monday" || to_lowercase(day) == "tuesday" || to_lowercase(day) == "wednesday" || to_lowercase(day) == "thursday" || to_lowercase(day) == "friday") {
+            if (validate_day(day)) {
                 string option;
                 int n;
-                cout << endl <<  "\t\tEnter the Starting time: ";
+                cout <<   "Enter the Starting time: ";
                 cin >> option;
-                cout  << endl << "\t\tEnter the number of slots: ";
+                cout  << "Enter the number of slots: ";
                 cin >> n;
                 Time* t=new Time(day, option, n);
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 Teacher* t1;
                 while (1) {
                     string teacher_name="";
-                    cout << endl << endl << "\t\tEnter the Teacher Name : ";
+                    cout<< "Enter the Teacher Name : ";
                     getline(cin, teacher_name);            
                     r= 1  ; 
                     if (teachers.search(to_lowercase(teacher_name)) != nullptr) {
@@ -812,7 +943,7 @@ int main() {
                 Classroom* t2;
                 while (1) {
                     string classroom_name="";                    
-                    cout << endl << endl << "\t\tEnter the Classroom: ";
+                    cout <<"Enter the Classroom: ";
                     getline(cin, classroom_name);  
                     r= 0 ;           
                     if (rooms.search(to_lowercase(classroom_name)) != nullptr) {
@@ -827,7 +958,7 @@ int main() {
                 Course_Name* t3;
                 while (1) {
                     string course_name="";
-                    cout << endl << endl << "\t\tEnter the Course: ";
+                    cout <<"Enter the Course: ";
                     getline(cin, course_name);            
                     r= 1 ; 
                     if (courses.search(to_lowercase(course_name)) != nullptr) {
@@ -843,7 +974,7 @@ int main() {
                 Section* t4;
                 while (1) {
                     string section_name="";
-                    cout << endl << endl << "\t\tEnter the Section: "; 
+                    cout <<"Enter the Section: "; 
                     getline(cin, section_name);            
                     r= 0 ; 
                     if (section.search(to_lowercase(section_name)) != nullptr) {
@@ -896,6 +1027,9 @@ int main() {
                 int n;
                 cout<<"Enter the Day: ";
                 cin>>day;
+               if (validate_day(day)){
+
+               
                 cout<<"Enter the Starting time of Slot: ";
                 cin>>time;
                 cout<<"Enter the number of slots: ";
@@ -989,30 +1123,154 @@ int main() {
                     _getch(); 
                 }
             }
+            else{
+                    cout<<"Enter Valid Day"<<endl;
+                    cout<<"\nPress Any key to continue: ";
+                    _getch(); 
+            }   
+            }
             else if(choice==3) break;   
         }
     }
     else {
         system("cls")  ; 
         inputCentered ("Access denied check credentials and try again !!!" , centerRow)  ; 
-        break;
+        _getch();
     }
 }
     else if(opt==2){
         while(1){
             system ("cls") ; 
             cout << endl  ;     
-            inputCentered("1. Search by Teacher" , centerRow+2)  ; 
+            inputCentered("1. Search Teacher Info" , centerRow); 
             cout  << endl  ; 
-            inputCentered("2. Search by Section" , centerRow+4) ; 
+            inputCentered("2. Search by Section" , centerRow+2); 
             cout << endl  ; 
-            inputCentered("3. Exit" , centerRow+6 )   ; 
+            inputCentered("3. Search by Classroom" , centerRow+4 )   ; 
+            cout << endl  ; 
+            inputCentered("4. Exit" , centerRow+6 )   ; 
             cout << endl  ; 
             inputCentered("Enter your choice: "   , centerRow + 8 )  ; 
             cin >> choice;  
-            if(choice==1){}
-            else if(choice==2){}
-            else if(choice ==3) break;
+            if(choice==1){
+                system("cls");
+                Teacher* t1;
+                bool quit=false;
+                string day;
+                while (1) {
+                    
+                    string teacher_name="";
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    cout << "Enter the Teacher name ('0' for cancel searching): ";
+                    getline(cin, teacher_name);            
+                    cout<<"Enter the Day (Write 'all' for complete Slots): ";
+                    cin>>day;
+                    if(validate_day(day)||day=="all"){
+                    if(teacher_name=="0"){
+                        quit=true;
+                        break;
+                    }
+                    if (teachers.search(to_lowercase(teacher_name)) != nullptr) {
+                        t1=teachers.search(to_lowercase(teacher_name));
+                        break;
+                    }
+                    else {
+                        findMatches(teachers, teachers.get_List(), to_lowercase(teacher_name));
+                    }          
+                    }      
+                    else{
+                        cout<<"Enter Valid Day"<<endl;
+                        cout<<"\nPress Any key to continue: ";
+                        _getch(); 
+                        quit=true;
+                        break;
+                    }   
+                }
+                if(!quit){
+                    t1->print_info(day);
+                    cout<<"\nPress Any key to continue: ";
+                    _getch(); 
+                }
+            }
+            else if(choice==2){
+                system("cls");
+                bool quit=false;
+                Section* t4;
+                string day;
+                while (1) {
+                    string section_name="";
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    cout << "Enter the Section ('0' for cancel searching): ";
+                    getline(cin, section_name); 
+                    cout<<"Enter the Day (Write 'all' for complete Slots): ";
+                    cin>>day;
+                      if(validate_day(day)||day=="all"){
+                    if(section_name=="0"){
+                        quit=true;
+                        break;
+                    }           
+                    if (section.search(to_lowercase(section_name)) != nullptr) {
+                        t4=section.search(to_lowercase(section_name));
+                        break;
+                    }
+                    else {
+                        findMatches(section, section.get_List(), to_lowercase(section_name));
+                    }
+                     }      
+                    else{
+                        cout<<"Enter Valid Day"<<endl;
+                        cout<<"\nPress Any key to continue: ";
+                        _getch(); 
+                        quit=true;
+                        break;
+                    }   
+                }
+                if(!quit){
+                    t4->print_info(day);
+                    cout<<"\nPress Any key to continue: ";
+                    _getch(); 
+                }
+            }
+            else if(choice==3){
+                system("cls");
+                bool quit=false;
+                Classroom* t2;
+                string day;
+                while (1) {
+                    string classroom_name="";                    
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    cout <<"Enter the Classroom ('0' for cancel searching): ";
+                    getline(cin, classroom_name);  
+                    cout<<"Enter the Day (Write 'all' for complete Slots): ";
+                    cin>>day;
+                      if(validate_day(day)||day=="all"){
+                    if(classroom_name=="0"){
+                        quit=true;
+                        break;
+                    }   
+                    if (rooms.search(to_lowercase(classroom_name)) != nullptr) {
+                        t2=rooms.search(to_lowercase(classroom_name));
+                        break;
+                    }
+                    else {
+                        findMatches(rooms, rooms.get_List(), to_lowercase(classroom_name));
+                    }
+                     }      
+                    else{
+                        cout<<"Enter Valid Day"<<endl;
+                        cout<<"\nPress Any key to continue: ";
+                        _getch(); 
+                        quit=true;
+                        break;
+                    }   
+                }
+                if(!quit){
+                    t2->print_info(day);
+                    cout<<"\nPress Any key to continue: ";
+                    _getch(); 
+                }
+            }
+            else if(choice ==4) break;
         }
     }     
     else if(opt==3) break;

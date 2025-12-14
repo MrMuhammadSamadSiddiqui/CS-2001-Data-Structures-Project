@@ -1033,7 +1033,6 @@ int main() {
                     Slot* S_teacher = new Slot(*S);
                     Slot* S_section = new Slot(*S);
                     Slot* S_room    = new Slot(*S);
-                    S_teacher->print();
                     delete S;
 
                     t1->add_slot(S_teacher);

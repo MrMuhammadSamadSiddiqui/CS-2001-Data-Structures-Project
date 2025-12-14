@@ -397,16 +397,15 @@ public:
     Slot* next;
     Slot():next(nullptr){}
     Slot(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4) :next(nullptr), teacher(t1), time_of_class(t), classroom(t2), course(t3), section(t4) {}
-    void print(){
-    cout << left
-         << setw(10) << time_of_class->day
-         << setw(10) << time_of_class->starttime
-         << setw(10) << time_of_class->endtime
-         << setw(30) << course->full_name
-         << setw(15) << section->full_name
-         << setw(15) << classroom->full_name
-         << setw(20) << teacher->full_name
-         << endl;
+    void print() {
+    cout << "Day: " << time_of_class->day << endl;
+    cout << "Time: " << time_of_class->starttime 
+         << " - " << time_of_class->endtime << endl;
+    cout << "Course: " << course->full_name << endl;
+    cout << "Section: " << section->full_name << endl;
+    cout << "Classroom: " << classroom->full_name << endl;
+    cout << "Teacher: " << teacher->full_name << endl;
+    cout << "-----------------------------" << endl;
 }
     Slot(Slot& other) {
     time_of_class = other.time_of_class;

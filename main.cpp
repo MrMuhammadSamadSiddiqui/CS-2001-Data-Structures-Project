@@ -603,16 +603,7 @@ bool Section::check_collision(Time* t){
 }
 
 void Teacher::print_slots_list(string day){
-    cout << left
-         << setw(10) << "Day"
-         << setw(10) << "Start"
-         << setw(10) << "End"
-         << setw(30) << "Course"
-         << setw(15) << "Section"
-         << setw(15) << "Room"
-         << setw(20) << "Teacher"
-         << endl;
-
+   
     cout << string(110, '-') << endl;
 
     Slot* temp = slots;
@@ -624,15 +615,7 @@ void Teacher::print_slots_list(string day){
 }
 
 void Classroom::print_slots_list(string day){
-    cout << left
-         << setw(10) << "Day"
-         << setw(10) << "Start"
-         << setw(10) << "End"
-         << setw(30) << "Course"
-         << setw(15) << "Section"
-         << setw(15) << "Room"
-         << setw(20) << "Teacher"
-         << endl;
+    
 
     cout << string(110, '-') << endl;
 
@@ -645,15 +628,7 @@ void Classroom::print_slots_list(string day){
 }
 
 void Section::print_slots_list(string day){
-    cout << left
-         << setw(10) << "Day"
-         << setw(10) << "Start"
-         << setw(10) << "End"
-         << setw(30) << "Course"
-         << setw(15) << "Section"
-         << setw(15) << "Room"
-         << setw(20) << "Teacher"
-         << endl;
+    
 
     cout << string(110, '-') << endl;
 

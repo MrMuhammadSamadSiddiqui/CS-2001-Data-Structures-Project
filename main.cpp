@@ -21,7 +21,7 @@ static int r  = 0 ;
 string to_lowercase(string a) {
     string ret = "";
     for (int i = 0; i < a.size(); i++) {
-        if (a[i] != ' ') {
+        if (a[i] != ' '&&a[i]!='.') {
         if (a[i] >= 'A' && a[i] <= 'Z') ret += a[i] + 32;
         else ret += a[i];
         }

@@ -398,8 +398,16 @@ public:
     Slot():next(nullptr){}
     Slot(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4) :next(nullptr), teacher(t1), time_of_class(t), classroom(t2), course(t3), section(t4) {}
     void print(){
-        cout<<time_of_class->day<<"\n"<<time_of_class->starttime<<" - "<<time_of_class->endtime<<"\n"<<classroom->full_name<<"\n"<<section->full_name<<"\n"<<course->full_name<<"\n"<<teacher->full_name<<endl;
-    }
+    cout << left
+         << setw(10) << time_of_class->day
+         << setw(10) << time_of_class->starttime
+         << setw(10) << time_of_class->endtime
+         << setw(30) << course->full_name
+         << setw(15) << section->full_name
+         << setw(15) << classroom->full_name
+         << setw(20) << teacher->full_name
+         << endl;
+}
     Slot(Slot& other) {
     time_of_class = other.time_of_class;
     teacher = other.teacher;
@@ -596,32 +604,65 @@ bool Section::check_collision(Time* t){
 }
 
 void Teacher::print_slots_list(string day){
-    Slot* temp=slots;
-    while(temp!=nullptr){
-        cout<<endl;
-        if(day=="all") temp->print();
-        else if(day==temp->time_of_class->day) temp->print();
-        temp=temp->next;
+    cout << left
+         << setw(10) << "Day"
+         << setw(10) << "Start"
+         << setw(10) << "End"
+         << setw(30) << "Course"
+         << setw(15) << "Section"
+         << setw(15) << "Room"
+         << setw(20) << "Teacher"
+         << endl;
+
+    cout << string(110, '-') << endl;
+
+    Slot* temp = slots;
+    while(temp != nullptr){
+        if(day == "all" || day == temp->time_of_class->day)
+            temp->print();
+        temp = temp->next;
     }
 }
 
 void Classroom::print_slots_list(string day){
-    Slot* temp=slots;
-    while(temp!=nullptr){
-        cout<<endl;
-        if(day=="all") temp->print();
-        else if(day==temp->time_of_class->day) temp->print();
-        temp=temp->next;
+    cout << left
+         << setw(10) << "Day"
+         << setw(10) << "Start"
+         << setw(10) << "End"
+         << setw(30) << "Course"
+         << setw(15) << "Section"
+         << setw(15) << "Room"
+         << setw(20) << "Teacher"
+         << endl;
+
+    cout << string(110, '-') << endl;
+
+    Slot* temp = slots;
+    while(temp != nullptr){
+        if(day == "all" || day == temp->time_of_class->day)
+            temp->print();
+        temp = temp->next;
     }
 }
 
 void Section::print_slots_list(string day){
-    Slot* temp=slots;
-    while(temp!=nullptr){
-        cout<<endl;
-        if(day=="all") temp->print();
-        else if(day==temp->time_of_class->day) temp->print();
-        temp=temp->next;
+    cout << left
+         << setw(10) << "Day"
+         << setw(10) << "Start"
+         << setw(10) << "End"
+         << setw(30) << "Course"
+         << setw(15) << "Section"
+         << setw(15) << "Room"
+         << setw(20) << "Teacher"
+         << endl;
+
+    cout << string(110, '-') << endl;
+
+    Slot* temp = slots;
+    while(temp != nullptr){
+        if(day == "all" || day == temp->time_of_class->day)
+            temp->print();
+        temp = temp->next;
     }
 }
 // Move cursor to (x,y)
@@ -667,19 +708,22 @@ int Login(int i , int centerRow ){
             inputCentered( "Warning wrong username entered !!!" , centerRow+4) ; 
             getch() ; 
             i++ ; 
-            Login(i , centerRow ) ; 
+            return Login(i, centerRow); 
+            return 0;
         }
         else if (user_name == username && password!=pass_word){
             inputCentered ("Warning wrong username or password entered !!!" , centerRow+4) ; 
             getch() ; 
             i++ ; 
-            Login(i , centerRow ) ; 
+            return Login(i, centerRow);
+            return 0;
         }
         else if (user_name != username && password!=pass_word){
             inputCentered("Warning wrong username or password entered !!!" , centerRow+4) ; 
             getch() ; 
             i++ ; 
-            Login(i , centerRow ) ; 
+            return Login(i, centerRow);
+            return 0;
         } 
 }
 
@@ -687,7 +731,7 @@ int Login(int i , int centerRow ){
 
 void delete_node_teacher(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4){
     
-    
+    if(t1->slots == nullptr) return;
     if(equal_time(t1->slots->time_of_class,t)&&equal_room(t1->slots->classroom,t2)&&equal_course(t1->slots->course,t3)&&equal_section(t1->slots->section,t4)){
         Slot* del = t1->slots;         
         t1->slots = t1->slots->next;   
@@ -695,7 +739,7 @@ void delete_node_teacher(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, S
     }
     else{
         Slot* temp=t1->slots;
-        while (temp != nullptr) {
+        while (temp != nullptr && temp->next != nullptr) {
             if(equal_time(temp->next->time_of_class,t)&&equal_room(temp->next->classroom,t2)&&equal_course(temp->next->course,t3)&&equal_section(temp->next->section,t4)){
                 Slot* del=temp->next;
                 if(temp->next->next!=nullptr){
@@ -718,8 +762,8 @@ void delete_node_teacher(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, S
 
 
 void delete_node_classroom(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4){
-        
-    
+    if(t2->slots == nullptr) return;
+
     if(equal_time(t2->slots->time_of_class,t)&&equal_teacher(t2->slots->teacher,t1)&&equal_course(t2->slots->course,t3)&&equal_section(t2->slots->section,t4)){
         Slot* del = t2->slots;         
         t2->slots = t2->slots->next;   
@@ -727,7 +771,7 @@ void delete_node_classroom(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3,
     }
     else{
         Slot* temp=t2->slots;
-         while (temp != nullptr) {
+         while (temp != nullptr && temp->next != nullptr) {
             if(equal_time(temp->next->time_of_class,t)&&equal_teacher(temp->next->teacher,t1)&&equal_course(temp->next->course,t3)&&equal_section(temp->next->section,t4)){
                 Slot* del=temp->next;
                 if(temp->next->next!=nullptr){
@@ -747,7 +791,7 @@ void delete_node_classroom(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3,
 }
 
 void delete_node_section(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4){
-        
+    if(t4->slots == nullptr) return;
     
     if(equal_time(t4->slots->time_of_class,t)&&equal_teacher(t4->slots->teacher,t1)&&equal_course(t4->slots->course,t3)&&equal_room(t4->slots->classroom,t2)){
         Slot* del = t4->slots;         
@@ -756,7 +800,7 @@ void delete_node_section(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, S
     }
     else{
         Slot* temp=t4->slots;
-        while (temp != nullptr) {
+        while (temp != nullptr && temp->next != nullptr) {
             if(equal_time(temp->next->time_of_class,t)&&equal_teacher(temp->next->teacher,t1)&&equal_course(temp->next->course,t3)&&equal_room(temp->next->classroom,t2)){
                 Slot* del=temp->next;
                 if(temp->next->next!=nullptr){
@@ -986,15 +1030,18 @@ int main() {
                     }
                 }
                 if(t4->check_collision(t)==1){
-                    Slot* S=new Slot(t,t1, t2, t3, t4);
-                    Slot* S_teacher = new Slot(*S); 
+                    Slot* S=new Slot(t,t1,t2,t3,t4);
+                    Slot* S_teacher = new Slot(*S);
                     Slot* S_section = new Slot(*S);
                     Slot* S_room    = new Slot(*S);
+                    S_teacher->print();
+                    delete S;
+
                     t1->add_slot(S_teacher);
                     t4->add_slot(S_section);
                     t2->add_slot(S_room);
                     cout<<"----- NEW SLOT ADDED -----"<<endl;
-                    S->print();
+                    S_teacher->print();
                     cout<<"\nPress Any key to continue: ";
                     _getch();                    
                 }

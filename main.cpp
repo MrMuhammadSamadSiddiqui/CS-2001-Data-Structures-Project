@@ -604,7 +604,7 @@ bool Section::check_collision(Time* t){
 
 void Teacher::print_slots_list(string day){
    
-    cout << string(110, '-') << endl;
+    
 
     Slot* temp = slots;
     while(temp != nullptr){
@@ -617,7 +617,7 @@ void Teacher::print_slots_list(string day){
 void Classroom::print_slots_list(string day){
     
 
-    cout << string(110, '-') << endl;
+    
 
     Slot* temp = slots;
     while(temp != nullptr){
@@ -630,7 +630,7 @@ void Classroom::print_slots_list(string day){
 void Section::print_slots_list(string day){
     
 
-    cout << string(110, '-') << endl;
+    
 
     Slot* temp = slots;
     while(temp != nullptr){

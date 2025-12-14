@@ -1,54 +1,97 @@
 abcd,asdf
-Fahad Samad,Computer Science
-Abdul Aziz,Computer Science
-Zulfiqar Ali Memon,Computer Science
-Jawwad A. Shamsi,Computer Science
-Ghufran Ahmed,Computer Science
-Nouman Durrani,Computer Science
-Fahad Sherwani,Computer Science
-Shakil Ahmed,Computer Science
-Nadeem Kafi,Computer Science
-Farrukh Hasan Syed,Computer Science
-Farrukh Salim Shaikh,Computer Science
-Aqsa Aslam,Computer Science
-Nasir Uddin,Computer Science
-Waheed Ahmed Abro,Computer Science
-Abdul Rahman,Computer Science
-Muhammad Jamil,Computer Science
-Rabia Tabassum,Computer Science
-Syed Kashan Hussain Naqvi,Computer Science
-Shahar Bano Husnine,Computer Science
-Shoaib Rauf,Computer Science
-Basit Ali,Computer Science
-Syed Zain Ul Hassan,Computer Science
-Sobia Iftikhar,Computer Science
-Shahbaz Siddiqui,Cyber Security
-Sufian Hameed,Cyber Security
-Shoaib Raza,Cyber Security
-Rabia Ahmed Ansari,Cyber Security
-Abuzar Zafar,Cyber Security
-Abeer Gauher,Cyber Security
-Muhammad Ali Naseer Shah,Cyber Security
-Sandesh Kumar,Cyber Security
-Muhammad Nouman Rajput,Cyber Security
-Muhammad Usman,Cyber Security
-Muhammad Nouman Hanif,Cyber Security
-Waseem Rauf,Cyber Security
-Saqib Shah,Cyber Security
-Amna Aslam,Cyber Security
-Anam Qureshi,Software Engineering
-Syed Muazzam Ali Shah,Software Engineering
-Imran Ali Bhatti,Software Engineering
-Muhammad Ali Shah Fatmi,Software Engineering
-Syeda Rubab,Software Engineering
-Minhal Raza,Software Engineering
-Alina Arshad,Software Engineering
-Hira Tunio,Software Engineering
-Fizza Mansoor,Software Engineering
-Muhammad Nadeem,Software Engineering
-Syeda Ravia Ejaz,Software Engineering
-Kinza Mushtaq,Software Engineering
-Muhammad Shahzad Shaikh,Sciences & Humanities
-Syed Muhammad Fahad Riaz,Sciences & Humanities
-Khusro Mian,Sciences & Humanities
-Nazish Kanwal,Sciences & Humanities
+Dr. Fahad Samad,Computer Science
+Dr. Abdul Aziz,Computer Science
+Prof. Dr. Zulfiqar Ali Memon,Computer Science
+Dr. Jawwad A. Shamsi,Computer Science
+Dr. Ghufran Ahmed,Computer Science
+Dr. Nouman Durrani,Computer Science
+Engr. Dr. Fahad Sherwani,Computer Science
+Dr. Shakil Ahmed,Computer Science
+Dr. Nadeem Kafi,Computer Science
+Dr. Farrukh Hasan Syed,Computer Science
+Dr.-Ing. Farrukh Salim Shaikh,Computer Science
+Dr. Aqsa Aslam,Computer Science
+Dr. Nasir Uddin,Computer Science
+Dr. Waheed Ahmed Abro,Computer Science
+Mr. Shoaib Rauf,Computer Science
+Mr. Basit Ali,Computer Science
+Mr. Syed Zain Ul Hassan,Computer Science
+Ms. Sobia Iftikhar,Computer Science
+Ms. Anaum Hamid,Computer Science
+Ms. Nida Munawar,Computer Science
+Ms. Mubashra Fayyaz,Computer Science
+Ms. Hajra Ahmed,Computer Science
+Mr. Shaheer Ahmad Khan,Computer Science
+Ms. Abeeha Sattar,Computer Science
+Ms. Bakhtawer,Computer Science
+Ms. Javeria Farooq,Computer Science
+Ms. Fizza Aqeel,Computer Science
+Ms. Atiya Jokhio,Computer Science
+Ms. Romasha Khurshid,Computer Science
+Mr. Musawar Ali,Computer Science
+Ms. Noureen Fatima,Computer Science
+Ms. Yusra Kaleem,Computer Science
+Mr. Muhammad Kashif,Computer Science
+Mr. Usama Antuley,Computer Science
+Mr. Ubaidullah,Computer Science
+Mr. Zulfiqar Ali,Computer Science
+Mr. Syed Ahmed Khan,Computer Science
+Ms. Zainab Asif Jawed,Computer Science
+Mr. Shafique Rahman,Computer Science
+Ms. Fatima Gado,Computer Science
+Ms. Hafiza Bushra Sattar,Computer Science
+Ms. Ramsha Iqbal,Computer Science
+Mr. Ghulam Qadir Bhurgari,Computer Science
+Ms. Khadija Tul Kubra,Computer Science
+Ms. Filza Akhlaq,Computer Science
+Ms. Syeda Tehreem Gilani,Computer Science
+Mr. Abdullah Shaikh,Computer Science
+Mr. Abdullah Yaqoob,Computer Science
+Ms. Fareeha Jabeen,Computer Science
+Ms. Sadaf Zehra,Computer Science
+Mr. Muhammad Qasim Keeryo,Computer Science
+Mr. Junaid Aslam,Computer Science
+Mr. Osama Tahir,Computer Science
+Mr. Sheeraz Iqbal,Computer Science
+Mr. Muhammad Owais,Computer Science
+Dr. Shahbaz Siddiqui,Cyber Security
+Dr. Sufian Hameed,Cyber Security
+Mr. Shoaib Raza,Cyber Security
+Ms. Rabia Ahmed Ansari,Cyber Security
+Mr. Abuzar Zafar,Cyber Security
+Ms. Abeer Gauher,Cyber Security
+Mr. Muhammad Ali Naseer Shah,Cyber Security
+Mr. Sandesh Kumar,Cyber Security
+Mr. Muhammad Nouman Rajput,Cyber Security
+Mr. Muhammad Usman,Cyber Security
+Mr. Muhammad Nouman Hanif,Cyber Security
+Mr. Waseem Rauf,Cyber Security
+Mr. Saqib Shah,Cyber Security
+Dr. Muhammad Shahzad Shaikh,Sciences And Humanities
+Dr. Syed Muhammad Fahad Riaz,Sciences And Humanities
+Dr. Khusro Mian,Sciences And Humanities
+Dr. Nazish Kanwal,Sciences And Humanities
+Dr. Shahnawaz Muhammad Khan,Sciences And Humanities
+Mr. Muhammad Amjad,Sciences And Humanities
+Dr. Wajiha Raheeq,Sciences And Humanities
+Ms. Alishba Tariq,Sciences And Humanities
+Ms. Aqsa Fayyaz,Sciences And Humanities
+Ms. Asma Masood,Sciences And Humanities
+Ms. Faiza Mumtaz,Sciences And Humanities
+Ms. Fareeha Sultan,Sciences And Humanities
+Mr. Farhan Ali Memon,Sciences And Humanities
+Ms. Javeria Ali Wadho,Sciences And Humanities
+Ms. Khadija Shereen,Sciences And Humanities
+Ms. Madiha Rehman,Sciences And Humanities
+Mr. Maraj,Sciences And Humanities
+Mr. Muhammad Hassan Saeed,Sciences And Humanities
+Mr. Muhammad Shahid Ashraf,Sciences And Humanities
+Mr. Nadeem Khan,Sciences And Humanities
+Ms. Nazia Imam,Sciences And Humanities
+Ms. Sharmeen Ismail,Sciences And Humanities
+Ms. Syeda Atifa Batool,Sciences And Humanities
+Engr. Abdul Rahman,Electrical Engineering
+Engr. Aashir Mahboob,Electrical Engineering
+Dr. Fahad Sherwani,Electrical Engineering
+Dr. Nadeem Kafi,Electrical Engineering
+Dr. Farrukh Hasan Syed,Electrical Engineering

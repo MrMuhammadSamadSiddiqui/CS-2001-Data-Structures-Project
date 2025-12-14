@@ -19,3 +19,94 @@ MG3002,ENT,Entrepreneurship
 SS2001,ENG,Technical And Business Writing
 SS2002,ISL,Islamic Studies
 SS2003,PAK,Pakistan Studies
+NS1001,PHY,Applied Physics
+NS1007,APHY,Applied Physics And Electro-Mechanical Fundamentals
+MT1001,ACAL,Applied Calculus
+MT1004,LA,Linear Algebra
+MT1006,DE,Differential Equations
+MT1006,MULTI,Multivariable Calculus
+MT2003,CMAT,Complex Variables And Transforms
+MT2005,STAT,Probability And Statistics
+MT2007,NUMA,Numerical Analysis
+MATH1110,QR1,Quantitative Reasoning-I
+MATH1111,QR2,Quantitative Reasoning-II
+MATH2110,AMATH,Applied Mathematics
+SS1012,ENG,Functional English
+SS1014,EWP,Expository Writing
+SS2007,TBW,Technical And Business Writing
+SS2001,TCS,Technical Communication Skills
+SS1013,ICP,Ideology And Constitution Of Pakistan
+SS1007,ISL,Islamic Studies Or Ethics
+SS3002,CIV,Civics And Community Engagement
+SS1019,QURAN1,Understanding Sirat-un-Nabi
+SS1021,QURAN2,Understanding Of Holy Quran-I
+SS1022,QURAN3,Understanding Of Holy Quran-II
+CL1000,IICT,Introduction To Information And Communication Technology
+CS1002,PF,Programming Fundamentals
+CS1011,PE,Programming For Engineers
+CS1004,OOP,Object Oriented Programming
+CS2001,DS,Data Structures
+CS2002,DSA,Data Structures And Algorithms
+CS1005,DSC,Discrete Structures
+CS2009,ALGO,Design And Analysis Of Algorithms
+CS2005,DB,Database Systems
+CS4087,ADBM,Advanced Database Management Systems
+CS2006,OS,Operating Systems
+CS3001,CN,Computer Networks
+CS3002,IS,Information Security
+CS3005,TA,Theory Of Automata
+CS3009,SE,Software Engineering
+CS3014,HCI,Human Computer Interaction
+CS4031,CC,Compiler Construction
+CS4081,PDC,Parallel And Distributed Computing
+CS4001,PIT,Professional Practices In IT
+CS2019,INTERN,Computing Internship
+AI2002,AI,Artificial Intelligence
+CS4091,FYP1,Final Year Project-I
+CS4092,FYP2,Final Year Project-II
+SE1001,ISE,Introduction To Software Engineering
+SE2001,SRE,Software Requirements Engineering
+SE2002,SDA,Software Design And Architecture
+SE3002,SQE,Software Quality Engineering
+SE3004,SCD,Software Construction And Development
+SE4002,SPM,Software Project Management
+SE4091,FYP1,Final Year Project-I
+SE4092,FYP2,Final Year Project-II
+EE1001,LCA,Linear Circuit Analysis
+EE1004,EDC,Electronic Devices And Circuits
+EE1005,DLD,Digital Logic Design
+EE1006,EWRK,Engineering Workshop
+EE2003,COAL,Computer Organization And Assembly Language
+EE2013,CA,Computer Architecture
+EE2008,SYS,Signals And Systems
+EE2011,PRP,Probability And Random Processes
+EE2010,EMS,Electro Mechanical Systems
+EE3003,ADC,Analog And Digital Communication
+EE3005,EMT,Electromagnetic Theory
+EE3004,FCS,Feedback Control Systems
+EE3002,MPIP,Microprocessor Interfacing And Programming
+EE3031,DSP,Digital Signal Processing
+EE4091,FYP1,Final Year Project-I
+EE4092,FYP2,Final Year Project-II
+CV1001,CEM,Civil Engineering Materials
+CV1002,EDWG,Engineering Drawing
+CV1003,ESVY,Engineering Surveying
+CV2001,AESV,Advanced Engineering Surveying
+CV2003,SOLM,Soil Mechanics
+CV2005,MSOL1,Mechanics Of Solids-I
+CV2006,STAN1,Structural Analysis-I
+CV3008,STAN2,Structural Analysis-II
+CV3007,MSOL2,Mechanics Of Solids-II
+CV3002,RCD1,Reinforced Concrete Design-I
+CV4005,STLSTR,Steel Structures
+CV3006,ENV1,Environmental Engineering-I
+CV3008,ENV2,Environmental Engineering-II
+CV2010,QCEST,Quantity And Cost Estimation
+CV4002,ATPLN,Architecture And Town Planning
+CV4009,HYENG,Hydraulic Engineering
+CV3221,EHYDR,Engineering Hydrology
+CV4011,IRRG,Irrigation And Drainage Engineering
+CV4004,TRPLAN,Transportation Planning And Engineering
+CV4010,DSGN,Design Of Structures
+CV4091,FYP1,Final Year Project-I
+CV4092,FYP2,Final Year Project-II

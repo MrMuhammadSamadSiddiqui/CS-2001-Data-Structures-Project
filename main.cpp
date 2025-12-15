@@ -7,8 +7,6 @@
 #include <conio.h>
 #include <iomanip>
 using namespace std;
-const string username = "Abdul Samad" ; 
-const string password  = "12Ab45"  ; 
 class Slot;
 class Teacher;
 class Classroom;
@@ -21,7 +19,7 @@ static int r  = 0 ;
 string to_lowercase(string a) {
     string ret = "";
     for (int i = 0; i < a.size(); i++) {
-        if (a[i] != ' '&&a[i]!='.') {
+        if (a[i] != ' '&&a[i]!='.'&&a[i]!='-') {
         if (a[i] >= 'A' && a[i] <= 'Z') ret += a[i] + 32;
         else ret += a[i];
         }
@@ -190,14 +188,31 @@ public:
     string room;
     string full_name;
     string name;
+    int capacity;
     Classroom* left;
     Classroom* right;
     Classroom():left(nullptr), right(nullptr){}
     Classroom(string a):full_name(a),left(nullptr),right(nullptr),building(""),room(""){
-        name = to_lowercase(full_name);
         int i;
+        string size="";
+        bool found=false;
+        for(i=0;i<full_name.size();i++){
+            if(full_name[i]=='('){
+                found=true;
+                break;
+            }
+            name+=full_name[i];
+        }
+        if(!found){
+            capacity=0;
+        }
+        else{
+            for(int j=i+1;full_name[j]!=')';j++) size+=full_name[j];
+            capacity=stoi(size);
+        }
+        name=to_lowercase(name);
         for(i=0;full_name[i]!=',';i++) building+=full_name[i];
-        for(int j=i+1;j<full_name.size();j++) room+=full_name[j];
+        for(int j=i+1;j<full_name.size()&&full_name[j]!='(';j++) room+=full_name[j];
     }
     void add_slot(Slot* newone);
     bool check_collision(Time* t);
@@ -205,6 +220,8 @@ public:
     void print_info(string day){
         cout<<"Building: "<<building<<endl;
         cout<<"Room: "<<room<<endl;
+        if(capacity==0) cout<<"Capacity: N/A"<<endl;
+        else cout<<"Capacity: "<<capacity<<endl;
          if(this->slots!=nullptr){
             cout<<"----- SLOT LIST -----"<<endl;
             this->print_slots_list(day);
@@ -325,20 +342,20 @@ void setup_file_data(BST<Course_Name>& courses, BST<Teacher>& teachers, BST<Clas
     
 }
 
-// KMP STRING SEARCH
+
 template <typename T>
 void findMatches(BST<T> tree,string big, string pattern) {
     bool found=false;
     int n = big.size();
     int m = pattern.size();
 
-    // lowercase copies for matching
+    
     string bigLow = "";
     for (char c : big) bigLow += tolower(c);
     string patLow = "";
     for (char c : pattern) patLow += tolower(c);
 
-    // Build KMP LPS table
+    
     vector<int> lps(m, 0);
     for (int i = 1, len = 0; i < m; ) {
         if (patLow[i] == patLow[len]) lps[i++] = ++len;
@@ -346,7 +363,7 @@ void findMatches(BST<T> tree,string big, string pattern) {
         else lps[i++] = 0;
     }
 
-    // KMP search + immediate printing
+    
     for (int i = 0, j = 0; i < n; ) {
 
         if (bigLow[i] == patLow[j]) {
@@ -356,26 +373,28 @@ void findMatches(BST<T> tree,string big, string pattern) {
             if (j == m) {
                 int matchStart = i - j;
 
-                // Go LEFT until ':'
+                
                 int L = matchStart;
                 while (L > 0 && big[L] != ':') L--;
                 if (big[L] == ':') L++;
 
-                // Go RIGHT until ':'
+                
                 int R = matchStart;
                 while (R < n && big[R] != ':') R++;
 
-                // Extract & print full name
+                
                      
                 if(!found)  cout << "Did you mean ?\n";
                 found=true;
                 string match = big.substr(L, R - L);
-                cout << setw(50) << tree.search(match)->full_name;  // Fixed width
-                if (r%3 == 0){  // After every 3rd item, add newline
+                cout << setw(50) << tree.search(match)->full_name;  
+                if (r%3 == 0){
                 cout << endl; 
                 }
                 r++;
-                j = lps[j - 1];  // continue
+                i=R+1;
+                j=0;
+                // j = lps[j - 1]; 
             }
         }
         else {
@@ -658,50 +677,6 @@ void inputCentered(const string& message, int row) {
 }
 
 
-int Login(int i , int centerRow ){
-    
-   
-     system("cls") ; 
-        if (i==4){
-            return 0 ; 
-        }
-         string user_name  ; 
-         string pass_word  ; 
-        cout  << endl ; 
-        cin.ignore() ; 
-        inputCentered("Enter username: " , centerRow);
-        getline (cin , user_name) ; 
-        cin.ignore()  ; 
-       inputCentered("Enter password: " , centerRow+2);
-        getline (cin , pass_word) ; 
-        if (user_name == username && password==pass_word){
-            return 1 ; 
-            // code  ; 
-        }
-        else if (user_name != username && password==pass_word){
-            inputCentered( "Warning wrong username entered !!!" , centerRow+4) ; 
-            getch() ; 
-            i++ ; 
-            return Login(i, centerRow); 
-            return 0;
-        }
-        else if (user_name == username && password!=pass_word){
-            inputCentered ("Warning wrong username or password entered !!!" , centerRow+4) ; 
-            getch() ; 
-            i++ ; 
-            return Login(i, centerRow);
-            return 0;
-        }
-        else if (user_name != username && password!=pass_word){
-            inputCentered("Warning wrong username or password entered !!!" , centerRow+4) ; 
-            getch() ; 
-            i++ ; 
-            return Login(i, centerRow);
-            return 0;
-        } 
-}
-
-
 
 void delete_node_teacher(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4){
     
@@ -891,7 +866,7 @@ int main() {
     BST<Teacher> teachers;
     BST<Classroom> rooms;
     BST<Section> section;
-    setup_file_data(courses, teachers, rooms, section);   
+    setup_file_data(courses, teachers, rooms, section);  
     HashMap Admins;
     int  i =  1 ;
      // Get console size
@@ -1177,35 +1152,35 @@ int main() {
                 Teacher* t1;
                 bool quit=false;
                 string day;
-                while (1) {
-                    
-                    string teacher_name="";
+                
+                string teacher_name="";
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                    cout << "Enter the Teacher name ('0' for cancel searching): ";
-                    getline(cin, teacher_name);            
-                    cout<<"Enter the Day (Write 'all' for complete Slots): ";
-                    cin>>day;
-                    if(validate_day(day)||day=="all"){
-                    if(teacher_name=="0"){
-                        quit=true;
-                        break;
-                    }
-                    if (teachers.search(to_lowercase(teacher_name)) != nullptr) {
-                        t1=teachers.search(to_lowercase(teacher_name));
-                        break;
-                    }
-                    else {
-                        findMatches(teachers, teachers.get_List(), to_lowercase(teacher_name));
-                    }          
-                    }      
-                    else{
-                        cout<<"Enter Valid Day"<<endl;
-                        cout<<"\nPress Any key to continue: ";
-                        _getch(); 
-                        quit=true;
-                        break;
+                    while(1){
+                        cout << "Enter the Teacher name ('0' for cancel searching): ";
+                        getline(cin, teacher_name);            
+                        if(teacher_name=="0"){
+                            quit=true;
+                            break;
+                        }
+                        if (teachers.search(to_lowercase(teacher_name)) != nullptr) {
+                            t1=teachers.search(to_lowercase(teacher_name));
+                            break;
+                        }
+                        else {
+                            findMatches(teachers, teachers.get_List(), to_lowercase(teacher_name));
+                        }          
                     }   
-                }
+                    if(!quit){                        
+                            cout<<"Enter the Day (Write 'all' for complete Slots): ";
+                            cin>>day;
+                            if(!validate_day(day)&&day!="all"){
+                                cout<<"Enter Valid Day"<<endl;
+                                cout<<"\nPress Any key to continue: ";
+                                _getch(); 
+                                quit=true;
+                                break;
+                            }                               
+                        }
                 if(!quit){
                     t1->print_info(day);
                     cout<<"\nPress Any key to continue: ";
@@ -1217,14 +1192,11 @@ int main() {
                 bool quit=false;
                 Section* t4;
                 string day;
+                string section_name="";
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 while (1) {
-                    string section_name="";
-                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     cout << "Enter the Section ('0' for cancel searching): ";
                     getline(cin, section_name); 
-                    cout<<"Enter the Day (Write 'all' for complete Slots): ";
-                    cin>>day;
-                      if(validate_day(day)||day=="all"){
                     if(section_name=="0"){
                         quit=true;
                         break;
@@ -1236,14 +1208,17 @@ int main() {
                     else {
                         findMatches(section, section.get_List(), to_lowercase(section_name));
                     }
-                     }      
-                    else{
-                        cout<<"Enter Valid Day"<<endl;
-                        cout<<"\nPress Any key to continue: ";
-                        _getch(); 
-                        quit=true;
-                        break;
-                    }   
+                }
+                 if(!quit){                        
+                        cout<<"Enter the Day (Write 'all' for complete Slots): ";
+                        cin>>day;
+                        if(!validate_day(day)&&day!="all"){
+                            cout<<"Enter Valid Day"<<endl;
+                            cout<<"\nPress Any key to continue: ";
+                            _getch(); 
+                            quit=true;
+                            break;
+                        }                               
                 }
                 if(!quit){
                     t4->print_info(day);
@@ -1256,14 +1231,11 @@ int main() {
                 bool quit=false;
                 Classroom* t2;
                 string day;
+                string classroom_name="";                    
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 while (1) {
-                    string classroom_name="";                    
-                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     cout <<"Enter the Classroom ('0' for cancel searching): ";
                     getline(cin, classroom_name);  
-                    cout<<"Enter the Day (Write 'all' for complete Slots): ";
-                    cin>>day;
-                      if(validate_day(day)||day=="all"){
                     if(classroom_name=="0"){
                         quit=true;
                         break;
@@ -1275,15 +1247,18 @@ int main() {
                     else {
                         findMatches(rooms, rooms.get_List(), to_lowercase(classroom_name));
                     }
-                     }      
-                    else{
-                        cout<<"Enter Valid Day"<<endl;
-                        cout<<"\nPress Any key to continue: ";
-                        _getch(); 
-                        quit=true;
-                        break;
-                    }   
                 }
+                if(!quit){                        
+                            cout<<"Enter the Day (Write 'all' for complete Slots): ";
+                            cin>>day;
+                            if(!validate_day(day)&&day!="all"){
+                                cout<<"Enter Valid Day"<<endl;
+                                cout<<"\nPress Any key to continue: ";
+                                _getch(); 
+                                quit=true;
+                                break;
+                            }                               
+                    }
                 if(!quit){
                     t2->print_info(day);
                     cout<<"\nPress Any key to continue: ";

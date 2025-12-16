@@ -76,19 +76,6 @@ bool equal_course(Course_Name* t, Course_Name* t1){
     return (t->name==t1->name);
 }
 
-
-class location {
-public:
-    string building;
-    string floor;
-    string room_number;
-    location(string b, string fl, string rn) {
-        building = b;
-        floor = fl;
-        room_number = rn;
-    }
-};
-
 struct Time {
 public:
     string day;
@@ -139,24 +126,53 @@ bool equal_time(Time* t, Time* t1){
     return (t->day==t1->day&&t->s_hours==t1->s_hours&&t->s_minutes==t1->s_minutes&&t->e_hours==t1->e_hours&&t->e_minutes==t1->e_minutes);
 }
 
+int brute_force_search(string text, string pattern){
+    int n = text.length();
+    int m = pattern.length();
+    for (int i = 0; i <= n - m; i++) {
+        int j = 0;
+        while (j < m && text[i + j] == pattern[j]) {
+            j++;
+        }
+        if (j == m) {
+            return i+m;
+        }
+    }
+    return -1;
+}
 
 class Teacher {   
 public:
     string full_name="";
+    string full_name_2="";
     string name="";
     string email="";
     string department="";
     Teacher* left=nullptr;
     Teacher* right=nullptr;
-    // Course_Name* courses=nullptr;
-    // location* office=nullptr;
     Slot* slots = nullptr;
     Teacher(){}
     Teacher(string a, string b) :full_name(a),department(b){
-        name = to_lowercase(full_name);
+        full_name_2=full_name;
+        string titles[6]={"Prof. Dr. ","Engr. Dr. ","Dr. ","Ms. ","Mr. ","Engr. "};
+        int index=-1;
+        for(int i=0;i<6;i++){
+            index=brute_force_search(full_name,titles[i]);
+            if(index!=-1) break;
+        }
+        if(index!=-1){
+            full_name="";
+            for(int i=index;i<full_name_2.size();i++) full_name+=full_name_2[i];
+        }
+        name=to_lowercase(full_name);
+        int count=2;
         for(int i=0;i<full_name.size();i++){
             if(full_name[i]>='A'&&full_name[i]<='Z') email+=full_name[i]+32;
-            else if(full_name[i]==' ') email+='.';
+            else if(full_name[i]==' '){
+                count--;
+                if(count==0) break;
+                email+='.';
+            }
             else email+=full_name[i];
         }
         email+="@nu.edu.pk";
@@ -165,7 +181,7 @@ public:
     bool check_collision(Time* t);
     void print_slots_list(string day);
     void print_info(string day){
-        cout<<"Full Name: "<<full_name<<endl;
+        cout<<"Full Name: "<<full_name_2<<endl;
         cout<<"Department: "<<department<<endl;
         cout<<"Email: "<<email<<endl;
         if(this->slots!=nullptr){
@@ -867,6 +883,7 @@ int main() {
     BST<Classroom> rooms;
     BST<Section> section;
     setup_file_data(courses, teachers, rooms, section);  
+    
     HashMap Admins;
     int  i =  1 ;
      // Get console size

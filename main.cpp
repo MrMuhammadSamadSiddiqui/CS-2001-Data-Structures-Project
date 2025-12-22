@@ -79,17 +79,21 @@ bool equal_course(Course_Name* t, Course_Name* t1){
 }
 
 
-class location {
-public:
-    string building;
-    string floor;
-    string room_number;
-    location(string b, string fl, string rn) {
-        building = b;
-        floor = fl;
-        room_number = rn;
+int brute_force_search(string text, string pattern){
+    int n = text.length();
+    int m = pattern.length();
+    for (int i = 0; i <= n - m; i++) {
+        int j = 0;
+        while (j < m && text[i + j] == pattern[j]) {
+            j++;
+        }
+        if (j == m) {
+            return i+m;
+        }
     }
-};
+    return -1;
+}
+
 
 struct Time {
 public:
@@ -145,6 +149,7 @@ bool equal_time(Time* t, Time* t1){
 class Teacher {   
 public:
     string full_name="";
+    string full_name_2="";
     string name="";
     string email="";
     string department="";
@@ -153,12 +158,28 @@ public:
     Slot* slots = nullptr;
     int height=0;
     Teacher(){}
-    Teacher(string a, string b) :full_name(a),department(b){
+     Teacher(string a, string b) :full_name(a),department(b){
         name = to_lowercase(full_name);
+        full_name_2=full_name;
+        string titles[6]={"Prof. Dr. ","Engr. Dr. ","Dr. ","Ms. ","Mr. ","Engr. "};
+        int index=-1;
+        for(int i=0;i<6;i++){
+            index=brute_force_search(full_name,titles[i]);
+            if(index!=-1) break;
+        }
+        if(index!=-1){
+            full_name="";
+            for(int i=index;i<full_name_2.size();i++) full_name+=full_name_2[i];
+        }
+        name=to_lowercase(full_name);
+        int count=2;
         for(int i=0;i<full_name.size();i++){
             if(full_name[i]>='A'&&full_name[i]<='Z') email+=full_name[i]+32;
+            else if(full_name[i]==' ') email+='.';
             else if(full_name[i]==' '){
-                if(full_name[i-1]!='.') email+='.';
+                count--;
+                if(count==0) break;
+                email+='.';
             }
             else email+=full_name[i];
         }
@@ -168,7 +189,7 @@ public:
     bool check_collision(Time* t);
     void print_slots_list(string day);
     void print_info(string day){
-        cout<<"Full Name: "<<full_name<<endl;
+        cout<<"Full Name: "<<full_name_2<<endl;
         cout<<"Department: "<<department<<endl;
         cout<<"Email: "<<email<<endl;
         if(this->slots!=nullptr){
@@ -237,6 +258,62 @@ public:
 bool equal_room(Classroom* t, Classroom* t1){
     return (t->full_name==t1->full_name);
 }
+
+template<typename T>
+class BST {
+    string List;
+    void add_entity_main(T*& head, T* newone) {
+        if (head == nullptr) {
+            head = newone;
+            return;
+        }
+        if (newone->name < head->name) add_entity_main(head->left, newone);
+        else add_entity_main(head->right, newone);
+    }
+    void display_main(T*& head) {
+        if (head == nullptr) return;
+        display_main(head->left);
+        cout << head->name << ":";
+        display_main(head->right);
+    }
+    void update_string_main(T* head) {
+        if (head == nullptr) return;
+        update_string_main(head->left);
+        List += head->name;
+        List += ':';
+        update_string_main(head->right);
+    }
+
+    T* searchHelper(T* node, string target) {
+        if (!node) return nullptr;
+
+        if (node->name == target)  
+            return node;
+
+        if (target < node->name)
+            return searchHelper(node->left, target);
+        else
+            return searchHelper(node->right, target);
+    }
+public:
+    T* head;
+    BST() :head(nullptr), List("") {}
+    void add_entity(T* newone) {
+        this->add_entity_main(this->head, newone);
+        List = "";
+        this->update_string_main(this->head);
+    }
+    void display() {
+        this->display_main(this->head);
+    }
+    T* search(string newone) {
+        return searchHelper(this->head, newone);
+    }
+    string get_List() {
+        return this->List;
+    }
+};
+
 
 template<typename T>
 class AVL{  

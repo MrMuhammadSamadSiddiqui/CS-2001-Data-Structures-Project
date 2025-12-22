@@ -6,6 +6,7 @@
 #include <windows.h>
 #include <conio.h>
 #include <iomanip>
+#include <type_traits>
 using namespace std;
 class Slot;
 class Teacher;
@@ -57,10 +58,10 @@ bool equal_section(Section* t, Section* t1){
 }
 
 class Course_Name {
-    string course_code;
     string short_form;
     string full_form;
     public:
+    string course_code;
     Course_Name* left;
     Course_Name* right;
     string name; 
@@ -72,6 +73,10 @@ class Course_Name {
         name = to_lowercase(course_code) + "," + to_lowercase(short_form) + "," + to_lowercase(full_form);
         full_name =course_code + "," +short_form + "," +full_form;
     }
+    void display(){
+        cout<<course_code<<endl;
+    }
+
 };
 
 bool equal_course(Course_Name* t, Course_Name* t1){
@@ -259,65 +264,10 @@ bool equal_room(Classroom* t, Classroom* t1){
     return (t->full_name==t1->full_name);
 }
 
-template<typename T>
-class BST {
-    string List;
-    void add_entity_main(T*& head, T* newone) {
-        if (head == nullptr) {
-            head = newone;
-            return;
-        }
-        if (newone->name < head->name) add_entity_main(head->left, newone);
-        else add_entity_main(head->right, newone);
-    }
-    void display_main(T*& head) {
-        if (head == nullptr) return;
-        display_main(head->left);
-        cout << head->name << ":";
-        display_main(head->right);
-    }
-    void update_string_main(T* head) {
-        if (head == nullptr) return;
-        update_string_main(head->left);
-        List += head->name;
-        List += ':';
-        update_string_main(head->right);
-    }
-
-    T* searchHelper(T* node, string target) {
-        if (!node) return nullptr;
-
-        if (node->name == target)  
-            return node;
-
-        if (target < node->name)
-            return searchHelper(node->left, target);
-        else
-            return searchHelper(node->right, target);
-    }
-public:
-    T* head;
-    BST() :head(nullptr), List("") {}
-    void add_entity(T* newone) {
-        this->add_entity_main(this->head, newone);
-        List = "";
-        this->update_string_main(this->head);
-    }
-    void display() {
-        this->display_main(this->head);
-    }
-    T* search(string newone) {
-        return searchHelper(this->head, newone);
-    }
-    string get_List() {
-        return this->List;
-    }
-};
 
 
 template<typename T>
 class AVL{  
-    T* head;
     string List;
     int height(T* node){
         return node ? node->height:0;
@@ -379,16 +329,30 @@ class AVL{
     }
     T* searchHelper(T* node, string target) {
         if (!node) return nullptr;
-
-        if (node->name == target)  
-            return node;
-
+        if (node->name == target) return node;
         if (target < node->name)
             return searchHelper(node->left, target);
         else
             return searchHelper(node->right, target);
     }
+    Course_Name* searchHelper_course_code(Course_Name* node, string target) {
+        if(node==nullptr){
+            
+             return nullptr;
+        }
+        
+        if(to_lowercase(node->course_code)==target){
+            
+            return node;
+        }
+        Course_Name* left = searchHelper_course_code(node->left, target);
+        if (left != nullptr)
+        return left;
+        return searchHelper_course_code(node->right, target);
+        
+    }
     public:
+    T* head;
     AVL():head(nullptr),List(""){}
     void add_entity(T* newone){
         head=add_entity_main(head,newone);
@@ -401,6 +365,9 @@ class AVL{
     }
     T* search(string newone) {
         return searchHelper(this->head, newone);
+    }
+    Course_Name* search_course_code(string newone) {
+        return searchHelper_course_code(this->head, newone);
     }
     string get_List() {
         return this->List;
@@ -603,6 +570,8 @@ void Section::add_slot(Slot* newone) {
                 prev2=prev;
                 prev=prev->next;
             }
+                        prev->next=newone;
+
         }
 }
 
@@ -643,7 +612,10 @@ void Teacher::add_slot(Slot* newone) {
                 prev2=prev;
                 prev=prev->next;
             }
-        }        
+            prev->next=newone;
+        }   
+        
+        
 }
 
 void Classroom::add_slot(Slot* newone) {
@@ -683,6 +655,8 @@ void Classroom::add_slot(Slot* newone) {
                 prev2=prev;
                 prev=prev->next;
             }
+                        prev->next=newone;
+
         }
 }
 
@@ -748,7 +722,7 @@ void Teacher::print_slots_list(string day){
 
     Slot* temp = slots;
     while(temp != nullptr){
-        if(day == "all" || day == temp->time_of_class->day)
+        if(day =="all" || day == temp->time_of_class->day)
             temp->print();
         temp = temp->next;
     }
@@ -988,6 +962,9 @@ int main() {
     AVL<Classroom> rooms;
     AVL<Section> section;
     setup_file_data(courses, teachers, rooms, section);  
+    
+    
+
 
     HashMap Admins;
     int  i =  1 ;
@@ -1074,9 +1051,16 @@ int main() {
                 while (1) {
                     string course_name="";
                     cout <<"Enter the Course: ";
-                    getline(cin, course_name);            
+                    getline(cin, course_name); 
+
                     r= 1 ; 
-                    if (courses.search(to_lowercase(course_name)) != nullptr) {
+                    
+                    if (courses.search_course_code(to_lowercase(course_name)) != nullptr) {
+                        t3=courses.search_course_code(to_lowercase(course_name));
+                        
+                        break;
+                    }
+                    else if (courses.search(to_lowercase(course_name)) != nullptr) {
                         t3=courses.search(to_lowercase(course_name));
                         break;
                     }
@@ -1111,7 +1095,10 @@ int main() {
                     t4->add_slot(S_section);
                     t2->add_slot(S_room);
                     cout<<"----- NEW SLOT ADDED -----"<<endl;
+                    
                     S_teacher->print();
+                    
+                    
                     cout<<"\nPress Any key to continue: ";
                     _getch();                    
                 }
@@ -1184,7 +1171,12 @@ int main() {
                     string course_name="";
                     cout << "Enter the Course: ";
                     getline(cin, course_name);            
-                    if (courses.search(to_lowercase(course_name)) != nullptr) {
+                    if (courses.search_course_code(to_lowercase(course_name)) != nullptr) {
+                        t3=courses.search_course_code(to_lowercase(course_name));
+                        
+                        break;
+                    }
+                    else if (courses.search(to_lowercase(course_name)) != nullptr) {
                         t3=courses.search(to_lowercase(course_name));
                         break;
                     }

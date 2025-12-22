@@ -1,0 +1,3600 @@
+Prof. Dr. Kashif Alvi,Linguistics
+Mr. Azlan Hashmi,Microbiology
+Dr. Naveed Alvi,Forensic Science
+Mr. Murtaza Bukhari,Mathematics
+Dr. Ammar Sial,Project Management
+Dr. Ammar Memon,Project Management
+Engr. Hasan Jafferi,Chemical Engineering
+Engr. Dr. Qasim Qureshi,Psychology
+Engr. Ahsan Pasha,Islamic Studies
+Prof. Dr. Nabeel Sandhu,Islamic Studies
+Mr. Hussain Tareen,Artificial Intelligence
+Dr. Adeel Butt,Urban & Regional Planning
+Mr. Ahsan Khosa,Business Administration
+Engr. Zubair Chishti,Information Technology
+Mr. Saad Khan,Physics
+Mr. Hamza Gilani,Development Studies
+Engr. Azlan Khan,Marketing
+Prof. Dr. Adnan Kakakhel,Physics
+Prof. Dr. Faizan Hashmi,Telecommunications Engineering
+Prof. Dr. Haris Hussain,Political Science
+Engr. Dr. Yasir Baloch,Criminology
+Engr. Dr. Faizan Sheikh,Philosophy
+Mr. Haris Chishti,Linguistics
+Engr. Adeel Arain,Business Administration
+Dr. Musa Rajput,Software Engineering
+Engr. Ehsan Chaudhry,Pakistan Studies
+Prof. Dr. Faizan Chishti,Development Studies
+Engr. Hussain Dar,Criminology
+Prof. Dr. Musa Kazmi,Remote Sensing & GIS
+Engr. Dr. Ehsan Lodhi,Entrepreneurship
+Prof. Dr. Hamza Yousafzai,Education
+Prof. Dr. Yasir Chaudhry,Development Studies
+Engr. Saad Alvi,Statistics
+Prof. Dr. Ammar Lodhi,Forensic Science
+Dr. Bilal Shah,Political Science
+Prof. Dr. Arham Jafferi,Entrepreneurship
+Mr. Shoaib Mengal,Biomedical Engineering
+Mr. Huzaifa Bhatti,Environmental Engineering
+Engr. Zubair Afridi,Geology
+Engr. Ehsan Sheikh,Materials Engineering
+Mr. Moiz Rajput,International Relations
+Dr. Rafay Sandhu,Geophysics
+Mr. Naveed Khan,Economics
+Engr. Dr. Uzair Hussain,Environmental Engineering
+Engr. Rafay Afridi,Public Administration
+Prof. Dr. Ismail Butt,Psychology
+Dr. Ehsan Arain,English Literature
+Mr. Rayyan Gilani,Linguistics
+Engr. Dr. Rafay Tareen,Geology
+Engr. Dr. Talha Butt,Mechanical Engineering
+Mr. Saad Memon,Commerce
+Engr. Hasan Zaidi,Sociology
+Mr. Taha Qureshi,Telecommunications Engineering
+Engr. Salman Malik,Software Engineering
+Engr. Haseeb Qureshi,Sociology
+Dr. Waleed Hashmi,Remote Sensing & GIS
+Mr. Ahmed Madni,Materials Engineering
+Mr. Shayan Baig,Mass Communication
+Mr. Sameer Awan,Biotechnology
+Engr. Dr. Anas Khan,Urban & Regional Planning
+Dr. Burhan Siddiqui,Pakistan Studies
+Engr. Uzair Shah,Public Administration
+Engr. Dr. Moiz Mirza,History
+Engr. Haseeb Memon,Biotechnology
+Prof. Dr. Talha Abbasi,Management Sciences
+Prof. Dr. Daniyal Chishti,Marketing
+Dr. Ibrahim Sandhu,Geophysics
+Dr. Zaryab Tareen,Mechanical Engineering
+Mr. Musa Gilani,Education
+Mr. Burhan Ansari,Linguistics
+Engr. Faris Qureshi,Telecommunications Engineering
+Dr. Rameez Mirza,International Relations
+Dr. Shehroz Gilani,Data Science
+Prof. Dr. Zaryab Sandhu,English Literature
+Dr. Arham Leghari,Business Administration
+Mr. Talha Mengal,English Literature
+Dr. Adnan Lodhi,Telecommunications Engineering
+Dr. Rameez Sabri,Physics
+Engr. Dr. Anas Sabri,Project Management
+Engr. Sameer Jamali,Development Studies
+Engr. Dr. Zubair Kazmi,Molecular Biology
+Prof. Dr. Imran Ansari,Economics
+Dr. Shahmeer Faruqi,Urban & Regional Planning
+Engr. Dr. Taha Jamali,Marketing
+Mr. Azlan Ali,Sociology
+Dr. Haseeb Alvi,Materials Engineering
+Dr. Taha Rajput,Business Administration
+Mr. Ahmed Jafferi,Criminology
+Engr. Fahad Lodhi,Remote Sensing & GIS
+Engr. Dr. Hasan Jamali,Peace & Conflict Studies
+Prof. Dr. Sameer Cheema,Project Management
+Engr. Dr. Huzaifa Bukhari,English Literature
+Prof. Dr. Abdullah Siddiqui,History
+Mr. Talha Kakakhel,Media Studies
+Prof. Dr. Bilal Afridi,Data Science
+Engr. Ahmed Mengal,Industrial Engineering
+Dr. Junaid Bangash,Physics
+Engr. Dr. Rayyan Baloch,Islamic Banking & Finance
+Engr. Dr. Ibrahim Chaudhry,Molecular Biology
+Engr. Dr. Rameez Awan,Philosophy
+Engr. Rayyan Hashmi,Materials Engineering
+Engr. Dr. Adeel Bhatti,Criminology
+Engr. Dr. Ayaan Rajput,Commerce
+Engr. Dr. Qasim Butt,Sociology
+Engr. Moiz Kiani,Civil Engineering
+Dr. Hasan Baloch,Law
+Engr. Dr. Adnan Afridi,History
+Prof. Dr. Saad Rizvi,Artificial Intelligence
+Dr. Hussain Arain,Public Administration
+Dr. Burhan Baloch,Islamic Studies
+Dr. Kashif Warraich,Business Administration
+Engr. Dr. Haris Mirza,Project Management
+Prof. Dr. Waleed Usmani,Supply Chain Management
+Dr. Ahmed Baig,Forensic Science
+Engr. Kashif Hussain,Pakistan Studies
+Engr. Dr. Kashif Bugti,Architecture
+Mr. Haris Khatri,Law
+Engr. Zaryab Abbasi,Microbiology
+Engr. Dr. Kamran Khan,Sociology
+Prof. Dr. Musa Pandith,Physics
+Engr. Hasan Sandhu,History
+Prof. Dr. Salman Wani,Business Administration
+Engr. Dr. Hamza Afridi,Biomedical Engineering
+Prof. Dr. Zain Jafferi,Architecture
+Engr. Dr. Zain Zaidi,Geophysics
+Prof. Dr. Shahzaib Hashmi,Management Sciences
+Engr. Ahmed Kazmi,Entrepreneurship
+Dr. Faris Bukhari,Islamic Studies
+Mr. Salman Awan,Statistics
+Engr. Dr. Ahmed Jamali,History
+Dr. Yasir Pandith,Geology
+Prof. Dr. Faizan Alvi,Entrepreneurship
+Engr. Dr. Faris Khan,Artificial Intelligence
+Engr. Dr. Shayan Khan,Biotechnology
+Engr. Dr. Afnan Memon,Electronic Engineering
+Mr. Shahzaib Pasha,Civil Engineering
+Engr. Areeb Ansari,Urban & Regional Planning
+Prof. Dr. Salman Cheema,Mechatronics Engineering
+Mr. Talha Awan,Microbiology
+Prof. Dr. Ammar Bhatti,Management Sciences
+Prof. Dr. Danish Cheema,Industrial Engineering
+Engr. Azlan Lodhi,Philosophy
+Mr. Ahmed Pasha,Development Studies
+Mr. Abdullah Abbasi,Peace & Conflict Studies
+Engr. Dr. Bilal Butt,Psychology
+Engr. Ismail Sial,Electrical Engineering
+Dr. Danish Memon,Psychology
+Dr. Mahad Sabri,Psychology
+Dr. Asad Ahmed,Electronic Engineering
+Prof. Dr. Haris Mughal,International Relations
+Engr. Qasim Chishti,Law
+Prof. Dr. Junaid Warraich,Business Administration
+Mr. Arham Madni,Business Administration
+Dr. Areeb Chishti,Entrepreneurship
+Engr. Dr. Naveed Sheikh,Microbiology
+Engr. Dr. Murtaza Chishti,Accounting & Finance
+Mr. Danish Gilani,English Literature
+Engr. Rameez Afridi,Artificial Intelligence
+Dr. Murtaza Malik,Psychology
+Engr. Abdullah Khatri,Management Sciences
+Prof. Dr. Hasan Khatri,Linguistics
+Dr. Faizan Zaidi,Economics
+Dr. Moiz Qureshi,Mechanical Engineering
+Dr. Rameez Khosa,Entrepreneurship
+Engr. Hussain Jafferi,Microbiology
+Prof. Dr. Naveed Malik,Marketing
+Dr. Shehroz Zaidi,Philosophy
+Engr. Dr. Rafay Siddiqui,Entrepreneurship
+Prof. Dr. Faris Mirza,Accounting & Finance
+Engr. Salman Bhatti,Management Sciences
+Engr. Dr. Imran Baloch,Peace & Conflict Studies
+Engr. Imran Mengal,Peace & Conflict Studies
+Mr. Murtaza Jamali,Public Administration
+Mr. Anas Gondal,Psychology
+Engr. Ahmed Warraich,Forensic Science
+Dr. Rayyan Lodhi,Pakistan Studies
+Dr. Sameer Dar,History
+Engr. Dr. Burhan Yousafzai,Human Resource Management
+Engr. Hasan Wani,Peace & Conflict Studies
+Engr. Dr. Kashif Jamali,Geology
+Mr. Huzaifa Orakzai,English Literature
+Mr. Bilal Sheikh,Civil Engineering
+Dr. Shahmeer Ahmed,Psychology
+Mr. Adeel Usmani,Computer Science
+Mr. Saad Sandhu,Mechanical Engineering
+Engr. Dr. Sameer Kazmi,Mass Communication
+Prof. Dr. Adnan Mirza,Mathematics
+Engr. Dr. Areeb Madni,Telecommunications Engineering
+Engr. Dr. Zubair Lodhi,Molecular Biology
+Engr. Haseeb Yousafzai,Human Resource Management
+Prof. Dr. Faris Sial,Islamic Studies
+Engr. Rehan Butt,Biomedical Engineering
+Mr. Shoaib Naqvi,Marketing
+Prof. Dr. Haris Madni,Electronic Engineering
+Mr. Hasan Bhatti,Linguistics
+Engr. Ahsan Jafferi,Criminology
+Engr. Dr. Adnan Sandhu,Software Engineering
+Engr. Dr. Hasan Sabri,Media Studies
+Mr. Huzaifa Sandhu,Linguistics
+Engr. Shayan Mengal,Biotechnology
+Prof. Dr. Shehroz Sandhu,Supply Chain Management
+Engr. Rafay Sheikh,Geophysics
+Engr. Dr. Shahzaib Khan,Law
+Prof. Dr. Hussain Khatri,Computer Engineering
+Prof. Dr. Ayaan Qureshi,Management Sciences
+Engr. Dr. Junaid Lodhi,Philosophy
+Dr. Ahsan Afridi,Environmental Engineering
+Prof. Dr. Murtaza Sandhu,Artificial Intelligence
+Mr. Saad Farooq,Biomedical Engineering
+Prof. Dr. Ismail Shah,Artificial Intelligence
+Dr. Naveed Qureshi,Chemistry
+Engr. Naveed Leghari,Mechanical Engineering
+Engr. Areeb Gondal,Biotechnology
+Prof. Dr. Junaid Madni,Education
+Engr. Junaid Sheikh,Electrical Engineering
+Engr. Kamran Sheikh,Business Administration
+Engr. Hussain Kazmi,Urban & Regional Planning
+Mr. Hamza Bangash,Peace & Conflict Studies
+Prof. Dr. Uzair Chaudhry,Project Management
+Engr. Dr. Huzaifa Chishti,Linguistics
+Mr. Anas Bugti,Criminology
+Engr. Dr. Murtaza Kakakhel,Supply Chain Management
+Engr. Sameer Mengal,Accounting & Finance
+Engr. Waleed Zaidi,Remote Sensing & GIS
+Engr. Dr. Haseeb Lodhi,Linguistics
+Engr. Shahmeer Pandith,Biotechnology
+Mr. Ehsan Alvi,Geophysics
+Prof. Dr. Haris Bhatti,Industrial Engineering
+Prof. Dr. Haris Gilani,Microbiology
+Dr. Ayaan Ansari,Information Technology
+Prof. Dr. Hasan Leghari,Civil Engineering
+Mr. Ahmed Dar,Civil Engineering
+Dr. Faris Sandhu,Mechatronics Engineering
+Engr. Dr. Shoaib Yousafzai,Mechanical Engineering
+Engr. Zubair Chaudhry,Chemical Engineering
+Prof. Dr. Rafay Sial,Marketing
+Engr. Dr. Rameez Rajput,Human Resource Management
+Prof. Dr. Arham Wani,Environmental Engineering
+Engr. Daniyal Faruqi,Materials Engineering
+Mr. Qasim Pasha,Microbiology
+Dr. Mahad Memon,Telecommunications Engineering
+Mr. Rameez Zaidi,Law
+Engr. Zain Kakakhel,English Literature
+Prof. Dr. Adeel Siddiqui,Peace & Conflict Studies
+Dr. Daniyal Tareen,English Literature
+Dr. Hamza Bugti,Statistics
+Engr. Dr. Musa Awan,Computer Engineering
+Engr. Dr. Yasir Bhatti,Environmental Engineering
+Mr. Arham Faruqi,Architecture
+Engr. Dr. Abdullah Mirza,Civil Engineering
+Dr. Abdullah Tareen,Chemistry
+Engr. Waleed Sabri,Media Studies
+Dr. Danish Sial,Artificial Intelligence
+Engr. Dr. Murtaza Khatri,Media Studies
+Dr. Azlan Ahmed,Statistics
+Mr. Fahad Afridi,Civil Engineering
+Engr. Nabeel Kakakhel,International Relations
+Mr. Rameez Bugti,Philosophy
+Dr. Waleed Awan,Philosophy
+Mr. Rafay Bugti,Software Engineering
+Dr. Faizan Qureshi,Criminology
+Engr. Daniyal Farooq,Software Engineering
+Mr. Abdullah Bukhari,Software Engineering
+Dr. Zaryab Ahmed,Project Management
+Engr. Dr. Ahmed Bangash,Industrial Engineering
+Prof. Dr. Mahad Sial,Materials Engineering
+Engr. Uzair Kazmi,Economics
+Prof. Dr. Naveed Awan,International Relations
+Prof. Dr. Hussain Faruqi,Geophysics
+Mr. Murtaza Sabri,Architecture
+Prof. Dr. Ehsan Khosa,Education
+Prof. Dr. Ismail Lodhi,Microbiology
+Engr. Musa Ahmed,International Relations
+Mr. Azlan Chaudhry,Mathematics
+Engr. Hamza Faruqi,Linguistics
+Mr. Ammar Mengal,Chemical Engineering
+Engr. Dr. Asad Baig,Supply Chain Management
+Mr. Faizan Khatri,Electrical Engineering
+Mr. Qasim Farooq,Business Administration
+Engr. Ibrahim Mughal,Computer Engineering
+Engr. Haris Cheema,Mechanical Engineering
+Mr. Daniyal Mughal,Geology
+Dr. Shoaib Jafferi,Software Engineering
+Engr. Zain Cheema,Human Resource Management
+Mr. Murtaza Khan,Civil Engineering
+Engr. Dr. Yasir Kakakhel,Chemistry
+Engr. Salman Sandhu,Entrepreneurship
+Engr. Dr. Shahzaib Khatri,Information Technology
+Engr. Abdullah Naqvi,Education
+Dr. Afnan Baloch,Mechatronics Engineering
+Mr. Taha Mengal,Commerce
+Dr. Hamza Ahmed,Criminology
+Dr. Faizan Baig,Telecommunications Engineering
+Prof. Dr. Burhan Tareen,Philosophy
+Dr. Bilal Arain,Islamic Banking & Finance
+Dr. Ismail Ali,History
+Engr. Dr. Shoaib Rizvi,Criminology
+Prof. Dr. Imran Naqvi,Pakistan Studies
+Prof. Dr. Bilal Khan,Management Sciences
+Engr. Dr. Afnan Orakzai,Accounting & Finance
+Engr. Dr. Saad Wani,Artificial Intelligence
+Dr. Imran Chishti,Software Engineering
+Engr. Faizan Dar,Telecommunications Engineering
+Engr. Dr. Taha Naqvi,Mass Communication
+Engr. Dr. Junaid Tareen,Artificial Intelligence
+Engr. Dr. Imran Hussain,Linguistics
+Dr. Ehsan Faruqi,Geophysics
+Engr. Dr. Asad Mirza,Electrical Engineering
+Mr. Shayan Bugti,Industrial Engineering
+Mr. Shahzaib Ansari,Project Management
+Engr. Mahad Lodhi,International Relations
+Mr. Haris Butt,Development Studies
+Prof. Dr. Musa Leghari,Software Engineering
+Engr. Dr. Ahsan Ali,Project Management
+Engr. Shayan Rizvi,Electrical Engineering
+Engr. Azlan Farooq,Accounting & Finance
+Mr. Ahmed Sabri,Forensic Science
+Engr. Kamran Afridi,Computer Engineering
+Engr. Dr. Kamran Hussain,International Relations
+Engr. Salman Bukhari,Philosophy
+Engr. Uzair Arain,Commerce
+Dr. Shehroz Warraich,Chemical Engineering
+Engr. Rameez Baig,Business Administration
+Prof. Dr. Areeb Butt,Media Studies
+Prof. Dr. Hamza Sandhu,Business Administration
+Mr. Moiz Mughal,Economics
+Engr. Dr. Ibrahim Bukhari,Public Administration
+Engr. Moiz Shah,Marketing
+Dr. Salman Khan,Marketing
+Dr. Ibrahim Sheikh,Criminology
+Engr. Dr. Hussain Jamali,Data Science
+Engr. Faris Chishti,Chemical Engineering
+Engr. Hamza Butt,Civil Engineering
+Mr. Hamza Siddiqui,Chemical Engineering
+Engr. Dr. Ibrahim Ali,Human Resource Management
+Prof. Dr. Junaid Mengal,International Relations
+Engr. Dr. Arham Shah,Philosophy
+Prof. Dr. Asad Afridi,Law
+Prof. Dr. Murtaza Farooq,Islamic Banking & Finance
+Mr. Ismail Baig,Psychology
+Engr. Salman Shah,Industrial Engineering
+Mr. Zain Warraich,Telecommunications Engineering
+Dr. Rayyan Wani,Accounting & Finance
+Prof. Dr. Shahmeer Ansari,Information Technology
+Engr. Nabeel Bhatti,Mass Communication
+Engr. Dr. Murtaza Gilani,Marketing
+Dr. Nabeel Chaudhry,Materials Engineering
+Engr. Danish Bugti,Media Studies
+Engr. Dr. Rayyan Ansari,Marketing
+Engr. Dr. Ismail Yousafzai,Commerce
+Prof. Dr. Naveed Pasha,Remote Sensing & GIS
+Prof. Dr. Salman Chaudhry,Remote Sensing & GIS
+Prof. Dr. Murtaza Pasha,Data Science
+Engr. Faris Mughal,Molecular Biology
+Mr. Danish Ahmed,Project Management
+Engr. Fahad Ahmed,Computer Science
+Dr. Adeel Abbasi,Urban & Regional Planning
+Mr. Afnan Ahmed,Materials Engineering
+Dr. Shahmeer Leghari,Management Sciences
+Prof. Dr. Hasan Kakakhel,Peace & Conflict Studies
+Engr. Dr. Asad Madni,Molecular Biology
+Engr. Dr. Murtaza Siddiqui,Electronic Engineering
+Engr. Dr. Kamran Kakakhel,Geology
+Dr. Asad Jamali,Pakistan Studies
+Mr. Rayyan Chishti,Civil Engineering
+Engr. Dr. Taha Sabri,Accounting & Finance
+Mr. Naveed Khatri,Chemical Engineering
+Mr. Haris Jafferi,Materials Engineering
+Engr. Ismail Tareen,Biotechnology
+Prof. Dr. Saad Sabri,Information Technology
+Engr. Adnan Ali,Project Management
+Engr. Azlan Qureshi,Philosophy
+Dr. Ehsan Yousafzai,Civil Engineering
+Dr. Burhan Dar,Marketing
+Engr. Adeel Kiani,Computer Engineering
+Engr. Taha Warraich,History
+Dr. Rehan Rizvi,Electrical Engineering
+Prof. Dr. Naveed Baloch,Information Technology
+Prof. Dr. Asad Bukhari,Geology
+Mr. Shoaib Zaidi,Economics
+Engr. Burhan Awan,Materials Engineering
+Engr. Bilal Cheema,Sociology
+Engr. Dr. Salman Yousafzai,Physics
+Dr. Shahzaib Bukhari,Project Management
+Dr. Daniyal Chaudhry,Law
+Engr. Dr. Fahad Tareen,Chemistry
+Engr. Waleed Rajput,Software Engineering
+Engr. Mahad Khosa,Media Studies
+Dr. Hamza Bhatti,Environmental Engineering
+Mr. Imran Khatri,Commerce
+Mr. Shehroz Dar,Urban & Regional Planning
+Dr. Kashif Naqvi,Computer Science
+Engr. Shahzaib Awan,Biomedical Engineering
+Engr. Musa Shah,Industrial Engineering
+Dr. Imran Kakakhel,Remote Sensing & GIS
+Engr. Hasan Tareen,Energy Systems Engineering
+Engr. Rafay Warraich,Software Engineering
+Engr. Taha Bukhari,Chemistry
+Mr. Kashif Chaudhry,Microbiology
+Mr. Azlan Faruqi,Physics
+Dr. Faris Warraich,Chemistry
+Engr. Moiz Kakakhel,Geophysics
+Dr. Haris Khan,Urban & Regional Planning
+Engr. Kashif Zaidi,Civil Engineering
+Prof. Dr. Hamza Sial,Islamic Banking & Finance
+Prof. Dr. Abdullah Yousafzai,Remote Sensing & GIS
+Engr. Dr. Rayyan Usmani,Information Technology
+Mr. Rayyan Siddiqui,Biomedical Engineering
+Engr. Ismail Sandhu,Chemistry
+Engr. Dr. Uzair Awan,Software Engineering
+Mr. Taha Mirza,Business Administration
+Prof. Dr. Zain Hussain,Chemistry
+Mr. Zaryab Ansari,Human Resource Management
+Mr. Mahad Farooq,Data Science
+Engr. Dr. Bilal Pasha,History
+Dr. Shahmeer Hussain,Economics
+Dr. Ayaan Bhatti,Geology
+Dr. Daniyal Butt,Management Sciences
+Engr. Dr. Anas Warraich,English Literature
+Engr. Dr. Afnan Pandith,Geophysics
+Dr. Daniyal Orakzai,Business Administration
+Prof. Dr. Hussain Bukhari,Commerce
+Engr. Dr. Shoaib Baloch,English Literature
+Dr. Rafay Khan,Chemical Engineering
+Engr. Dr. Fahad Cheema,Microbiology
+Prof. Dr. Ismail Khosa,Human Resource Management
+Engr. Hamza Usmani,Pakistan Studies
+Engr. Dr. Arham Naqvi,Economics
+Mr. Moiz Dar,Mechatronics Engineering
+Dr. Moiz Warraich,Development Studies
+Prof. Dr. Shayan Baloch,Remote Sensing & GIS
+Engr. Dr. Yasir Jamali,Project Management
+Engr. Murtaza Chaudhry,Philosophy
+Dr. Danish Bhatti,Peace & Conflict Studies
+Engr. Rameez Yousafzai,Islamic Banking & Finance
+Engr. Dr. Rameez Baloch,Mechanical Engineering
+Prof. Dr. Ibrahim Malik,Philosophy
+Mr. Hasan Ahmed,Pakistan Studies
+Dr. Uzair Faruqi,Media Studies
+Prof. Dr. Murtaza Shah,Computer Science
+Engr. Haseeb Khatri,Computer Science
+Engr. Arham Sabri,Software Engineering
+Mr. Arham Rajput,English Literature
+Engr. Ahmed Malik,Telecommunications Engineering
+Engr. Kashif Kakakhel,Commerce
+Mr. Kashif Mirza,Entrepreneurship
+Dr. Uzair Madni,Economics
+Engr. Dr. Shahmeer Awan,Human Resource Management
+Mr. Shahzaib Hussain,Forensic Science
+Prof. Dr. Ammar Kakakhel,Computer Engineering
+Engr. Dr. Faris Sheikh,Remote Sensing & GIS
+Dr. Ahmed Alvi,Sociology
+Engr. Dr. Fahad Madni,Business Administration
+Prof. Dr. Ibrahim Butt,Entrepreneurship
+Prof. Dr. Waleed Bukhari,Mathematics
+Engr. Hasan Farooq,Forensic Science
+Mr. Bilal Kiani,Supply Chain Management
+Prof. Dr. Areeb Jamali,Peace & Conflict Studies
+Engr. Dr. Rehan Abbasi,Geophysics
+Prof. Dr. Salman Qureshi,Linguistics
+Mr. Saad Mirza,Islamic Banking & Finance
+Engr. Dr. Bilal Sial,Biotechnology
+Prof. Dr. Musa Wani,Linguistics
+Prof. Dr. Azlan Mengal,Chemistry
+Mr. Zubair Baig,Chemical Engineering
+Prof. Dr. Junaid Chishti,Geology
+Engr. Dr. Ammar Chishti,Public Administration
+Engr. Dr. Murtaza Afridi,Chemistry
+Engr. Bilal Ali,Mass Communication
+Dr. Rafay Bhatti,Supply Chain Management
+Engr. Talha Baloch,Molecular Biology
+Mr. Saad Rajput,Biomedical Engineering
+Engr. Haseeb Sabri,Microbiology
+Engr. Dr. Fahad Qureshi,Supply Chain Management
+Engr. Shayan Afridi,Materials Engineering
+Engr. Dr. Murtaza Faruqi,Data Science
+Engr. Hasan Memon,Law
+Prof. Dr. Huzaifa Sheikh,Urban & Regional Planning
+Dr. Yasir Kazmi,Architecture
+Mr. Shehroz Khan,Civil Engineering
+Mr. Ibrahim Kakakhel,Development Studies
+Dr. Rehan Ahmed,Physics
+Mr. Mahad Usmani,Chemistry
+Dr. Imran Alvi,Molecular Biology
+Mr. Rayyan Afridi,Forensic Science
+Prof. Dr. Rafay Arain,Criminology
+Mr. Adnan Arain,International Relations
+Dr. Junaid Rizvi,Human Resource Management
+Prof. Dr. Areeb Baloch,Urban & Regional Planning
+Dr. Rafay Hussain,Urban & Regional Planning
+Engr. Salman Chishti,Law
+Mr. Haseeb Afridi,Information Technology
+Engr. Rehan Qureshi,Architecture
+Prof. Dr. Ammar Warraich,Development Studies
+Prof. Dr. Kashif Siddiqui,Biotechnology
+Engr. Dr. Ismail Kazmi,Microbiology
+Dr. Areeb Khan,Physics
+Prof. Dr. Salman Mirza,Accounting & Finance
+Engr. Nabeel Baig,Environmental Engineering
+Engr. Talha Wani,Electronic Engineering
+Engr. Naveed Yousafzai,Software Engineering
+Dr. Rameez Jamali,Mathematics
+Prof. Dr. Yasir Zaidi,Electrical Engineering
+Engr. Shahmeer Chaudhry,Linguistics
+Engr. Daniyal Alvi,Mass Communication
+Prof. Dr. Nabeel Warraich,Public Administration
+Engr. Dr. Ammar Leghari,International Relations
+Prof. Dr. Haseeb Naqvi,Economics
+Engr. Dr. Musa Arain,Economics
+Prof. Dr. Shehroz Kazmi,Marketing
+Mr. Moiz Zaidi,Media Studies
+Engr. Afnan Kazmi,Mass Communication
+Mr. Hussain Bangash,History
+Dr. Rayyan Leghari,Economics
+Mr. Shahmeer Gilani,Mechanical Engineering
+Engr. Dr. Shahmeer Qureshi,Architecture
+Prof. Dr. Nabeel Arain,Forensic Science
+Engr. Dr. Faizan Shah,Molecular Biology
+Prof. Dr. Talha Sabri,Software Engineering
+Engr. Naveed Pandith,Molecular Biology
+Prof. Dr. Shahzaib Ahmed,Forensic Science
+Engr. Azlan Awan,Molecular Biology
+Engr. Dr. Faizan Wani,Entrepreneurship
+Dr. Murtaza Abbasi,Business Administration
+Prof. Dr. Adnan Ahmed,English Literature
+Engr. Zubair Sabri,Political Science
+Engr. Rayyan Bukhari,Architecture
+Engr. Dr. Huzaifa Afridi,Geophysics
+Dr. Yasir Wani,Peace & Conflict Studies
+Engr. Dr. Huzaifa Baig,Energy Systems Engineering
+Engr. Dr. Qasim Mirza,Project Management
+Mr. Burhan Lodhi,Molecular Biology
+Mr. Talha Kiani,Development Studies
+Mr. Zaryab Mughal,Business Administration
+Engr. Dr. Adnan Sabri,Mathematics
+Mr. Adeel Mirza,Law
+Dr. Ahmed Tareen,Law
+Dr. Rameez Kiani,Artificial Intelligence
+Engr. Shayan Madni,Mass Communication
+Engr. Dr. Kamran Butt,Chemical Engineering
+Engr. Dr. Abdullah Faruqi,Energy Systems Engineering
+Prof. Dr. Rafay Memon,Mass Communication
+Dr. Asad Yousafzai,Commerce
+Prof. Dr. Yasir Khatri,Islamic Studies
+Prof. Dr. Rameez Gondal,Electronic Engineering
+Engr. Adeel Mughal,Geology
+Dr. Talha Warraich,Islamic Banking & Finance
+Engr. Yasir Qureshi,Economics
+Engr. Adnan Naqvi,Electrical Engineering
+Prof. Dr. Arham Kiani,Microbiology
+Dr. Ibrahim Shah,Marketing
+Mr. Salman Tareen,International Relations
+Engr. Dr. Faris Memon,Linguistics
+Engr. Dr. Imran Dar,Biotechnology
+Engr. Dr. Rehan Pasha,Materials Engineering
+Engr. Fahad Khan,Management Sciences
+Engr. Dr. Kamran Qureshi,Energy Systems Engineering
+Engr. Yasir Baig,Information Technology
+Prof. Dr. Danish Dar,Computer Engineering
+Engr. Daniyal Sandhu,Philosophy
+Mr. Zaryab Ali,Physics
+Dr. Saad Jamali,Accounting & Finance
+Engr. Murtaza Memon,Psychology
+Engr. Dr. Naveed Siddiqui,Civil Engineering
+Engr. Faizan Bhatti,Pakistan Studies
+Mr. Haris Bangash,Urban & Regional Planning
+Prof. Dr. Nabeel Abbasi,Commerce
+Prof. Dr. Rayyan Abbasi,Management Sciences
+Engr. Dr. Saad Sheikh,Media Studies
+Dr. Areeb Khosa,Islamic Studies
+Engr. Dr. Danish Kazmi,Pakistan Studies
+Dr. Adeel Farooq,Molecular Biology
+Prof. Dr. Junaid Bhatti,Electrical Engineering
+Mr. Rameez Ali,Microbiology
+Engr. Daniyal Qureshi,Management Sciences
+Dr. Anas Baig,Entrepreneurship
+Mr. Haseeb Gilani,Mechanical Engineering
+Dr. Ehsan Bukhari,Software Engineering
+Engr. Dr. Haris Kakakhel,Economics
+Engr. Dr. Mahad Khatri,Biomedical Engineering
+Prof. Dr. Anas Abbasi,Peace & Conflict Studies
+Prof. Dr. Zaryab Hussain,Microbiology
+Prof. Dr. Sameer Bugti,Molecular Biology
+Engr. Dr. Haris Abbasi,Linguistics
+Mr. Saad Dar,Computer Engineering
+Prof. Dr. Huzaifa Sial,Electronic Engineering
+Engr. Dr. Imran Pandith,Management Sciences
+Engr. Dr. Yasir Dar,Commerce
+Mr. Salman Sial,Media Studies
+Engr. Dr. Arham Jamali,Business Administration
+Mr. Hamza Tareen,Linguistics
+Engr. Imran Ahmed,Information Technology
+Engr. Dr. Ismail Ansari,Islamic Studies
+Engr. Haris Hashmi,Energy Systems Engineering
+Engr. Shoaib Qureshi,Commerce
+Dr. Azlan Pandith,Psychology
+Engr. Dr. Qasim Rizvi,Geology
+Prof. Dr. Kashif Bukhari,Industrial Engineering
+Engr. Dr. Haseeb Ansari,Civil Engineering
+Engr. Dr. Kashif Butt,Entrepreneurship
+Mr. Afnan Bukhari,Electronic Engineering
+Engr. Zubair Bangash,Microbiology
+Engr. Dr. Nabeel Naqvi,Civil Engineering
+Prof. Dr. Kamran Mughal,Management Sciences
+Dr. Ehsan Chishti,Forensic Science
+Engr. Ibrahim Baig,Microbiology
+Prof. Dr. Ahmed Hashmi,Development Studies
+Engr. Ehsan Ahmed,Commerce
+Mr. Adnan Jafferi,Telecommunications Engineering
+Engr. Dr. Burhan Hussain,Criminology
+Prof. Dr. Rafay Shah,Project Management
+Prof. Dr. Ahmed Rajput,Public Administration
+Engr. Dr. Rafay Hashmi,Energy Systems Engineering
+Engr. Dr. Anas Dar,Biotechnology
+Prof. Dr. Hamza Gondal,Management Sciences
+Dr. Danish Wani,Education
+Engr. Dr. Ehsan Sial,Development Studies
+Engr. Dr. Ahsan Hussain,Business Administration
+Prof. Dr. Shoaib Ali,Geophysics
+Engr. Dr. Shoaib Baig,Urban & Regional Planning
+Mr. Yasir Hussain,Materials Engineering
+Engr. Uzair Lodhi,Supply Chain Management
+Prof. Dr. Rayyan Kakakhel,Forensic Science
+Mr. Salman Butt,Accounting & Finance
+Mr. Hamza Warraich,Islamic Banking & Finance
+Dr. Taha Shah,Business Administration
+Engr. Yasir Chishti,Political Science
+Prof. Dr. Hussain Gilani,Industrial Engineering
+Engr. Mahad Gilani,Mechatronics Engineering
+Mr. Sameer Orakzai,Education
+Prof. Dr. Rehan Bangash,Economics
+Engr. Dr. Zubair Mughal,Islamic Studies
+Mr. Shahzaib Cheema,Information Technology
+Prof. Dr. Fahad Memon,Physics
+Dr. Zaryab Dar,Computer Science
+Prof. Dr. Huzaifa Jamali,Linguistics
+Mr. Sameer Malik,Mass Communication
+Dr. Azlan Zaidi,Forensic Science
+Mr. Fahad Baloch,Entrepreneurship
+Dr. Salman Zaidi,Political Science
+Dr. Daniyal Bhatti,Peace & Conflict Studies
+Engr. Rehan Gilani,Linguistics
+Dr. Ehsan Khan,Physics
+Prof. Dr. Ehsan Mirza,Information Technology
+Engr. Anas Arain,Political Science
+Engr. Dr. Yasir Jafferi,Project Management
+Mr. Naveed Kakakhel,Urban & Regional Planning
+Mr. Naveed Kazmi,English Literature
+Engr. Dr. Haris Pasha,Biotechnology
+Engr. Uzair Bugti,International Relations
+Dr. Taha Jafferi,Environmental Engineering
+Dr. Zain Shah,Sociology
+Engr. Dr. Faris Ali,Philosophy
+Dr. Arham Chaudhry,Chemistry
+Dr. Ibrahim Jamali,Accounting & Finance
+Mr. Taha Tareen,Human Resource Management
+Engr. Dr. Zain Siddiqui,Computer Science
+Engr. Dr. Faizan Bugti,Molecular Biology
+Mr. Ammar Rajput,Mechatronics Engineering
+Engr. Dr. Zaryab Khan,Biomedical Engineering
+Engr. Dr. Hussain Sheikh,Environmental Engineering
+Engr. Dr. Ismail Mengal,Linguistics
+Dr. Hasan Chishti,Information Technology
+Prof. Dr. Arham Qureshi,Human Resource Management
+Dr. Saad Gilani,Peace & Conflict Studies
+Dr. Daniyal Shah,Energy Systems Engineering
+Prof. Dr. Hamza Qureshi,Islamic Studies
+Prof. Dr. Kamran Tareen,Islamic Studies
+Dr. Taha Chishti,Environmental Engineering
+Mr. Taha Sial,Business Administration
+Engr. Huzaifa Memon,Industrial Engineering
+Engr. Imran Gondal,International Relations
+Engr. Dr. Sameer Gondal,Artificial Intelligence
+Prof. Dr. Talha Khan,Statistics
+Dr. Murtaza Madni,Business Administration
+Prof. Dr. Azlan Kakakhel,Criminology
+Engr. Musa Dar,Law
+Prof. Dr. Ahmed Kiani,Chemical Engineering
+Dr. Zaryab Rizvi,Mechanical Engineering
+Prof. Dr. Bilal Hussain,Media Studies
+Prof. Dr. Hussain Rajput,Chemistry
+Prof. Dr. Azlan Arain,Sociology
+Mr. Saad Baloch,Sociology
+Dr. Faizan Hussain,Architecture
+Engr. Abdullah Pasha,Political Science
+Dr. Zubair Kiani,Economics
+Dr. Ayaan Kazmi,Islamic Studies
+Mr. Daniyal Kazmi,Islamic Studies
+Engr. Faris Ahmed,Microbiology
+Mr. Rayyan Farooq,Telecommunications Engineering
+Prof. Dr. Shahmeer Siddiqui,Chemical Engineering
+Dr. Faris Madni,Artificial Intelligence
+Engr. Dr. Adnan Butt,Criminology
+Engr. Dr. Rameez Wani,Supply Chain Management
+Prof. Dr. Sameer Chishti,Islamic Studies
+Mr. Kamran Khosa,Public Administration
+Prof. Dr. Yasir Shah,Public Administration
+Engr. Dr. Zain Kiani,Biomedical Engineering
+Prof. Dr. Asad Warraich,Criminology
+Dr. Haris Malik,Geophysics
+Engr. Hamza Orakzai,Project Management
+Engr. Dr. Mahad Gondal,Mechatronics Engineering
+Prof. Dr. Burhan Khan,Environmental Engineering
+Mr. Taha Gondal,Geophysics
+Dr. Saad Baig,Psychology
+Dr. Haseeb Kiani,Accounting & Finance
+Engr. Salman Kiani,Supply Chain Management
+Prof. Dr. Imran Gilani,Environmental Engineering
+Engr. Mahad Yousafzai,Electrical Engineering
+Prof. Dr. Anas Kazmi,Linguistics
+Engr. Adeel Bukhari,Mathematics
+Prof. Dr. Adeel Baig,Philosophy
+Dr. Faris Rajput,Geology
+Prof. Dr. Bilal Kakakhel,Software Engineering
+Mr. Zain Mirza,Civil Engineering
+Mr. Murtaza Naqvi,Media Studies
+Engr. Dr. Shahmeer Baig,Supply Chain Management
+Prof. Dr. Nabeel Ali,Psychology
+Prof. Dr. Waleed Bugti,Business Administration
+Prof. Dr. Huzaifa Lodhi,Artificial Intelligence
+Mr. Ibrahim Pasha,Sociology
+Prof. Dr. Rehan Naqvi,Geophysics
+Prof. Dr. Ayaan Wani,Islamic Banking & Finance
+Mr. Hamza Memon,Data Science
+Dr. Hasan Gilani,Chemistry
+Engr. Uzair Dar,Mechatronics Engineering
+Engr. Dr. Danish Madni,Telecommunications Engineering
+Engr. Adeel Bangash,Biotechnology
+Engr. Dr. Shayan Hashmi,Molecular Biology
+Dr. Musa Faruqi,Electrical Engineering
+Engr. Dr. Imran Mirza,Business Administration
+Engr. Dr. Faizan Butt,English Literature
+Mr. Rehan Chaudhry,Pakistan Studies
+Dr. Musa Sial,Chemical Engineering
+Engr. Dr. Rehan Madni,Artificial Intelligence
+Dr. Waleed Alvi,Sociology
+Engr. Dr. Haris Awan,English Literature
+Mr. Adeel Ali,Chemistry
+Engr. Dr. Anas Siddiqui,Civil Engineering
+Engr. Qasim Kakakhel,Data Science
+Engr. Uzair Ansari,Mass Communication
+Dr. Adnan Khan,Molecular Biology
+Engr. Dr. Arham Baloch,Development Studies
+Engr. Kashif Sial,Islamic Banking & Finance
+Engr. Dr. Hamza Shah,Sociology
+Engr. Hasan Faruqi,Geology
+Mr. Zubair Bugti,Mathematics
+Dr. Danish Faruqi,Software Engineering
+Prof. Dr. Adnan Warraich,Chemical Engineering
+Engr. Anas Qureshi,Commerce
+Dr. Haris Siddiqui,Commerce
+Engr. Ahmed Memon,Biotechnology
+Engr. Hussain Orakzai,Computer Engineering
+Engr. Ismail Hashmi,Management Sciences
+Engr. Kamran Leghari,Artificial Intelligence
+Mr. Arham Chishti,Project Management
+Engr. Ismail Abbasi,Energy Systems Engineering
+Engr. Imran Ali,Forensic Science
+Prof. Dr. Kashif Sandhu,Chemical Engineering
+Engr. Fahad Sandhu,Criminology
+Dr. Taha Sheikh,Peace & Conflict Studies
+Prof. Dr. Daniyal Yousafzai,Mass Communication
+Prof. Dr. Uzair Pasha,Philosophy
+Engr. Zain Malik,Microbiology
+Mr. Mahad Madni,Islamic Banking & Finance
+Engr. Dr. Huzaifa Ahmed,Philosophy
+Engr. Nabeel Sabri,Environmental Engineering
+Dr. Uzair Khatri,Education
+Engr. Dr. Anas Jafferi,Education
+Prof. Dr. Bilal Bhatti,Human Resource Management
+Prof. Dr. Hamza Awan,Materials Engineering
+Engr. Dr. Shehroz Naqvi,International Relations
+Mr. Rayyan Baig,Mechanical Engineering
+Engr. Talha Malik,Biotechnology
+Engr. Dr. Sameer Siddiqui,Electrical Engineering
+Prof. Dr. Asad Abbasi,Civil Engineering
+Mr. Danish Alvi,Law
+Dr. Faizan Rajput,English Literature
+Engr. Adnan Khatri,English Literature
+Engr. Dr. Huzaifa Jafferi,Education
+Dr. Murtaza Mughal,Islamic Banking & Finance
+Engr. Dr. Ehsan Hussain,Energy Systems Engineering
+Prof. Dr. Burhan Chishti,Islamic Studies
+Engr. Ayaan Bugti,Linguistics
+Engr. Dr. Kashif Qureshi,Entrepreneurship
+Engr. Sameer Lodhi,Business Administration
+Dr. Ahmed Bukhari,Criminology
+Engr. Dr. Mahad Afridi,Development Studies
+Prof. Dr. Areeb Siddiqui,Development Studies
+Mr. Danish Jamali,Energy Systems Engineering
+Engr. Asad Kakakhel,Urban & Regional Planning
+Engr. Shayan Gondal,Physics
+Engr. Naveed Ansari,Forensic Science
+Prof. Dr. Ahsan Lodhi,English Literature
+Dr. Musa Baig,Economics
+Engr. Dr. Junaid Yousafzai,Pakistan Studies
+Prof. Dr. Fahad Jafferi,Psychology
+Mr. Qasim Bangash,Mass Communication
+Engr. Shayan Chishti,Pakistan Studies
+Dr. Danish Ansari,Biotechnology
+Prof. Dr. Adnan Ansari,Data Science
+Engr. Dr. Hasan Usmani,Computer Science
+Engr. Azlan Sabri,Accounting & Finance
+Engr. Junaid Sial,Mechatronics Engineering
+Mr. Rehan Usmani,International Relations
+Prof. Dr. Salman Dar,Urban & Regional Planning
+Dr. Kamran Usmani,Computer Science
+Mr. Uzair Siddiqui,Remote Sensing & GIS
+Mr. Hussain Mughal,Software Engineering
+Dr. Shahzaib Usmani,Mechatronics Engineering
+Dr. Shayan Lodhi,Physics
+Prof. Dr. Uzair Abbasi,Statistics
+Dr. Abdullah Arain,Chemistry
+Engr. Dr. Sameer Hashmi,Public Administration
+Dr. Daniyal Kiani,Biomedical Engineering
+Dr. Ayaan Pasha,Philosophy
+Engr. Dr. Burhan Butt,Geophysics
+Mr. Hamza Kakakhel,Biotechnology
+Prof. Dr. Kashif Bhatti,Political Science
+Engr. Dr. Shoaib Gondal,Linguistics
+Mr. Rayyan Sheikh,Supply Chain Management
+Engr. Dr. Hasan Sial,Islamic Banking & Finance
+Mr. Junaid Qureshi,Software Engineering
+Engr. Dr. Nabeel Mengal,Political Science
+Engr. Dr. Shoaib Usmani,Education
+Engr. Dr. Rayyan Cheema,Electronic Engineering
+Dr. Sameer Sandhu,Philosophy
+Prof. Dr. Anas Usmani,Urban & Regional Planning
+Mr. Shoaib Arain,Materials Engineering
+Prof. Dr. Saad Zaidi,Mechanical Engineering
+Engr. Dr. Taha Chaudhry,Development Studies
+Dr. Daniyal Cheema,English Literature
+Engr. Dr. Anas Jamali,Civil Engineering
+Engr. Shahmeer Madni,Peace & Conflict Studies
+Engr. Dr. Sameer Pandith,Business Administration
+Mr. Shayan Cheema,Islamic Studies
+Prof. Dr. Uzair Kiani,Economics
+Engr. Naveed Hussain,Materials Engineering
+Dr. Abdullah Lodhi,Peace & Conflict Studies
+Prof. Dr. Ibrahim Jafferi,Political Science
+Prof. Dr. Arham Bhatti,Sociology
+Engr. Shoaib Orakzai,International Relations
+Engr. Dr. Talha Sheikh,Industrial Engineering
+Dr. Murtaza Qureshi,Islamic Banking & Finance
+Prof. Dr. Ehsan Mengal,Environmental Engineering
+Dr. Haseeb Kazmi,Supply Chain Management
+Dr. Moiz Usmani,Marketing
+Prof. Dr. Rameez Bukhari,Energy Systems Engineering
+Engr. Ibrahim Usmani,Philosophy
+Engr. Dr. Hamza Kazmi,Criminology
+Mr. Afnan Mirza,Microbiology
+Engr. Areeb Dar,Mechatronics Engineering
+Mr. Naveed Usmani,Development Studies
+Engr. Dr. Shoaib Awan,Environmental Engineering
+Engr. Dr. Zubair Malik,Media Studies
+Mr. Kamran Hashmi,Data Science
+Dr. Moiz Faruqi,Supply Chain Management
+Prof. Dr. Areeb Sial,Industrial Engineering
+Mr. Arham Ahmed,Molecular Biology
+Engr. Danish Hussain,Forensic Science
+Prof. Dr. Afnan Shah,Forensic Science
+Prof. Dr. Azlan Mirza,Entrepreneurship
+Dr. Qasim Lodhi,Biotechnology
+Mr. Ehsan Memon,Computer Science
+Prof. Dr. Faizan Leghari,Geology
+Dr. Rehan Orakzai,Materials Engineering
+Prof. Dr. Nabeel Madni,Chemical Engineering
+Mr. Saad Warraich,Geology
+Engr. Dr. Rameez Hashmi,Energy Systems Engineering
+Engr. Dr. Haseeb Baloch,Chemical Engineering
+Mr. Shoaib Kiani,History
+Engr. Dr. Kamran Baloch,Accounting & Finance
+Engr. Ahmed Gondal,Economics
+Dr. Kashif Ali,Electronic Engineering
+Dr. Afnan Farooq,Electronic Engineering
+Dr. Zubair Zaidi,English Literature
+Engr. Dr. Burhan Baig,Microbiology
+Mr. Waleed Rizvi,Public Administration
+Prof. Dr. Shahmeer Orakzai,Physics
+Engr. Nabeel Ansari,Statistics
+Engr. Dr. Ayaan Malik,Mathematics
+Mr. Uzair Leghari,Architecture
+Prof. Dr. Talha Memon,Human Resource Management
+Mr. Nabeel Ahmed,Public Administration
+Engr. Yasir Warraich,Physics
+Prof. Dr. Hasan Afridi,Economics
+Dr. Zubair Yousafzai,Biotechnology
+Mr. Zaryab Farooq,Molecular Biology
+Engr. Dr. Danish Malik,Psychology
+Dr. Qasim Abbasi,Chemistry
+Engr. Haris Gondal,Data Science
+Engr. Dr. Rafay Kazmi,Business Administration
+Prof. Dr. Arham Gondal,Entrepreneurship
+Prof. Dr. Taha Zaidi,Mechatronics Engineering
+Prof. Dr. Shayan Khatri,Psychology
+Mr. Sameer Wani,Biotechnology
+Dr. Rameez Chaudhry,Economics
+Mr. Haris Qureshi,Computer Engineering
+Dr. Yasir Afridi,Islamic Banking & Finance
+Engr. Ismail Chishti,Mechanical Engineering
+Engr. Dr. Hussain Lodhi,Political Science
+Engr. Danish Qureshi,Electrical Engineering
+Dr. Ismail Bangash,Chemistry
+Dr. Ammar Sandhu,Marketing
+Mr. Rameez Arain,Geology
+Dr. Kamran Pandith,Media Studies
+Engr. Dr. Sameer Jafferi,Architecture
+Engr. Daniyal Pandith,Civil Engineering
+Engr. Uzair Orakzai,Development Studies
+Mr. Huzaifa Yousafzai,Chemistry
+Dr. Murtaza Zaidi,Data Science
+Dr. Ayaan Chishti,Accounting & Finance
+Engr. Dr. Talha Bangash,Media Studies
+Engr. Dr. Ammar Kiani,Business Administration
+Dr. Ismail Faruqi,Project Management
+Prof. Dr. Zaryab Khatri,Geophysics
+Engr. Areeb Mughal,Computer Science
+Engr. Waleed Tareen,Business Administration
+Prof. Dr. Shahzaib Memon,Human Resource Management
+Engr. Ammar Naqvi,Geology
+Prof. Dr. Junaid Ali,Data Science
+Engr. Moiz Leghari,Materials Engineering
+Engr. Dr. Zaryab Gondal,English Literature
+Dr. Rehan Sabri,Information Technology
+Mr. Ayaan Khatri,Data Science
+Mr. Taha Siddiqui,Criminology
+Mr. Naveed Cheema,Computer Science
+Mr. Zaryab Mengal,Mass Communication
+Engr. Dr. Zaryab Warraich,Mathematics
+Dr. Faizan Baloch,Urban & Regional Planning
+Engr. Dr. Rafay Lodhi,Sociology
+Engr. Qasim Kiani,Marketing
+Mr. Shehroz Siddiqui,Biomedical Engineering
+Prof. Dr. Moiz Tareen,Mathematics
+Mr. Zain Sabri,Peace & Conflict Studies
+Engr. Shehroz Bangash,Mechanical Engineering
+Engr. Dr. Zaryab Lodhi,Media Studies
+Prof. Dr. Imran Shah,Mass Communication
+Dr. Adeel Khatri,Peace & Conflict Studies
+Engr. Yasir Leghari,Pakistan Studies
+Engr. Dr. Ismail Rizvi,Pakistan Studies
+Engr. Huzaifa Ansari,Software Engineering
+Mr. Uzair Baloch,Forensic Science
+Mr. Fahad Orakzai,Commerce
+Prof. Dr. Areeb Leghari,Law
+Dr. Ammar Arain,Supply Chain Management
+Engr. Junaid Kiani,Electronic Engineering
+Engr. Dr. Ehsan Pasha,Biotechnology
+Prof. Dr. Ayaan Sheikh,Geophysics
+Dr. Imran Sheikh,Biomedical Engineering
+Mr. Sameer Memon,Management Sciences
+Mr. Abdullah Afridi,Architecture
+Prof. Dr. Sameer Bukhari,Education
+Prof. Dr. Musa Sheikh,Linguistics
+Engr. Murtaza Tareen,Project Management
+Mr. Shayan Usmani,Entrepreneurship
+Prof. Dr. Ahmed Sial,Sociology
+Engr. Dr. Nabeel Butt,Molecular Biology
+Mr. Asad Zaidi,Statistics
+Prof. Dr. Junaid Hussain,Economics
+Mr. Ahmed Pandith,Architecture
+Prof. Dr. Kashif Khosa,Biomedical Engineering
+Dr. Shahzaib Baloch,English Literature
+Dr. Abdullah Khosa,Biomedical Engineering
+Engr. Dr. Kashif Cheema,Urban & Regional Planning
+Engr. Qasim Warraich,Development Studies
+Engr. Dr. Murtaza Baig,Physics
+Engr. Dr. Afnan Madni,Microbiology
+Dr. Burhan Gilani,Supply Chain Management
+Engr. Dr. Zaryab Cheema,Economics
+Mr. Azlan Siddiqui,Project Management
+Mr. Uzair Gilani,Human Resource Management
+Mr. Fahad Kakakhel,Pakistan Studies
+Engr. Arham Arain,Supply Chain Management
+Engr. Shahmeer Bukhari,Media Studies
+Prof. Dr. Waleed Chaudhry,Statistics
+Engr. Ahsan Madni,Law
+Mr. Saad Siddiqui,Electrical Engineering
+Dr. Shayan Tareen,Mass Communication
+Prof. Dr. Murtaza Orakzai,History
+Engr. Abdullah Memon,Urban & Regional Planning
+Engr. Danish Tareen,Architecture
+Engr. Saad Ansari,Commerce
+Engr. Dr. Anas Ansari,Electrical Engineering
+Engr. Rehan Chishti,Project Management
+Prof. Dr. Shahzaib Dar,Law
+Mr. Ismail Awan,Artificial Intelligence
+Engr. Dr. Ammar Khosa,Law
+Mr. Qasim Bukhari,Entrepreneurship
+Engr. Yasir Pasha,Pakistan Studies
+Engr. Yasir Ahmed,Public Administration
+Mr. Rayyan Gondal,History
+Dr. Shoaib Mughal,Chemical Engineering
+Engr. Zaryab Awan,Law
+Engr. Rafay Qureshi,Philosophy
+Engr. Dr. Fahad Shah,Islamic Banking & Finance
+Dr. Azlan Sandhu,History
+Prof. Dr. Bilal Yousafzai,Remote Sensing & GIS
+Engr. Adeel Faruqi,Media Studies
+Engr. Ismail Naqvi,Mechatronics Engineering
+Dr. Zain Arain,Psychology
+Engr. Rehan Wani,Electronic Engineering
+Dr. Ahmed Bugti,International Relations
+Mr. Azlan Gilani,Computer Engineering
+Dr. Rayyan Madni,International Relations
+Mr. Areeb Hashmi,Energy Systems Engineering
+Engr. Hasan Mirza,Electronic Engineering
+Dr. Sameer Bangash,Artificial Intelligence
+Engr. Dr. Huzaifa Mengal,Materials Engineering
+Prof. Dr. Musa Butt,Electrical Engineering
+Dr. Ibrahim Arain,Linguistics
+Engr. Daniyal Lodhi,Marketing
+Prof. Dr. Shayan Arain,Urban & Regional Planning
+Engr. Dr. Kamran Siddiqui,Chemical Engineering
+Prof. Dr. Zubair Dar,Architecture
+Prof. Dr. Shayan Ahmed,Forensic Science
+Dr. Junaid Bugti,Chemical Engineering
+Mr. Zubair Mengal,Materials Engineering
+Engr. Dr. Talha Mirza,Commerce
+Dr. Imran Afridi,Software Engineering
+Mr. Hussain Zaidi,Software Engineering
+Mr. Haris Zaidi,Telecommunications Engineering
+Engr. Ehsan Afridi,Materials Engineering
+Prof. Dr. Anas Pandith,Mechanical Engineering
+Engr. Rayyan Tareen,Linguistics
+Engr. Dr. Asad Bugti,Commerce
+Prof. Dr. Talha Yousafzai,Biomedical Engineering
+Prof. Dr. Musa Usmani,Chemistry
+Engr. Dr. Nabeel Gondal,Criminology
+Prof. Dr. Haris Bugti,Criminology
+Prof. Dr. Ammar Shah,International Relations
+Prof. Dr. Shehroz Leghari,Marketing
+Mr. Shayan Ali,Telecommunications Engineering
+Prof. Dr. Naveed Gondal,Energy Systems Engineering
+Dr. Taha Usmani,Islamic Studies
+Prof. Dr. Hamza Khatri,Business Administration
+Dr. Zain Lodhi,Industrial Engineering
+Dr. Ismail Warraich,Management Sciences
+Engr. Dr. Ibrahim Sabri,Human Resource Management
+Mr. Abdullah Chaudhry,Physics
+Dr. Haris Tareen,Peace & Conflict Studies
+Engr. Dr. Bilal Qureshi,Supply Chain Management
+Mr. Sameer Sheikh,Accounting & Finance
+Mr. Daniyal Khatri,Chemistry
+Prof. Dr. Uzair Ali,Statistics
+Engr. Faris Orakzai,Computer Engineering
+Dr. Ibrahim Kiani,Philosophy
+Mr. Shoaib Warraich,Management Sciences
+Prof. Dr. Ibrahim Warraich,Law
+Engr. Bilal Madni,Biotechnology
+Engr. Dr. Shehroz Sial,Chemical Engineering
+Dr. Zaryab Kazmi,Materials Engineering
+Dr. Imran Bugti,Psychology
+Dr. Qasim Khatri,Physics
+Prof. Dr. Naveed Memon,Information Technology
+Engr. Dr. Rehan Afridi,History
+Mr. Ammar Siddiqui,Public Administration
+Mr. Kamran Memon,Geology
+Mr. Danish Pandith,Electronic Engineering
+Engr. Dr. Rayyan Pasha,Industrial Engineering
+Prof. Dr. Mahad Orakzai,Mass Communication
+Engr. Zaryab Pasha,Artificial Intelligence
+Engr. Fahad Sheikh,Urban & Regional Planning
+Mr. Shoaib Siddiqui,Political Science
+Engr. Abdullah Awan,Forensic Science
+Prof. Dr. Haris Alvi,Business Administration
+Engr. Dr. Azlan Pasha,Software Engineering
+Mr. Zubair Khosa,Public Administration
+Mr. Shahmeer Sandhu,Development Studies
+Prof. Dr. Haris Leghari,Supply Chain Management
+Mr. Ahsan Kiani,English Literature
+Engr. Dr. Danish Khatri,Linguistics
+Engr. Dr. Saad Chishti,Biomedical Engineering
+Engr. Dr. Kamran Baig,Education
+Dr. Afnan Dar,History
+Engr. Dr. Ehsan Malik,Materials Engineering
+Engr. Dr. Areeb Kazmi,Physics
+Engr. Dr. Kashif Baig,Entrepreneurship
+Dr. Rameez Sandhu,Biotechnology
+Engr. Dr. Haseeb Ali,Mechatronics Engineering
+Dr. Burhan Mirza,Chemical Engineering
+Engr. Dr. Danish Chishti,Mechatronics Engineering
+Dr. Shehroz Sheikh,Biotechnology
+Mr. Sameer Tareen,Philosophy
+Engr. Dr. Ayaan Yousafzai,Public Administration
+Mr. Mahad Kazmi,Molecular Biology
+Engr. Dr. Ahsan Bukhari,Electrical Engineering
+Engr. Faris Sabri,Business Administration
+Prof. Dr. Faris Farooq,Geophysics
+Mr. Shayan Gilani,Artificial Intelligence
+Mr. Sameer Khosa,Chemistry
+Engr. Dr. Burhan Alvi,Mathematics
+Dr. Arham Gilani,Energy Systems Engineering
+Prof. Dr. Ayaan Kakakhel,English Literature
+Engr. Nabeel Afridi,Mechatronics Engineering
+Engr. Huzaifa Abbasi,Education
+Dr. Faizan Gilani,Supply Chain Management
+Dr. Haris Shah,Marketing
+Dr. Anas Ahmed,Geophysics
+Mr. Anas Khosa,Business Administration
+Prof. Dr. Azlan Usmani,Industrial Engineering
+Dr. Areeb Gilani,Remote Sensing & GIS
+Dr. Fahad Bukhari,Physics
+Engr. Sameer Rajput,Education
+Mr. Haseeb Pasha,Remote Sensing & GIS
+Mr. Hamza Madni,Islamic Studies
+Engr. Dr. Rameez Hussain,Mechanical Engineering
+Engr. Dr. Hasan Siddiqui,Telecommunications Engineering
+Dr. Ayaan Jamali,Computer Engineering
+Dr. Sameer Arain,Business Administration
+Dr. Kamran Chishti,Islamic Banking & Finance
+Mr. Ahsan Siddiqui,Telecommunications Engineering
+Engr. Dr. Shahmeer Shah,Education
+Engr. Dr. Rehan Bugti,Telecommunications Engineering
+Engr. Dr. Zubair Bukhari,Economics
+Mr. Rehan Sial,Economics
+Mr. Arham Baig,Political Science
+Engr. Dr. Huzaifa Leghari,Management Sciences
+Engr. Dr. Zain Mughal,Marketing
+Dr. Shehroz Shah,Software Engineering
+Mr. Afnan Malik,Remote Sensing & GIS
+Mr. Daniyal Afridi,Management Sciences
+Engr. Dr. Anas Madni,Architecture
+Dr. Ibrahim Yousafzai,History
+Engr. Adnan Shah,Public Administration
+Dr. Areeb Faruqi,Supply Chain Management
+Dr. Afnan Hashmi,Chemistry
+Dr. Shayan Bukhari,Management Sciences
+Engr. Ahmed Chaudhry,Islamic Banking & Finance
+Prof. Dr. Shehroz Memon,Linguistics
+Engr. Ayaan Sabri,Media Studies
+Engr. Imran Cheema,Forensic Science
+Engr. Dr. Salman Madni,Economics
+Prof. Dr. Bilal Bangash,Chemistry
+Dr. Daniyal Gilani,Pakistan Studies
+Mr. Ismail Sheikh,Mass Communication
+Engr. Shehroz Khosa,Forensic Science
+Engr. Faizan Mughal,Law
+Engr. Shehroz Madni,Commerce
+Engr. Afnan Ali,Geophysics
+Engr. Shahmeer Abbasi,Marketing
+Prof. Dr. Ahsan Awan,Supply Chain Management
+Prof. Dr. Adeel Lodhi,Data Science
+Engr. Adnan Sial,Energy Systems Engineering
+Engr. Ahsan Chishti,Psychology
+Engr. Dr. Naveed Chaudhry,Islamic Studies
+Prof. Dr. Burhan Kiani,Law
+Dr. Yasir Khosa,Materials Engineering
+Engr. Dr. Saad Cheema,Chemistry
+Mr. Shayan Pandith,Philosophy
+Dr. Zain Bukhari,Forensic Science
+Engr. Rehan Leghari,Linguistics
+Mr. Qasim Bugti,Pakistan Studies
+Engr. Dr. Azlan Gondal,Statistics
+Dr. Rameez Lodhi,Remote Sensing & GIS
+Engr. Dr. Burhan Sandhu,Electrical Engineering
+Engr. Adnan Yousafzai,Civil Engineering
+Engr. Danish Mengal,Sociology
+Dr. Mahad Naqvi,Energy Systems Engineering
+Mr. Ismail Bugti,Electronic Engineering
+Engr. Dr. Faizan Mirza,Artificial Intelligence
+Dr. Ayaan Orakzai,Management Sciences
+Prof. Dr. Naveed Bukhari,Sociology
+Dr. Yasir Sheikh,Islamic Banking & Finance
+Engr. Burhan Khosa,Environmental Engineering
+Engr. Salman Jamali,Project Management
+Prof. Dr. Salman Rajput,Urban & Regional Planning
+Prof. Dr. Salman Orakzai,Mathematics
+Engr. Dr. Kashif Rizvi,Mathematics
+Prof. Dr. Burhan Pasha,Biotechnology
+Prof. Dr. Nabeel Pasha,Electrical Engineering
+Prof. Dr. Salman Kazmi,Geophysics
+Prof. Dr. Danish Farooq,Physics
+Prof. Dr. Saad Bangash,Biomedical Engineering
+Dr. Danish Orakzai,International Relations
+Engr. Dr. Shahmeer Chishti,Physics
+Mr. Sameer Gilani,Public Administration
+Dr. Abdullah Alvi,Geophysics
+Engr. Dr. Asad Ali,Entrepreneurship
+Mr. Shoaib Hashmi,Electrical Engineering
+Prof. Dr. Shehroz Pasha,Materials Engineering
+Mr. Zaryab Alvi,Biotechnology
+Mr. Burhan Rizvi,Artificial Intelligence
+Prof. Dr. Shahzaib Baig,Sociology
+Engr. Dr. Mahad Malik,Forensic Science
+Mr. Junaid Sandhu,Media Studies
+Dr. Yasir Alvi,Linguistics
+Mr. Shehroz Jafferi,Islamic Studies
+Mr. Azlan Sheikh,Supply Chain Management
+Prof. Dr. Adnan Chaudhry,Project Management
+Mr. Ahsan Cheema,Sociology
+Engr. Dr. Moiz Arain,Philosophy
+Prof. Dr. Taha Bangash,Physics
+Engr. Dr. Ammar Sabri,Artificial Intelligence
+Engr. Dr. Shoaib Bukhari,Urban & Regional Planning
+Dr. Kamran Wani,Forensic Science
+Dr. Rafay Kakakhel,Law
+Prof. Dr. Rafay Cheema,Software Engineering
+Prof. Dr. Bilal Baig,Mechanical Engineering
+Dr. Burhan Rajput,Telecommunications Engineering
+Dr. Asad Hussain,Management Sciences
+Dr. Adeel Pasha,Remote Sensing & GIS
+Dr. Anas Sandhu,Geophysics
+Mr. Asad Leghari,Pakistan Studies
+Mr. Hasan Gondal,Computer Science
+Prof. Dr. Burhan Bukhari,Mass Communication
+Mr. Saad Qureshi,Supply Chain Management
+Engr. Dr. Abdullah Cheema,Education
+Engr. Dr. Zaryab Sheikh,Mathematics
+Dr. Areeb Abbasi,Business Administration
+Engr. Dr. Musa Sabri,Civil Engineering
+Engr. Rameez Madni,Computer Science
+Prof. Dr. Areeb Kiani,Microbiology
+Engr. Rayyan Sandhu,Media Studies
+Engr. Fahad Hussain,Remote Sensing & GIS
+Dr. Shoaib Abbasi,Biotechnology
+Prof. Dr. Waleed Qureshi,Electronic Engineering
+Engr. Dr. Hasan Mengal,Forensic Science
+Engr. Hasan Hashmi,Information Technology
+Dr. Salman Gilani,Criminology
+Prof. Dr. Anas Afridi,Remote Sensing & GIS
+Dr. Haseeb Orakzai,Law
+Engr. Moiz Yousafzai,Molecular Biology
+Dr. Saad Naqvi,Materials Engineering
+Mr. Bilal Khatri,Computer Engineering
+Mr. Waleed Pasha,Commerce
+Dr. Nabeel Orakzai,Artificial Intelligence
+Dr. Ahsan Naqvi,Software Engineering
+Dr. Qasim Wani,Civil Engineering
+Dr. Rayyan Qureshi,Computer Engineering
+Prof. Dr. Zain Naqvi,Human Resource Management
+Mr. Qasim Cheema,Economics
+Engr. Dr. Hussain Gondal,Management Sciences
+Engr. Dr. Ammar Jafferi,Education
+Engr. Dr. Haseeb Hashmi,Environmental Engineering
+Prof. Dr. Faris Naqvi,Political Science
+Engr. Taha Afridi,Law
+Mr. Talha Sial,Statistics
+Engr. Dr. Junaid Abbasi,Project Management
+Mr. Azlan Cheema,Mass Communication
+Engr. Dr. Afnan Pasha,Biomedical Engineering
+Dr. Imran Usmani,Information Technology
+Prof. Dr. Naveed Baig,Linguistics
+Engr. Dr. Rafay Khosa,Biomedical Engineering
+Dr. Hasan Dar,Molecular Biology
+Engr. Dr. Haseeb Pandith,Philosophy
+Engr. Dr. Zaryab Kiani,Sociology
+Prof. Dr. Waleed Afridi,International Relations
+Prof. Dr. Qasim Arain,Statistics
+Engr. Ammar Farooq,Forensic Science
+Engr. Dr. Shahmeer Khan,Computer Science
+Engr. Dr. Rehan Sheikh,Energy Systems Engineering
+Engr. Dr. Waleed Malik,Biotechnology
+Mr. Hussain Rizvi,Software Engineering
+Prof. Dr. Mahad Tareen,Artificial Intelligence
+Engr. Dr. Faizan Bukhari,International Relations
+Engr. Burhan Bugti,Architecture
+Engr. Dr. Shoaib Farooq,Linguistics
+Mr. Sameer Sabri,Mathematics
+Engr. Areeb Hussain,Criminology
+Engr. Shoaib Khosa,Commerce
+Engr. Ammar Madni,Linguistics
+Prof. Dr. Hasan Bukhari,Business Administration
+Engr. Haseeb Sial,Islamic Banking & Finance
+Dr. Ismail Ahmed,Forensic Science
+Prof. Dr. Moiz Mengal,Accounting & Finance
+Prof. Dr. Ahmed Arain,International Relations
+Engr. Shahmeer Kiani,Marketing
+Dr. Faris Gondal,Development Studies
+Prof. Dr. Ehsan Kiani,Information Technology
+Mr. Afnan Awan,Linguistics
+Engr. Dr. Sameer Hussain,Biomedical Engineering
+Mr. Haseeb Faruqi,Philosophy
+Prof. Dr. Kashif Faruqi,Chemical Engineering
+Mr. Afnan Yousafzai,Business Administration
+Mr. Azlan Hussain,Sociology
+Mr. Arham Butt,Media Studies
+Prof. Dr. Waleed Memon,Physics
+Prof. Dr. Kamran Cheema,Energy Systems Engineering
+Engr. Talha Orakzai,Marketing
+Dr. Ammar Khatri,Criminology
+Engr. Dr. Sameer Yousafzai,Islamic Studies
+Dr. Huzaifa Warraich,Geology
+Prof. Dr. Ahmed Qureshi,Molecular Biology
+Engr. Dr. Talha Rizvi,Law
+Dr. Anas Mughal,Telecommunications Engineering
+Mr. Sameer Bhatti,Computer Science
+Engr. Rayyan Arain,Geology
+Engr. Shahzaib Abbasi,Industrial Engineering
+Prof. Dr. Ayaan Baloch,Commerce
+Prof. Dr. Rameez Alvi,Chemical Engineering
+Engr. Junaid Baloch,Psychology
+Mr. Ibrahim Mengal,Materials Engineering
+Dr. Areeb Usmani,Linguistics
+Mr. Arham Hashmi,Mathematics
+Engr. Dr. Adnan Bugti,Electrical Engineering
+Dr. Zubair Farooq,Biomedical Engineering
+Prof. Dr. Daniyal Gondal,Philosophy
+Engr. Dr. Nabeel Wani,Public Administration
+Prof. Dr. Bilal Abbasi,Criminology
+Prof. Dr. Saad Bugti,Sociology
+Prof. Dr. Musa Mirza,Chemical Engineering
+Engr. Saad Lodhi,Mechatronics Engineering
+Engr. Dr. Daniyal Awan,Architecture
+Engr. Dr. Bilal Lodhi,Software Engineering
+Engr. Dr. Arham Alvi,Chemistry
+Mr. Abdullah Sandhu,Materials Engineering
+Prof. Dr. Murtaza Bhatti,Development Studies
+Engr. Dr. Arham Afridi,Computer Engineering
+Prof. Dr. Musa Orakzai,Media Studies
+Engr. Nabeel Qureshi,Molecular Biology
+Engr. Dr. Zain Faruqi,Philosophy
+Mr. Zubair Naqvi,Media Studies
+Dr. Bilal Sabri,Microbiology
+Prof. Dr. Imran Qureshi,Microbiology
+Engr. Ehsan Kakakhel,Civil Engineering
+Dr. Rehan Gondal,Biotechnology
+Engr. Dr. Sameer Baig,Mechanical Engineering
+Engr. Dr. Haris Yousafzai,Computer Engineering
+Engr. Areeb Mirza,Energy Systems Engineering
+Mr. Moiz Chaudhry,Data Science
+Prof. Dr. Asad Tareen,Physics
+Prof. Dr. Mahad Cheema,Management Sciences
+Engr. Dr. Azlan Khosa,Industrial Engineering
+Engr. Shehroz Malik,Business Administration
+Mr. Rehan Baloch,Energy Systems Engineering
+Engr. Danish Zaidi,Criminology
+Dr. Adnan Jamali,Political Science
+Dr. Yasir Memon,Molecular Biology
+Mr. Ayaan Chaudhry,Islamic Studies
+Dr. Adeel Rizvi,Islamic Banking & Finance
+Engr. Arham Sandhu,Information Technology
+Engr. Dr. Daniyal Mengal,Public Administration
+Engr. Shahmeer Sial,Geophysics
+Dr. Ibrahim Naqvi,Political Science
+Engr. Qasim Mughal,Entrepreneurship
+Engr. Mahad Faruqi,Entrepreneurship
+Dr. Shehroz Jamali,Software Engineering
+Engr. Dr. Asad Lodhi,Sociology
+Dr. Zubair Pasha,Media Studies
+Engr. Dr. Faris Afridi,Geology
+Prof. Dr. Arham Lodhi,Urban & Regional Planning
+Engr. Dr. Asad Gondal,Environmental Engineering
+Mr. Junaid Butt,Psychology
+Mr. Talha Dar,Artificial Intelligence
+Engr. Junaid Usmani,Microbiology
+Prof. Dr. Waleed Orakzai,Economics
+Dr. Haseeb Abbasi,Physics
+Prof. Dr. Shehroz Farooq,Geophysics
+Prof. Dr. Huzaifa Madni,Geology
+Mr. Murtaza Rizvi,Telecommunications Engineering
+Mr. Shehroz Abbasi,Urban & Regional Planning
+Prof. Dr. Faris Kiani,Mathematics
+Engr. Dr. Zain Baloch,Management Sciences
+Mr. Shahzaib Arain,Molecular Biology
+Engr. Dr. Zain Sial,Electrical Engineering
+Engr. Dr. Hasan Bugti,Political Science
+Engr. Hamza Dar,Marketing
+Dr. Nabeel Siddiqui,Accounting & Finance
+Engr. Dr. Hasan Awan,Mathematics
+Engr. Dr. Qasim Leghari,Mechatronics Engineering
+Engr. Uzair Cheema,Computer Engineering
+Mr. Junaid Wani,Remote Sensing & GIS
+Prof. Dr. Shahzaib Sheikh,Forensic Science
+Engr. Shayan Rajput,Biomedical Engineering
+Engr. Dr. Hussain Abbasi,Law
+Prof. Dr. Musa Chaudhry,Development Studies
+Engr. Dr. Arham Zaidi,Biomedical Engineering
+Engr. Danish Kiani,Electrical Engineering
+Engr. Dr. Shoaib Ahmed,Remote Sensing & GIS
+Engr. Faris Hashmi,Mechatronics Engineering
+Engr. Shahmeer Mirza,Law
+Engr. Dr. Imran Khosa,Mechatronics Engineering
+Engr. Dr. Burhan Leghari,Artificial Intelligence
+Engr. Dr. Mahad Hashmi,Islamic Studies
+Prof. Dr. Bilal Gilani,Microbiology
+Dr. Kamran Faruqi,Criminology
+Dr. Huzaifa Dar,Project Management
+Engr. Dr. Hasan Madni,Mechanical Engineering
+Engr. Naveed Sial,Education
+Engr. Dr. Zubair Rizvi,Linguistics
+Engr. Talha Chaudhry,Computer Engineering
+Engr. Dr. Shahmeer Ali,Biotechnology
+Prof. Dr. Ismail Malik,Mathematics
+Engr. Dr. Ammar Mughal,Electrical Engineering
+Prof. Dr. Shehroz Pandith,Education
+Engr. Dr. Zain Orakzai,Data Science
+Prof. Dr. Fahad Khosa,Microbiology
+Mr. Rayyan Jafferi,Psychology
+Engr. Rayyan Malik,Project Management
+Mr. Rameez Qureshi,Education
+Mr. Yasir Bugti,Islamic Studies
+Prof. Dr. Abdullah Gilani,Mechatronics Engineering
+Mr. Rafay Bukhari,Molecular Biology
+Engr. Danish Mirza,Sociology
+Prof. Dr. Shahmeer Yousafzai,Economics
+Prof. Dr. Anas Mengal,History
+Prof. Dr. Daniyal Malik,Psychology
+Dr. Adeel Hussain,Materials Engineering
+Engr. Sameer Farooq,Supply Chain Management
+Prof. Dr. Adnan Farooq,Peace & Conflict Studies
+Mr. Yasir Hashmi,Psychology
+Engr. Dr. Hussain Usmani,Physics
+Mr. Waleed Madni,Economics
+Engr. Hamza Ali,Chemical Engineering
+Prof. Dr. Daniyal Leghari,Sociology
+Mr. Murtaza Cheema,Computer Science
+Engr. Dr. Shayan Kiani,Environmental Engineering
+Mr. Zaryab Hashmi,Industrial Engineering
+Engr. Dr. Asad Chishti,Information Technology
+Engr. Rehan Baig,Microbiology
+Engr. Saad Mengal,Computer Engineering
+Prof. Dr. Haseeb Khan,Psychology
+Engr. Dr. Bilal Kazmi,Molecular Biology
+Dr. Ibrahim Gilani,Remote Sensing & GIS
+Dr. Rafay Ahmed,Chemistry
+Engr. Hasan Sheikh,Geophysics
+Engr. Fahad Bugti,Linguistics
+Dr. Hasan Butt,Statistics
+Prof. Dr. Zubair Siddiqui,Remote Sensing & GIS
+Dr. Rayyan Orakzai,Data Science
+Dr. Shoaib Bhatti,Accounting & Finance
+Engr. Dr. Shayan Abbasi,Mass Communication
+Dr. Ayaan Pandith,Commerce
+Dr. Faizan Siddiqui,Business Administration
+Engr. Zaryab Memon,Economics
+Engr. Dr. Murtaza Mirza,Marketing
+Dr. Rehan Dar,International Relations
+Mr. Ismail Farooq,Psychology
+Mr. Faizan Sial,Philosophy
+Prof. Dr. Mahad Zaidi,Materials Engineering
+Engr. Dr. Fahad Bangash,Computer Engineering
+Prof. Dr. Hussain Kiani,Philosophy
+Engr. Dr. Hamza Kiani,Software Engineering
+Engr. Dr. Hussain Leghari,Environmental Engineering
+Dr. Faris Bhatti,Psychology
+Mr. Fahad Siddiqui,Pakistan Studies
+Prof. Dr. Asad Pandith,Economics
+Dr. Salman Hashmi,Forensic Science
+Engr. Shoaib Kakakhel,Pakistan Studies
+Prof. Dr. Adnan Gilani,Geology
+Engr. Faizan Kiani,Chemistry
+Engr. Shoaib Cheema,Pakistan Studies
+Engr. Dr. Hussain Naqvi,Forensic Science
+Prof. Dr. Faris Mengal,Chemical Engineering
+Dr. Kashif Leghari,Geophysics
+Engr. Dr. Salman Gondal,Artificial Intelligence
+Mr. Faris Cheema,Commerce
+Prof. Dr. Zaryab Bangash,Data Science
+Dr. Asad Sheikh,Computer Engineering
+Dr. Adnan Leghari,Sociology
+Dr. Arham Dar,Mass Communication
+Dr. Ibrahim Tareen,Statistics
+Mr. Areeb Afridi,Civil Engineering
+Engr. Dr. Huzaifa Chaudhry,Microbiology
+Mr. Nabeel Kazmi,Sociology
+Prof. Dr. Kamran Farooq,Mechanical Engineering
+Engr. Dr. Areeb Yousafzai,Computer Science
+Dr. Abdullah Orakzai,Electronic Engineering
+Engr. Dr. Zain Sheikh,Economics
+Engr. Dr. Rafay Bangash,Geology
+Mr. Huzaifa Butt,Biomedical Engineering
+Prof. Dr. Ismail Chaudhry,Statistics
+Engr. Ayaan Ahmed,Mass Communication
+Dr. Musa Madni,Supply Chain Management
+Engr. Hamza Mughal,Development Studies
+Dr. Ammar Pasha,Software Engineering
+Engr. Dr. Bilal Bugti,Mass Communication
+Prof. Dr. Abdullah Shah,Human Resource Management
+Engr. Hamza Leghari,Human Resource Management
+Dr. Burhan Usmani,Management Sciences
+Dr. Musa Hussain,Public Administration
+Engr. Fahad Kazmi,Mathematics
+Dr. Faizan Bangash,Geology
+Engr. Fahad Butt,Remote Sensing & GIS
+Engr. Dr. Huzaifa Mirza,Electrical Engineering
+Dr. Junaid Baig,Chemistry
+Dr. Faris Siddiqui,Statistics
+Engr. Dr. Danish Sheikh,Education
+Mr. Nabeel Hussain,Accounting & Finance
+Engr. Dr. Ayaan Faruqi,Physics
+Engr. Asad Faruqi,Industrial Engineering
+Engr. Areeb Qureshi,Mathematics
+Engr. Dr. Musa Gondal,Development Studies
+Prof. Dr. Anas Kakakhel,International Relations
+Mr. Ibrahim Khatri,Physics
+Engr. Shayan Mirza,Mechanical Engineering
+Dr. Rameez Mughal,Philosophy
+Prof. Dr. Moiz Ali,Forensic Science
+Engr. Saad Ali,Mass Communication
+Engr. Dr. Hussain Alvi,Civil Engineering
+Mr. Ammar Bukhari,Energy Systems Engineering
+Mr. Qasim Tareen,Mathematics
+Dr. Rafay Yousafzai,Urban & Regional Planning
+Dr. Shayan Jamali,Education
+Engr. Dr. Mahad Jamali,Electronic Engineering
+Prof. Dr. Saad Hashmi,Geology
+Engr. Dr. Yasir Kiani,Energy Systems Engineering
+Prof. Dr. Arham Sheikh,Artificial Intelligence
+Engr. Uzair Chishti,Economics
+Prof. Dr. Shahzaib Bhatti,Human Resource Management
+Mr. Adnan Khosa,Mechatronics Engineering
+Engr. Ehsan Orakzai,History
+Mr. Hussain Baloch,Media Studies
+Dr. Kamran Jamali,Islamic Studies
+Engr. Dr. Yasir Bangash,Architecture
+Mr. Musa Ali,Islamic Studies
+Engr. Rehan Bukhari,Molecular Biology
+Prof. Dr. Haris Mengal,Linguistics
+Engr. Zubair Usmani,Molecular Biology
+Engr. Fahad Malik,Software Engineering
+Dr. Rayyan Mughal,Remote Sensing & GIS
+Mr. Haseeb Rizvi,International Relations
+Prof. Dr. Sameer Zaidi,Chemistry
+Engr. Dr. Talha Gondal,Architecture
+Engr. Burhan Afridi,Human Resource Management
+Engr. Afnan Abbasi,Environmental Engineering
+Engr. Dr. Bilal Chishti,English Literature
+Prof. Dr. Sameer Ahmed,Physics
+Engr. Ayaan Abbasi,Environmental Engineering
+Engr. Kamran Bugti,Management Sciences
+Mr. Junaid Ahmed,Development Studies
+Engr. Dr. Danish Baig,Philosophy
+Engr. Shehroz Usmani,English Literature
+Engr. Dr. Mahad Abbasi,Economics
+Engr. Dr. Taha Malik,Telecommunications Engineering
+Engr. Dr. Zaryab Bukhari,Remote Sensing & GIS
+Prof. Dr. Ehsan Gilani,Mass Communication
+Engr. Dr. Faizan Afridi,Peace & Conflict Studies
+Dr. Taha Khatri,Mechatronics Engineering
+Dr. Waleed Dar,Marketing
+Mr. Moiz Sabri,Political Science
+Engr. Dr. Qasim Afridi,Urban & Regional Planning
+Engr. Dr. Salman Arain,Computer Engineering
+Engr. Dr. Ibrahim Orakzai,History
+Engr. Hussain Awan,Information Technology
+Engr. Huzaifa Khan,Linguistics
+Engr. Dr. Bilal Chaudhry,Industrial Engineering
+Engr. Musa Farooq,Biotechnology
+Mr. Azlan Shah,Telecommunications Engineering
+Engr. Burhan Wani,Industrial Engineering
+Mr. Shehroz Chishti,Mathematics
+Engr. Dr. Burhan Mughal,Human Resource Management
+Mr. Anas Sheikh,Supply Chain Management
+Engr. Adeel Rajput,Mechatronics Engineering
+Engr. Hussain Khosa,Mathematics
+Engr. Shehroz Faruqi,Molecular Biology
+Mr. Ismail Rajput,Marketing
+Dr. Shayan Memon,Sociology
+Prof. Dr. Afnan Siddiqui,Industrial Engineering
+Engr. Dr. Sameer Shah,Development Studies
+Prof. Dr. Burhan Arain,Telecommunications Engineering
+Mr. Moiz Butt,Civil Engineering
+Engr. Shehroz Sabri,Media Studies
+Mr. Huzaifa Ali,Mechatronics Engineering
+Engr. Ibrahim Pandith,Media Studies
+Engr. Dr. Abdullah Mughal,Remote Sensing & GIS
+Prof. Dr. Naveed Bhatti,Mass Communication
+Dr. Naveed Dar,International Relations
+Engr. Shahzaib Madni,Statistics
+Engr. Dr. Saad Pandith,Materials Engineering
+Mr. Huzaifa Hussain,Development Studies
+Prof. Dr. Adnan Mughal,Entrepreneurship
+Engr. Faris Wani,Mathematics
+Prof. Dr. Ammar Usmani,Development Studies
+Engr. Abdullah Wani,Criminology
+Mr. Ahsan Bhatti,Energy Systems Engineering
+Engr. Imran Siddiqui,Civil Engineering
+Mr. Ibrahim Rajput,Software Engineering
+Engr. Waleed Leghari,History
+Dr. Junaid Awan,Biotechnology
+Engr. Dr. Haseeb Mengal,Psychology
+Prof. Dr. Haseeb Arain,Computer Science
+Engr. Shahzaib Wani,Entrepreneurship
+Mr. Ammar Bugti,Urban & Regional Planning
+Prof. Dr. Ahsan Dar,Political Science
+Mr. Asad Bangash,Economics
+Prof. Dr. Asad Sandhu,Public Administration
+Prof. Dr. Imran Arain,International Relations
+Dr. Imran Kazmi,Islamic Banking & Finance
+Prof. Dr. Moiz Alvi,International Relations
+Mr. Abdullah Bangash,Environmental Engineering
+Dr. Murtaza Kiani,Media Studies
+Engr. Burhan Cheema,Accounting & Finance
+Dr. Faizan Pandith,Mass Communication
+Engr. Dr. Waleed Shah,Islamic Studies
+Mr. Burhan Orakzai,Computer Science
+Prof. Dr. Ayaan Butt,Development Studies
+Dr. Shoaib Lodhi,Biotechnology
+Engr. Dr. Ammar Khan,Architecture
+Engr. Musa Bugti,Media Studies
+Engr. Dr. Afnan Sandhu,Law
+Dr. Kashif Malik,Materials Engineering
+Engr. Azlan Kazmi,History
+Mr. Zain Alvi,Artificial Intelligence
+Dr. Haris Rajput,Development Studies
+Engr. Mahad Bugti,Criminology
+Prof. Dr. Asad Jafferi,Forensic Science
+Dr. Talha Pasha,Geophysics
+Dr. Moiz Malik,Biomedical Engineering
+Prof. Dr. Junaid Pandith,Mechatronics Engineering
+Engr. Ahmed Naqvi,Biotechnology
+Engr. Dr. Ahsan Ahmed,Islamic Banking & Finance
+Dr. Naveed Lodhi,Geology
+Dr. Rameez Kakakhel,Linguistics
+Engr. Talha Gilani,Project Management
+Prof. Dr. Shayan Bhatti,English Literature
+Engr. Danish Hashmi,Energy Systems Engineering
+Engr. Dr. Zubair Hashmi,Entrepreneurship
+Dr. Danish Awan,Data Science
+Prof. Dr. Afnan Leghari,Islamic Banking & Finance
+Mr. Taha Kakakhel,Remote Sensing & GIS
+Mr. Taha Rizvi,Molecular Biology
+Engr. Junaid Pasha,Forensic Science
+Prof. Dr. Uzair Memon,English Literature
+Engr. Ahsan Yousafzai,Commerce
+Engr. Dr. Rafay Khatri,Architecture
+Dr. Faizan Sandhu,Mechatronics Engineering
+Prof. Dr. Ayaan Dar,Mathematics
+Dr. Huzaifa Cheema,Environmental Engineering
+Dr. Hussain Khan,Molecular Biology
+Prof. Dr. Daniyal Madni,Project Management
+Engr. Azlan Ansari,Electronic Engineering
+Mr. Azlan Naqvi,International Relations
+Engr. Dr. Talha Ansari,Chemistry
+Engr. Dr. Afnan Zaidi,Islamic Banking & Finance
+Prof. Dr. Adeel Khan,Computer Science
+Prof. Dr. Waleed Wani,Media Studies
+Prof. Dr. Ibrahim Leghari,Forensic Science
+Engr. Dr. Hussain Memon,Criminology
+Engr. Dr. Uzair Kakakhel,Supply Chain Management
+Prof. Dr. Faris Usmani,Architecture
+Engr. Uzair Hashmi,Civil Engineering
+Mr. Ahmed Butt,Media Studies
+Dr. Rameez Farooq,Environmental Engineering
+Prof. Dr. Shahzaib Bangash,Software Engineering
+Prof. Dr. Murtaza Usmani,Development Studies
+Dr. Haris Memon,Architecture
+Dr. Ehsan Mughal,Peace & Conflict Studies
+Prof. Dr. Hussain Hussain,Artificial Intelligence
+Mr. Uzair Butt,Civil Engineering
+Dr. Yasir Mengal,Statistics
+Dr. Rayyan Rizvi,Marketing
+Engr. Dr. Shahzaib Butt,Entrepreneurship
+Engr. Rameez Mengal,Mathematics
+Engr. Nabeel Bangash,Mechatronics Engineering
+Prof. Dr. Ammar Wani,Mechatronics Engineering
+Dr. Zain Khan,Geophysics
+Engr. Uzair Farooq,Psychology
+Engr. Dr. Zaryab Pandith,Peace & Conflict Studies
+Engr. Dr. Mahad Khan,Law
+Prof. Dr. Zubair Ansari,Mass Communication
+Dr. Asad Memon,Environmental Engineering
+Engr. Dr. Adnan Alvi,Public Administration
+Prof. Dr. Shayan Sheikh,Philosophy
+Engr. Dr. Fahad Faruqi,Public Administration
+Engr. Dr. Kashif Mughal,Peace & Conflict Studies
+Mr. Shoaib Khan,Management Sciences
+Engr. Dr. Adeel Sandhu,Accounting & Finance
+Dr. Uzair Wani,Chemistry
+Engr. Dr. Ehsan Baloch,Mass Communication
+Engr. Ibrahim Wani,Electronic Engineering
+Engr. Dr. Abdullah Bhatti,Business Administration
+Dr. Daniyal Memon,Management Sciences
+Engr. Dr. Shahmeer Kakakhel,Media Studies
+Mr. Musa Mengal,History
+Mr. Saad Gondal,Mathematics
+Mr. Musa Bukhari,Supply Chain Management
+Dr. Ismail Mirza,Forensic Science
+Engr. Dr. Rafay Pasha,Chemistry
+Mr. Fahad Sial,Law
+Mr. Areeb Jafferi,Law
+Dr. Salman Mughal,Chemistry
+Dr. Hamza Naqvi,Education
+Mr. Shehroz Mengal,Entrepreneurship
+Dr. Hussain Cheema,Philosophy
+Engr. Shoaib Khatri,Urban & Regional Planning
+Engr. Abdullah Chishti,Physics
+Mr. Arham Khan,Political Science
+Engr. Dr. Ahmed Khosa,Urban & Regional Planning
+Prof. Dr. Kamran Ali,International Relations
+Prof. Dr. Huzaifa Pandith,Islamic Studies
+Engr. Dr. Abdullah Qureshi,Geology
+Engr. Zain Dar,Electronic Engineering
+Dr. Zubair Kakakhel,History
+Mr. Nabeel Khatri,Business Administration
+Dr. Ammar Alvi,Information Technology
+Dr. Ahmed Shah,Mathematics
+Mr. Azlan Orakzai,Psychology
+Mr. Ammar Baloch,Energy Systems Engineering
+Mr. Mahad Sheikh,Information Technology
+Engr. Naveed Ali,Biotechnology
+Engr. Taha Wani,Peace & Conflict Studies
+Prof. Dr. Daniyal Mirza,Islamic Studies
+Prof. Dr. Taha Baloch,Environmental Engineering
+Engr. Adnan Bangash,Public Administration
+Mr. Shoaib Chishti,Sociology
+Engr. Ibrahim Memon,Political Science
+Engr. Dr. Moiz Hussain,Economics
+Engr. Dr. Kashif Khatri,Physics
+Engr. Dr. Shayan Mughal,Chemistry
+Mr. Shahzaib Leghari,Industrial Engineering
+Mr. Rafay Sabri,Electrical Engineering
+Prof. Dr. Ahmed Yousafzai,Telecommunications Engineering
+Engr. Dr. Sameer Kakakhel,Civil Engineering
+Engr. Nabeel Farooq,International Relations
+Dr. Imran Zaidi,Supply Chain Management
+Prof. Dr. Areeb Sandhu,Statistics
+Engr. Imran Sial,Management Sciences
+Prof. Dr. Ahsan Mirza,Physics
+Mr. Azlan Yousafzai,Electronic Engineering
+Prof. Dr. Arham Bugti,Geology
+Engr. Ahsan Jamali,Energy Systems Engineering
+Engr. Dr. Huzaifa Hashmi,Industrial Engineering
+Mr. Moiz Gondal,Peace & Conflict Studies
+Engr. Dr. Taha Farooq,Mathematics
+Engr. Rafay Mengal,Supply Chain Management
+Dr. Ahsan Mengal,Project Management
+Engr. Faris Butt,Psychology
+Mr. Haseeb Ahmed,Electrical Engineering
+Engr. Dr. Mahad Mughal,Media Studies
+Prof. Dr. Bilal Memon,Telecommunications Engineering
+Mr. Daniyal Sheikh,Media Studies
+Engr. Imran Jamali,Industrial Engineering
+Mr. Uzair Rajput,History
+Prof. Dr. Shehroz Awan,Energy Systems Engineering
+Prof. Dr. Faizan Jamali,Chemical Engineering
+Mr. Shayan Shah,Environmental Engineering
+Engr. Dr. Murtaza Bugti,Law
+Dr. Saad Malik,Human Resource Management
+Prof. Dr. Ibrahim Kazmi,Computer Science
+Engr. Fahad Warraich,Entrepreneurship
+Engr. Dr. Ahmed Faruqi,Philosophy
+Prof. Dr. Waleed Gilani,Psychology
+Dr. Abdullah Kazmi,Materials Engineering
+Engr. Moiz Baloch,Psychology
+Engr. Dr. Zubair Baloch,Data Science
+Engr. Qasim Baloch,Artificial Intelligence
+Engr. Dr. Afnan Rajput,Geophysics
+Mr. Shahzaib Zaidi,Media Studies
+Dr. Daniyal Ahmed,Environmental Engineering
+Prof. Dr. Shahzaib Kakakhel,Accounting & Finance
+Engr. Ammar Abbasi,Islamic Studies
+Mr. Bilal Tareen,Entrepreneurship
+Dr. Adnan Abbasi,Media Studies
+Engr. Fahad Pasha,Commerce
+Prof. Dr. Nabeel Rizvi,Entrepreneurship
+Mr. Faizan Orakzai,Accounting & Finance
+Engr. Dr. Qasim Jafferi,Software Engineering
+Prof. Dr. Qasim Jamali,Software Engineering
+Engr. Zubair Sial,Geology
+Mr. Saad Arain,Software Engineering
+Engr. Dr. Waleed Kiani,Project Management
+Prof. Dr. Azlan Bukhari,Criminology
+Engr. Arham Malik,Chemistry
+Engr. Huzaifa Kazmi,Media Studies
+Prof. Dr. Hasan Kiani,Chemical Engineering
+Engr. Dr. Waleed Bhatti,English Literature
+Engr. Afnan Alvi,Geology
+Engr. Dr. Zubair Sandhu,Mechanical Engineering
+Engr. Rafay Leghari,Islamic Banking & Finance
+Dr. Rayyan Ali,Economics
+Mr. Ibrahim Zaidi,Law
+Prof. Dr. Waleed Gondal,Remote Sensing & GIS
+Dr. Haseeb Shah,Data Science
+Engr. Qasim Zaidi,Civil Engineering
+Mr. Ibrahim Faruqi,Pakistan Studies
+Engr. Shahzaib Faruqi,Criminology
+Engr. Dr. Waleed Warraich,Marketing
+Engr. Shehroz Chaudhry,Energy Systems Engineering
+Prof. Dr. Musa Abbasi,Mass Communication
+Engr. Dr. Areeb Rajput,International Relations
+Mr. Areeb Chaudhry,Project Management
+Mr. Imran Rizvi,Development Studies
+Dr. Zain Tareen,Pakistan Studies
+Dr. Adeel Warraich,Data Science
+Dr. Asad Farooq,Biomedical Engineering
+Engr. Dr. Haseeb Wani,Civil Engineering
+Dr. Kashif Pandith,Energy Systems Engineering
+Dr. Azlan Rizvi,Remote Sensing & GIS
+Engr. Salman Afridi,History
+Dr. Shayan Sial,Computer Science
+Engr. Dr. Zain Awan,Pakistan Studies
+Prof. Dr. Adeel Malik,Forensic Science
+Prof. Dr. Asad Mengal,Accounting & Finance
+Engr. Asad Cheema,English Literature
+Engr. Dr. Fahad Arain,Microbiology
+Engr. Areeb Awan,Economics
+Engr. Dr. Ammar Jamali,Telecommunications Engineering
+Prof. Dr. Talha Jamali,Urban & Regional Planning
+Dr. Musa Mughal,Management Sciences
+Engr. Dr. Ahmed Usmani,Architecture
+Dr. Talha Faruqi,Physics
+Engr. Dr. Afnan Jamali,Pakistan Studies
+Engr. Adnan Kiani,Energy Systems Engineering
+Engr. Dr. Hasan Cheema,History
+Mr. Faris Leghari,Linguistics
+Engr. Dr. Yasir Usmani,Materials Engineering
+Dr. Ammar Kazmi,Linguistics
+Engr. Dr. Imran Warraich,Islamic Studies
+Engr. Arham Tareen,Geology
+Dr. Kashif Hashmi,Mass Communication
+Engr. Dr. Ibrahim Sial,Information Technology
+Mr. Hasan Pasha,Geology
+Engr. Dr. Hamza Rajput,Geophysics
+Dr. Nabeel Malik,Materials Engineering
+Engr. Shahzaib Orakzai,Computer Engineering
+Engr. Dr. Junaid Sabri,Energy Systems Engineering
+Mr. Areeb Ahmed,Management Sciences
+Engr. Dr. Kamran Mengal,Development Studies
+Engr. Dr. Moiz Sandhu,Civil Engineering
+Dr. Anas Zaidi,Criminology
+Dr. Salman Sabri,Management Sciences
+Dr. Shahmeer Tareen,Islamic Studies
+Engr. Dr. Sameer Afridi,Peace & Conflict Studies
+Mr. Rehan Kazmi,Microbiology
+Mr. Ahsan Pandith,Architecture
+Mr. Ayaan Tareen,Accounting & Finance
+Prof. Dr. Qasim Kazmi,Human Resource Management
+Dr. Azlan Bangash,Information Technology
+Engr. Faizan Naqvi,Mechatronics Engineering
+Prof. Dr. Zubair Cheema,Commerce
+Engr. Dr. Ammar Malik,Economics
+Dr. Ahsan Farooq,Architecture
+Mr. Asad Orakzai,Biotechnology
+Engr. Ammar Hussain,Human Resource Management
+Engr. Imran Mughal,Biomedical Engineering
+Engr. Haseeb Bhatti,Management Sciences
+Engr. Anas Leghari,Media Studies
+Engr. Dr. Rameez Gilani,Information Technology
+Prof. Dr. Rehan Malik,Political Science
+Engr. Arham Bangash,Civil Engineering
+Dr. Shahzaib Qureshi,Chemical Engineering
+Mr. Asad Ansari,Mass Communication
+Dr. Ahmed Baloch,Mass Communication
+Mr. Anas Mirza,Biomedical Engineering
+Dr. Kamran Yousafzai,Management Sciences
+Engr. Dr. Hussain Farooq,Architecture
+Engr. Dr. Zubair Memon,Molecular Biology
+Engr. Moiz Awan,Mathematics
+Dr. Salman Usmani,Development Studies
+Engr. Danish Bangash,Civil Engineering
+Mr. Shahzaib Sandhu,Islamic Banking & Finance
+Prof. Dr. Junaid Shah,Information Technology
+Engr. Ayaan Gilani,Software Engineering
+Engr. Dr. Hamza Khosa,Geophysics
+Engr. Dr. Rehan Lodhi,Energy Systems Engineering
+Prof. Dr. Kashif Orakzai,Marketing
+Engr. Adnan Tareen,Project Management
+Mr. Zaryab Siddiqui,Project Management
+Engr. Sameer Alvi,Forensic Science
+Engr. Dr. Kashif Pasha,Materials Engineering
+Mr. Huzaifa Gilani,English Literature
+Mr. Azlan Memon,Islamic Studies
+Prof. Dr. Danish Kakakhel,Media Studies
+Engr. Ahmed Bhatti,Education
+Engr. Dr. Zaryab Sial,Supply Chain Management
+Engr. Yasir Gondal,Criminology
+Mr. Taha Sandhu,Economics
+Dr. Ammar Zaidi,Telecommunications Engineering
+Prof. Dr. Faris Hussain,Public Administration
+Mr. Faizan Memon,Microbiology
+Prof. Dr. Areeb Warraich,History
+Dr. Rameez Rizvi,Software Engineering
+Engr. Shahmeer Dar,Biotechnology
+Engr. Haseeb Rajput,Entrepreneurship
+Engr. Talha Farooq,Criminology
+Mr. Shahmeer Bhatti,Information Technology
+Prof. Dr. Yasir Orakzai,Biomedical Engineering
+Engr. Dr. Shahmeer Memon,Psychology
+Prof. Dr. Haseeb Leghari,Marketing
+Dr. Danish Butt,Economics
+Mr. Zubair Shah,Artificial Intelligence
+Mr. Arham Mengal,Mechatronics Engineering
+Dr. Naveed Faruqi,English Literature
+Engr. Naveed Mirza,Statistics
+Prof. Dr. Rehan Kiani,Mathematics
+Engr. Ayaan Awan,Political Science
+Prof. Dr. Uzair Khosa,Linguistics
+Prof. Dr. Ahmed Lodhi,Industrial Engineering
+Prof. Dr. Murtaza Mengal,Public Administration
+Dr. Faris Faruqi,Statistics
+Dr. Adeel Memon,Philosophy
+Engr. Dr. Rameez Naqvi,Accounting & Finance
+Engr. Adeel Afridi,International Relations
+Engr. Dr. Burhan Sabri,Supply Chain Management
+Engr. Dr. Ammar Orakzai,Mass Communication
+Prof. Dr. Musa Bhatti,Education
+Dr. Ahsan Mughal,Remote Sensing & GIS
+Mr. Ayaan Baig,Accounting & Finance
+Dr. Zaryab Jafferi,Sociology
+Prof. Dr. Shoaib Alvi,Biomedical Engineering
+Dr. Bilal Baloch,Software Engineering
+Engr. Dr. Fahad Rizvi,Remote Sensing & GIS
+Engr. Dr. Areeb Mengal,Materials Engineering
+Engr. Taha Faruqi,Mass Communication
+Engr. Dr. Shayan Khosa,Energy Systems Engineering
+Mr. Imran Memon,Biotechnology
+Engr. Ismail Memon,Accounting & Finance
+Dr. Yasir Bukhari,Commerce
+Mr. Anas Bhatti,Mathematics
+Prof. Dr. Uzair Zaidi,Entrepreneurship
+Engr. Dr. Huzaifa Mughal,Philosophy
+Engr. Burhan Gondal,Electronic Engineering
+Mr. Qasim Madni,Software Engineering
+Engr. Dr. Shoaib Bangash,Telecommunications Engineering
+Dr. Ibrahim Rizvi,Data Science
+Engr. Dr. Azlan Malik,Chemical Engineering
+Engr. Bilal Mirza,Remote Sensing & GIS
+Prof. Dr. Daniyal Ali,Remote Sensing & GIS
+Mr. Uzair Warraich,Human Resource Management
+Prof. Dr. Musa Lodhi,Environmental Engineering
+Mr. Huzaifa Awan,Artificial Intelligence
+Engr. Dr. Zaryab Malik,Media Studies
+Mr. Faizan Kakakhel,Civil Engineering
+Engr. Dr. Qasim Chaudhry,Electronic Engineering
+Engr. Musa Zaidi,Electrical Engineering
+Mr. Musa Malik,Electrical Engineering
+Engr. Dr. Saad Yousafzai,Political Science
+Mr. Ahsan Gondal,Philosophy
+Mr. Nabeel Gilani,Supply Chain Management
+Prof. Dr. Hamza Sheikh,Industrial Engineering
+Mr. Adeel Sial,Philosophy
+Engr. Ahsan Qureshi,Artificial Intelligence
+Mr. Saad Bukhari,Linguistics
+Mr. Mahad Baloch,History
+Dr. Ahmed Leghari,Public Administration
+Dr. Hasan Mughal,Human Resource Management
+Prof. Dr. Afnan Kakakhel,Public Administration
+Prof. Dr. Haseeb Bangash,Islamic Studies
+Dr. Taha Khan,History
+Prof. Dr. Areeb Khatri,Media Studies
+Engr. Kashif Awan,Statistics
+Prof. Dr. Junaid Gondal,Human Resource Management
+Mr. Ismail Arain,Biotechnology
+Engr. Ahmed Khan,Statistics
+Prof. Dr. Adnan Hashmi,Project Management
+Prof. Dr. Ismail Jamali,Chemistry
+Engr. Dr. Rayyan Ahmed,Criminology
+Engr. Dr. Afnan Sabri,Electrical Engineering
+Mr. Adeel Khosa,Architecture
+Prof. Dr. Salman Ansari,History
+Engr. Dr. Burhan Faruqi,Civil Engineering
+Prof. Dr. Zaryab Bhatti,Data Science
+Engr. Rayyan Kazmi,Public Administration
+Prof. Dr. Rameez Ahmed,Energy Systems Engineering
+Engr. Anas Bukhari,Mechatronics Engineering
+Engr. Bilal Wani,Islamic Studies
+Engr. Dr. Zubair Butt,Economics
+Mr. Haris Warraich,Remote Sensing & GIS
+Mr. Adnan Baig,Supply Chain Management
+Engr. Dr. Haseeb Cheema,Software Engineering
+Mr. Azlan Mughal,Energy Systems Engineering
+Engr. Dr. Burhan Madni,Architecture
+Mr. Salman Farooq,Physics
+Mr. Rayyan Rajput,Human Resource Management
+Prof. Dr. Zubair Orakzai,Mechatronics Engineering
+Engr. Imran Chaudhry,Artificial Intelligence
+Dr. Adeel Kakakhel,Artificial Intelligence
+Mr. Nabeel Dar,Physics
+Prof. Dr. Talha Qureshi,Development Studies
+Dr. Afnan Gilani,Architecture
+Mr. Abdullah Kiani,Geology
+Mr. Nabeel Memon,Entrepreneurship
+Dr. Ahsan Khan,Environmental Engineering
+Engr. Mahad Pasha,Project Management
+Mr. Qasim Dar,Computer Science
+Prof. Dr. Rayyan Zaidi,Philosophy
+Engr. Dr. Faris Ansari,Environmental Engineering
+Mr. Shoaib Sabri,Data Science
+Prof. Dr. Zaryab Qureshi,Software Engineering
+Mr. Haris Dar,Geophysics
+Dr. Moiz Cheema,Data Science
+Prof. Dr. Shayan Kakakhel,Microbiology
+Dr. Kashif Arain,Civil Engineering
+Prof. Dr. Zain Usmani,History
+Mr. Rafay Awan,Geophysics
+Prof. Dr. Bilal Awan,Islamic Banking & Finance
+Engr. Ayaan Khan,Philosophy
+Prof. Dr. Naveed Shah,Mechanical Engineering
+Dr. Uzair Ahmed,Civil Engineering
+Mr. Ismail Zaidi,Industrial Engineering
+Prof. Dr. Arham Abbasi,Microbiology
+Engr. Ismail Gilani,Media Studies
+Prof. Dr. Adeel Shah,Telecommunications Engineering
+Prof. Dr. Yasir Arain,Entrepreneurship
+Engr. Shahmeer Wani,International Relations
+Engr. Dr. Nabeel Bugti,Forensic Science
+Prof. Dr. Hussain Sial,Accounting & Finance
+Prof. Dr. Yasir Ali,Electrical Engineering
+Engr. Faizan Awan,Public Administration
+Dr. Danish Leghari,Criminology
+Dr. Ammar Baig,Psychology
+Mr. Ayaan Khosa,Architecture
+Prof. Dr. Taha Alvi,Commerce
+Engr. Dr. Waleed Pandith,Biomedical Engineering
+Engr. Bilal Zaidi,History
+Engr. Talha Siddiqui,Environmental Engineering
+Engr. Dr. Imran Bangash,Geophysics
+Engr. Dr. Shahzaib Siddiqui,Electrical Engineering
+Engr. Dr. Bilal Mengal,English Literature
+Engr. Dr. Huzaifa Malik,Geophysics
+Prof. Dr. Hussain Pandith,Civil Engineering
+Engr. Burhan Ahmed,Entrepreneurship
+Mr. Haris Farooq,History
+Mr. Naveed Wani,Chemistry
+Engr. Dr. Shayan Warraich,Geophysics
+Dr. Hasan Shah,Project Management
+Prof. Dr. Hussain Yousafzai,Marketing
+Dr. Shahmeer Sabri,Philosophy
+Engr. Faizan Khan,Management Sciences
+Engr. Huzaifa Bugti,Electronic Engineering
+Mr. Uzair Baig,Islamic Studies
+Dr. Ehsan Ansari,Law
+Mr. Faizan Farooq,Materials Engineering
+Mr. Zubair Awan,Supply Chain Management
+Prof. Dr. Shehroz Baloch,Artificial Intelligence
+Prof. Dr. Afnan Khatri,Remote Sensing & GIS
+Engr. Dr. Ayaan Bukhari,Supply Chain Management
+Engr. Ahsan Sabri,Chemical Engineering
+Engr. Afnan Rizvi,Biotechnology
+Prof. Dr. Shayan Bangash,Psychology
+Engr. Taha Dar,Islamic Banking & Finance
+Prof. Dr. Hamza Mirza,Peace & Conflict Studies
+Engr. Dr. Daniyal Zaidi,Energy Systems Engineering
+Engr. Rayyan Chaudhry,Islamic Studies
+Engr. Dr. Shahzaib Naqvi,Electronic Engineering
+Engr. Musa Kiani,Civil Engineering
+Dr. Imran Bhatti,International Relations
+Engr. Afnan Bugti,Entrepreneurship
+Mr. Ahsan Alvi,Human Resource Management
+Engr. Shoaib Faruqi,Media Studies
+Dr. Kamran Rizvi,Psychology
+Prof. Dr. Areeb Arain,Materials Engineering
+Dr. Zaryab Orakzai,Architecture
+Engr. Dr. Shoaib Chaudhry,Materials Engineering
+Engr. Murtaza Pandith,Philosophy
+Engr. Ahsan Zaidi,Energy Systems Engineering
+Engr. Shehroz Afridi,Environmental Engineering
+Engr. Dr. Areeb Cheema,Political Science
+Engr. Dr. Ehsan Butt,Political Science
+Engr. Sameer Warraich,Molecular Biology
+Prof. Dr. Haseeb Chishti,Philosophy
+Prof. Dr. Shoaib Pasha,Education
+Dr. Abdullah Kakakhel,Development Studies
+Dr. Qasim Sabri,Biotechnology
+Engr. Saad Kakakhel,Business Administration
+Prof. Dr. Shehroz Bhatti,Energy Systems Engineering
+Mr. Faizan Abbasi,Mass Communication
+Dr. Zaryab Khosa,Education
+Dr. Imran Kiani,International Relations
+Engr. Salman Lodhi,Molecular Biology
+Dr. Burhan Pandith,Law
+Mr. Adeel Chishti,History
+Engr. Dr. Adnan Memon,Information Technology
+Engr. Taha Awan,Economics
+Engr. Daniyal Pasha,Project Management
+Engr. Dr. Kashif Kiani,Management Sciences
+Mr. Ahsan Arain,Mathematics
+Dr. Ehsan Usmani,Geophysics
+Prof. Dr. Daniyal Sabri,Environmental Engineering
+Dr. Kashif Bangash,Mechatronics Engineering
+Dr. Zaryab Naqvi,Project Management
+Prof. Dr. Haris Lodhi,Sociology
+Engr. Dr. Haseeb Kakakhel,Software Engineering
+Mr. Murtaza Arain,Artificial Intelligence
+Engr. Dr. Kashif Shah,Architecture
+Engr. Dr. Haseeb Malik,Forensic Science
+Engr. Shehroz Yousafzai,Development Studies
+Engr. Adnan Bhatti,Psychology
+Engr. Naveed Hashmi,Education
+Engr. Dr. Murtaza Awan,Chemical Engineering
+Dr. Talha Jafferi,Electronic Engineering
+Engr. Haris Ahmed,Entrepreneurship
+Engr. Dr. Imran Malik,Chemistry
+Dr. Ismail Bukhari,Information Technology
+Engr. Dr. Adnan Awan,Materials Engineering
+Mr. Nabeel Sheikh,Information Technology
+Engr. Dr. Saad Hussain,Electrical Engineering
+Engr. Afnan Ansari,Human Resource Management
+Mr. Adnan Rajput,Computer Science
+Prof. Dr. Hamza Zaidi,Biotechnology
+Prof. Dr. Nabeel Jafferi,Forensic Science
+Mr. Hamza Chaudhry,Molecular Biology
+Mr. Taha Ansari,Development Studies
+Prof. Dr. Adnan Dar,Marketing
+Engr. Dr. Moiz Bugti,Biotechnology
+Engr. Faris Awan,Electrical Engineering
+Prof. Dr. Ibrahim Bangash,Mechatronics Engineering
+Dr. Haseeb Sandhu,Economics
+Dr. Asad Gilani,Electronic Engineering
+Prof. Dr. Fahad Gondal,Psychology
+Engr. Danish Naqvi,Computer Engineering
+Dr. Saad Jafferi,Environmental Engineering
+Engr. Areeb Bugti,Peace & Conflict Studies
+Mr. Ismail Kakakhel,Philosophy
+Engr. Faris Zaidi,History
+Engr. Shayan Pasha,History
+Prof. Dr. Zaryab Arain,Linguistics
+Engr. Dr. Nabeel Khosa,Environmental Engineering
+Engr. Dr. Junaid Naqvi,Islamic Banking & Finance
+Dr. Ahmed Wani,Public Administration
+Dr. Qasim Gondal,Commerce
+Prof. Dr. Zain Baig,Islamic Studies
+Prof. Dr. Mahad Alvi,Linguistics
+Mr. Zain Chaudhry,Peace & Conflict Studies
+Prof. Dr. Uzair Alvi,Electrical Engineering
+Mr. Danish Rajput,Industrial Engineering
+Engr. Dr. Moiz Bhatti,Geology
+Engr. Huzaifa Tareen,Project Management
+Dr. Shoaib Sheikh,Pakistan Studies
+Dr. Kamran Bukhari,Philosophy
+Prof. Dr. Haris Kiani,Political Science
+Mr. Daniyal Usmani,Political Science
+Engr. Imran Bukhari,Architecture
+Dr. Abdullah Butt,Psychology
+Dr. Abdullah Dar,Electronic Engineering
+Dr. Ahmed Chishti,Mathematics
+Mr. Moiz Sial,Psychology
+Prof. Dr. Asad Arain,Computer Engineering
+Dr. Ismail Siddiqui,Computer Science
+Mr. Shahzaib Pandith,Management Sciences
+Engr. Dr. Anas Chaudhry,Urban & Regional Planning
+Engr. Adeel Wani,Physics
+Dr. Salman Baig,Mass Communication
+Engr. Dr. Rameez Sheikh,Chemical Engineering
+Dr. Hamza Chishti,International Relations
+Engr. Dr. Rehan Yousafzai,Entrepreneurship
+Dr. Danish Afridi,Chemistry
+Engr. Dr. Taha Hussain,History
+Engr. Afnan Lodhi,Mass Communication
+Engr. Dr. Haris Faruqi,International Relations
+Engr. Junaid Alvi,Computer Science
+Mr. Adnan Cheema,Geology
+Prof. Dr. Zaryab Kakakhel,Law
+Engr. Dr. Nabeel Pandith,Accounting & Finance
+Engr. Dr. Anas Kiani,Electronic Engineering
+Prof. Dr. Yasir Cheema,Chemical Engineering
+Dr. Arham Farooq,Philosophy
+Engr. Adeel Yousafzai,Development Studies
+Prof. Dr. Shayan Ansari,Geology
+Engr. Murtaza Hussain,Materials Engineering
+Engr. Shehroz Mirza,Islamic Banking & Finance
+Engr. Saad Afridi,Entrepreneurship
+Prof. Dr. Haseeb Khosa,Economics
+Prof. Dr. Asad Naqvi,Geophysics
+Prof. Dr. Naveed Naqvi,Peace & Conflict Studies
+Engr. Dr. Hussain Ali,Computer Engineering
+Engr. Dr. Zain Ahmed,Media Studies
+Dr. Saad Orakzai,Management Sciences
+Mr. Shayan Kazmi,Chemical Engineering
+Dr. Ayaan Kiani,Public Administration
+Mr. Ehsan Pandith,Molecular Biology
+Engr. Hasan Alvi,Political Science
+Dr. Junaid Jamali,Materials Engineering
+Prof. Dr. Anas Baloch,Data Science
+Mr. Uzair Sabri,Architecture
+Prof. Dr. Rayyan Pandith,Artificial Intelligence
+Engr. Huzaifa Zaidi,Supply Chain Management
+Prof. Dr. Shehroz Rajput,Electrical Engineering
+Dr. Rehan Hussain,Criminology
+Dr. Zain Bhatti,Philosophy
+Prof. Dr. Mahad Warraich,Linguistics
+Dr. Taha Kazmi,Remote Sensing & GIS
+Prof. Dr. Salman Mengal,Development Studies
+Dr. Zaryab Jamali,Biomedical Engineering
+Mr. Areeb Sheikh,Linguistics
+Mr. Anas Yousafzai,Computer Engineering
+Prof. Dr. Shoaib Ansari,Civil Engineering
+Engr. Dr. Rehan Faruqi,Biomedical Engineering
+Engr. Kashif Lodhi,Urban & Regional Planning
+Engr. Kashif Sabri,Biotechnology
+Mr. Hussain Malik,Microbiology
+Engr. Huzaifa Bangash,Pakistan Studies
+Dr. Talha Lodhi,Peace & Conflict Studies
+Prof. Dr. Nabeel Alvi,Criminology
+Engr. Dr. Taha Pasha,Political Science
+Dr. Bilal Jafferi,Computer Engineering
+Dr. Ayaan Sial,Remote Sensing & GIS
+Prof. Dr. Imran Orakzai,International Relations
+Engr. Dr. Hussain Qureshi,Geophysics
+Engr. Junaid Farooq,Project Management
+Prof. Dr. Adnan Pandith,Management Sciences
+Mr. Haris Bukhari,Architecture
+Engr. Faizan Jafferi,Accounting & Finance
+Dr. Nabeel Hashmi,Remote Sensing & GIS
+Engr. Dr. Burhan Malik,Mechanical Engineering
+Prof. Dr. Faizan Mengal,Industrial Engineering
+Mr. Rafay Usmani,Political Science
+Dr. Haseeb Zaidi,Management Sciences
+Dr. Hussain Hashmi,Biomedical Engineering
+Engr. Dr. Arham Orakzai,Information Technology
+Dr. Ehsan Khatri,International Relations
+Mr. Faris Tareen,Industrial Engineering
+Mr. Anas Farooq,Education
+Prof. Dr. Kamran Naqvi,English Literature
+Mr. Shahmeer Rizvi,Public Administration
+Engr. Dr. Mahad Sandhu,Civil Engineering
+Prof. Dr. Saad Tareen,Environmental Engineering
+Engr. Taha Butt,Energy Systems Engineering
+Prof. Dr. Burhan Ali,Accounting & Finance
+Engr. Waleed Ali,Materials Engineering
+Prof. Dr. Faris Bugti,Geophysics
+Prof. Dr. Kashif Dar,Media Studies
+Prof. Dr. Salman Naqvi,Biotechnology
+Engr. Haris Chaudhry,Mathematics
+Mr. Haseeb Bukhari,Political Science
+Engr. Dr. Shehroz Baig,Physics
+Mr. Shahzaib Chishti,Electrical Engineering
+Engr. Uzair Tareen,Biomedical Engineering
+Prof. Dr. Rafay Naqvi,Software Engineering
+Mr. Kamran Dar,Biotechnology
+Engr. Dr. Ahsan Tareen,Islamic Studies
+Engr. Imran Lodhi,Islamic Banking & Finance
+Prof. Dr. Rafay Abbasi,Forensic Science
+Mr. Talha Kazmi,Chemical Engineering
+Mr. Burhan Kakakhel,Human Resource Management
+Dr. Azlan Abbasi,Sociology
+Engr. Dr. Hasan Naqvi,Mathematics
+Mr. Salman Kakakhel,Development Studies
+Mr. Huzaifa Khosa,Management Sciences
+Engr. Dr. Kamran Sabri,Mechatronics Engineering
+Dr. Huzaifa Faruqi,Materials Engineering
+Engr. Dr. Uzair Mughal,Civil Engineering
+Engr. Dr. Anas Memon,Electronic Engineering
+Dr. Musa Pasha,Project Management
+Dr. Shoaib Jamali,Peace & Conflict Studies
+Prof. Dr. Hussain Butt,Management Sciences
+Mr. Kashif Wani,History
+Dr. Fahad Naqvi,Microbiology
+Prof. Dr. Imran Yousafzai,Supply Chain Management
+Engr. Shahmeer Malik,Islamic Banking & Finance
+Prof. Dr. Mahad Pandith,Electrical Engineering
+Engr. Dr. Haris Ansari,Geophysics
+Prof. Dr. Haseeb Bugti,Mechanical Engineering
+Prof. Dr. Anas Chishti,English Literature
+Mr. Abdullah Ali,Environmental Engineering
+Engr. Hamza Wani,Law
+Mr. Rafay Jamali,Statistics
+Engr. Dr. Anas Pasha,Development Studies
+Engr. Dr. Musa Rizvi,Business Administration
+Prof. Dr. Ehsan Wani,Public Administration
+Prof. Dr. Shoaib Pandith,Law
+Engr. Dr. Taha Ali,Industrial Engineering
+Engr. Dr. Mahad Kiani,Accounting & Finance
+Prof. Dr. Hasan Pandith,Artificial Intelligence
+Engr. Adeel Zaidi,Electronic Engineering
+Dr. Adeel Leghari,Human Resource Management
+Mr. Azlan Wani,Law
+Dr. Uzair Mengal,Microbiology
+Prof. Dr. Rayyan Dar,Islamic Banking & Finance
+Dr. Bilal Khosa,Telecommunications Engineering
+Mr. Fahad Chaudhry,Physics
+Dr. Azlan Bhatti,English Literature
+Mr. Huzaifa Gondal,Information Technology
+Prof. Dr. Qasim Pandith,Electrical Engineering
+Engr. Daniyal Khosa,Biomedical Engineering
+Prof. Dr. Ehsan Ali,Microbiology
+Mr. Kamran Pasha,Materials Engineering
+Prof. Dr. Anas Awan,Electronic Engineering
+Mr. Haris Arain,Project Management
+Mr. Faizan Rizvi,Artificial Intelligence
+Engr. Dr. Rafay Mirza,Entrepreneurship
+Engr. Dr. Ahsan Kakakhel,Forensic Science
+Engr. Dr. Rameez Orakzai,Public Administration
+Engr. Dr. Kamran Abbasi,Information Technology
+Dr. Bilal Ahmed,Political Science
+Mr. Adeel Naqvi,Geophysics
+Mr. Daniyal Bangash,Accounting & Finance
+Dr. Mahad Ali,Mathematics
+Mr. Mahad Leghari,Computer Engineering
+Prof. Dr. Moiz Jafferi,Urban & Regional Planning
+Engr. Dr. Ahmed Farooq,Peace & Conflict Studies
+Mr. Haseeb Awan,International Relations
+Prof. Dr. Moiz Khan,Data Science
+Engr. Dr. Murtaza Dar,Criminology
+Mr. Ahsan Memon,Materials Engineering
+Prof. Dr. Adeel Awan,English Literature
+Prof. Dr. Anas Naqvi,Environmental Engineering
+Engr. Danish Chaudhry,Commerce
+Engr. Dr. Zaryab Shah,Law
+Engr. Uzair Afridi,Electrical Engineering
+Dr. Kamran Kiani,Environmental Engineering
+Engr. Dr. Bilal Bukhari,Statistics
+Engr. Salman Khosa,Human Resource Management
+Engr. Dr. Mahad Mengal,Sociology
+Engr. Dr. Danish Ali,English Literature
+Engr. Dr. Ibrahim Khosa,Education
+Prof. Dr. Haseeb Butt,History
+Dr. Nabeel Kiani,Electronic Engineering
+Engr. Ehsan Tareen,Energy Systems Engineering
+Mr. Ibrahim Madni,Human Resource Management
+Engr. Musa Jafferi,Forensic Science
+Prof. Dr. Talha Bugti,Public Administration
+Engr. Dr. Waleed Mengal,Information Technology
+Engr. Dr. Shayan Farooq,Remote Sensing & GIS
+Dr. Hasan Yousafzai,Forensic Science
+Prof. Dr. Fahad Kiani,Electronic Engineering
+Prof. Dr. Rafay Madni,Urban & Regional Planning
+Engr. Ismail Khan,Islamic Studies
+Prof. Dr. Asad Baloch,Artificial Intelligence
+Dr. Nabeel Faruqi,History
+Mr. Azlan Baloch,Marketing
+Engr. Dr. Nabeel Jamali,Sociology
+Prof. Dr. Murtaza Baloch,Computer Engineering
+Engr. Shoaib Afridi,Sociology
+Engr. Daniyal Jafferi,Electrical Engineering
+Dr. Shahmeer Alvi,Geophysics
+Dr. Hasan Ansari,Computer Engineering
+Engr. Dr. Asad Pasha,Biotechnology
+Engr. Imran Khan,Human Resource Management
+Mr. Ayaan Leghari,Geology
+Engr. Dr. Shahmeer Warraich,Supply Chain Management
+Mr. Anas Sial,Pakistan Studies
+Prof. Dr. Fahad Abbasi,Biomedical Engineering
+Engr. Dr. Taha Khosa,Forensic Science
+Dr. Qasim Hussain,English Literature
+Dr. Adnan Faruqi,Mathematics
+Dr. Murtaza Alvi,Pakistan Studies
+Engr. Kashif Mengal,Accounting & Finance
+Engr. Danish Gondal,Political Science
+Dr. Shoaib Hussain,Computer Engineering
+Prof. Dr. Uzair Malik,Biomedical Engineering
+Mr. Shehroz Kiani,Mechatronics Engineering
+Engr. Dr. Fahad Gilani,Public Administration
+Engr. Dr. Zaryab Rajput,Mechatronics Engineering
+Dr. Ammar Awan,Mathematics
+Dr. Moiz Hashmi,Industrial Engineering
+Engr. Shahzaib Jamali,Public Administration
+Mr. Faris Kazmi,Materials Engineering
+Prof. Dr. Ahsan Wani,Computer Engineering
+Dr. Faizan Gondal,Marketing
+Engr. Moiz Ahmed,Forensic Science
+Dr. Shoaib Mirza,Mechatronics Engineering
+Engr. Dr. Ibrahim Alvi,Microbiology
+Dr. Abdullah Gondal,Supply Chain Management
+Engr. Dr. Shehroz Wani,History
+Dr. Hussain Pasha,Pakistan Studies
+Engr. Dr. Salman Ahmed,English Literature
+Engr. Dr. Adeel Qureshi,History
+Engr. Dr. Hussain Chaudhry,Media Studies
+Mr. Adeel Mengal,Software Engineering
+Engr. Dr. Rameez Cheema,Marketing
+Engr. Ibrahim Ansari,Materials Engineering
+Prof. Dr. Ayaan Lodhi,Philosophy
+Engr. Dr. Afnan Wani,Geology
+Mr. Talha Khosa,Artificial Intelligence
+Engr. Bilal Gondal,Economics
+Dr. Anas Rajput,Law
+Engr. Dr. Junaid Ansari,Software Engineering
+Dr. Talha Tareen,Software Engineering
+Engr. Qasim Usmani,Environmental Engineering
+Mr. Yasir Siddiqui,Civil Engineering
+Engr. Areeb Naqvi,Media Studies
+Mr. Mahad Siddiqui,Urban & Regional Planning
+Dr. Rehan Alvi,Supply Chain Management
+Mr. Hasan Lodhi,Sociology
+Mr. Ayaan Rizvi,Entrepreneurship
+Engr. Anas Rizvi,Project Management
+Mr. Saad Ahmed,Pakistan Studies
+Mr. Adeel Cheema,Geophysics
+Dr. Talha Usmani,Architecture
+Prof. Dr. Junaid Kazmi,Education
+Dr. Nabeel Chishti,Industrial Engineering
+Prof. Dr. Anas Tareen,Supply Chain Management
+Dr. Faris Bangash,Law
+Prof. Dr. Kashif Ansari,Electronic Engineering
+Engr. Dr. Adnan Hussain,Chemistry
+Dr. Danish Warraich,Data Science
+Engr. Waleed Cheema,Mechanical Engineering
+Engr. Dr. Junaid Chaudhry,Forensic Science
+Mr. Taha Hashmi,Media Studies
+Engr. Dr. Arham Ali,Project Management
+Dr. Faris Kakakhel,Education
+Mr. Waleed Khosa,International Relations
+Prof. Dr. Rayyan Sial,Forensic Science
+Dr. Rehan Mirza,Artificial Intelligence
+Engr. Dr. Bilal Warraich,Peace & Conflict Studies
+Dr. Saad Kiani,Mechatronics Engineering
+Dr. Ammar Tareen,Islamic Banking & Finance
+Engr. Dr. Asad Sabri,Accounting & Finance
+Engr. Dr. Nabeel Mughal,Economics
+Engr. Ahsan Sandhu,Sociology
+Prof. Dr. Zain Sandhu,Civil Engineering
+Engr. Zubair Khatri,Political Science
+Prof. Dr. Yasir Khan,International Relations
+Engr. Dr. Faris Pandith,Electrical Engineering
+Engr. Dr. Ammar Rizvi,Accounting & Finance
+Engr. Dr. Abdullah Sabri,Development Studies
+Mr. Rafay Mughal,Data Science
+Engr. Dr. Shahmeer Mengal,Accounting & Finance
+Engr. Areeb Shah,Commerce
+Engr. Shahmeer Khosa,Criminology
+Mr. Daniyal Siddiqui,Chemistry
+Dr. Haseeb Warraich,Forensic Science
+Dr. Shehroz Arain,Electrical Engineering
+Dr. Asad Kiani,Mechanical Engineering
+Engr. Dr. Areeb Orakzai,Economics
+Engr. Dr. Ammar Ansari,Civil Engineering
+Engr. Dr. Huzaifa Alvi,Entrepreneurship
+Prof. Dr. Imran Abbasi,Biomedical Engineering
+Dr. Saad Khosa,Energy Systems Engineering
+Mr. Burhan Chaudhry,Law
+Mr. Ahsan Baig,Environmental Engineering
+Dr. Ismail Alvi,Chemical Engineering
+Engr. Ayaan Mengal,Law
+Engr. Rafay Ali,Urban & Regional Planning
+Mr. Faizan Cheema,Law
+Engr. Dr. Ibrahim Lodhi,Education
+Mr. Afnan Khan,Development Studies
+Engr. Salman Faruqi,Molecular Biology
+Engr. Dr. Imran Sabri,Mathematics
+Engr. Dr. Daniyal Naqvi,Data Science
+Prof. Dr. Zain Rajput,Industrial Engineering
+Engr. Dr. Rameez Pandith,Education
+Engr. Adeel Sheikh,Philosophy
+Dr. Ahsan Abbasi,English Literature
+Engr. Yasir Sabri,Electronic Engineering
+Mr. Junaid Jafferi,Pakistan Studies
+Engr. Zubair Abbasi,Public Administration
+Mr. Kamran Zaidi,Islamic Studies
+Engr. Afnan Cheema,Biotechnology
+Prof. Dr. Ehsan Farooq,Electronic Engineering
+Engr. Hamza Sabri,Linguistics
+Dr. Ayaan Mughal,Psychology
+Dr. Uzair Gondal,Industrial Engineering
+Mr. Shayan Qureshi,Mechatronics Engineering
+Prof. Dr. Naveed Bugti,Supply Chain Management
+Prof. Dr. Hussain Mirza,Urban & Regional Planning
+Engr. Faris Alvi,Telecommunications Engineering
+Mr. Talha Mughal,Environmental Engineering
+Prof. Dr. Ayaan Cheema,Architecture
+Prof. Dr. Talha Arain,Information Technology
+Engr. Dr. Junaid Arain,Chemical Engineering
+Prof. Dr. Asad Bhatti,Environmental Engineering
+Engr. Dr. Azlan Rajput,Psychology
+Dr. Junaid Memon,Chemical Engineering
+Engr. Anas Ali,Microbiology
+Engr. Dr. Hussain Afridi,International Relations
+Dr. Waleed Naqvi,Management Sciences
+Engr. Shahzaib Chaudhry,Marketing
+Engr. Nabeel Bukhari,Philosophy
+Mr. Faris Chaudhry,Economics
+Engr. Zain Farooq,Chemical Engineering
+Mr. Waleed Jafferi,Geology
+Engr. Dr. Rayyan Yousafzai,Materials Engineering
+Prof. Dr. Zubair Pandith,Remote Sensing & GIS
+Mr. Qasim Sheikh,Mathematics
+Mr. Kashif Chishti,Mechanical Engineering
+Dr. Junaid Mughal,Philosophy
+Prof. Dr. Talha Chishti,Molecular Biology
+Engr. Dr. Faizan Ahmed,Artificial Intelligence
+Mr. Fahad Alvi,Physics
+Engr. Dr. Adeel Pandith,Entrepreneurship
+Prof. Dr. Hasan Orakzai,Data Science
+Prof. Dr. Zain Yousafzai,Materials Engineering
+Prof. Dr. Shahzaib Tareen,Supply Chain Management
+Mr. Ammar Butt,Environmental Engineering
+Engr. Haseeb Sheikh,Civil Engineering
+Dr. Shahmeer Mughal,English Literature
+Mr. Naveed Ahmed,Mathematics
+Prof. Dr. Hussain Mengal,Microbiology
+Mr. Taha Ahmed,Artificial Intelligence
+Prof. Dr. Qasim Sandhu,Energy Systems Engineering
+Prof. Dr. Shahmeer Afridi,Physics
+Dr. Sameer Sial,Urban & Regional Planning
+Dr. Huzaifa Pasha,Human Resource Management
+Engr. Ehsan Rajput,Mechanical Engineering
+Dr. Areeb Bhatti,Peace & Conflict Studies
+Prof. Dr. Naveed Sandhu,Management Sciences
+Prof. Dr. Shoaib Rajput,Electronic Engineering
+Prof. Dr. Mahad Baig,Industrial Engineering
+Engr. Hamza Jafferi,Public Administration
+Engr. Dr. Rameez Chishti,Peace & Conflict Studies
+Engr. Burhan Jafferi,History
+Engr. Zubair Khan,Remote Sensing & GIS
+Engr. Burhan Zaidi,Telecommunications Engineering
+Engr. Dr. Bilal Rajput,Artificial Intelligence
+Engr. Naveed Kiani,Telecommunications Engineering
+Engr. Hasan Bangash,Project Management
+Engr. Dr. Sameer Ansari,Public Administration
+Prof. Dr. Afnan Mughal,Entrepreneurship
+Engr. Dr. Kashif Memon,Criminology
+Dr. Shayan Faruqi,Project Management
+Engr. Dr. Kashif Jafferi,Artificial Intelligence
+Prof. Dr. Shayan Yousafzai,Remote Sensing & GIS
+Engr. Ibrahim Siddiqui,Supply Chain Management
+Prof. Dr. Burhan Hashmi,Mechanical Engineering
+Prof. Dr. Shehroz Qureshi,Islamic Banking & Finance
+Mr. Naveed Sabri,Entrepreneurship
+Dr. Ammar Sheikh,Entrepreneurship
+Mr. Taha Pandith,Computer Engineering
+Dr. Zain Bugti,Peace & Conflict Studies
+Engr. Afnan Qureshi,Pakistan Studies
+Mr. Zubair Ahmed,Human Resource Management
+Dr. Daniyal Wani,Pakistan Studies
+Dr. Moiz Ansari,Biotechnology
+Dr. Kamran Awan,Chemistry
+Mr. Zubair Ali,English Literature
+Engr. Dr. Ayaan Naqvi,Software Engineering
+Prof. Dr. Qasim Alvi,Mass Communication
+Dr. Waleed Chishti,Development Studies
+Dr. Shahmeer Bugti,Urban & Regional Planning
+Engr. Ismail Madni,Project Management
+Engr. Dr. Ibrahim Abbasi,Environmental Engineering
+Mr. Haseeb Dar,International Relations
+Mr. Ammar Qureshi,Public Administration
+Dr. Rayyan Hussain,Education
+Engr. Ibrahim Qureshi,Business Administration
+Mr. Asad Malik,Marketing
+Mr. Burhan Bangash,Mass Communication
+Prof. Dr. Fahad Zaidi,English Literature
+Prof. Dr. Waleed Butt,Geophysics
+Engr. Hamza Farooq,Entrepreneurship
+Engr. Huzaifa Sabri,International Relations
+Prof. Dr. Ahsan Kazmi,Economics
+Dr. Musa Khatri,Pakistan Studies
+Engr. Naveed Chishti,Business Administration
+Prof. Dr. Adeel Alvi,Project Management
+Mr. Hamza Lodhi,Data Science
+Mr. Zaryab Wani,Biotechnology
+Mr. Salman Siddiqui,Electronic Engineering
+Dr. Junaid Mirza,Human Resource Management
+Dr. Rayyan Faruqi,Psychology
+Engr. Dr. Hussain Wani,Software Engineering
+Engr. Dr. Areeb Lodhi,Economics
+Prof. Dr. Yasir Ansari,Architecture
+Engr. Dr. Bilal Naqvi,Architecture
+Dr. Zubair Qureshi,Chemical Engineering
+Engr. Dr. Uzair Jamali,Media Studies
+Engr. Danish Lodhi,Mechatronics Engineering
+Mr. Ehsan Bugti,Political Science
+Prof. Dr. Abdullah Leghari,Information Technology
+Mr. Qasim Naqvi,Architecture
+Dr. Bilal Usmani,Development Studies
+Mr. Junaid Malik,Political Science
+Dr. Mahad Kakakhel,Chemistry
+Prof. Dr. Adeel Kazmi,Chemistry
+Mr. Bilal Malik,Urban & Regional Planning
+Engr. Dr. Arham Khosa,Biomedical Engineering
+Engr. Dr. Kamran Mirza,Remote Sensing & GIS
+Mr. Shehroz Hashmi,Mechanical Engineering
+Mr. Musa Yousafzai,Political Science
+Dr. Ismail Pasha,Human Resource Management
+Dr. Zain Gondal,Human Resource Management
+Prof. Dr. Kamran Chaudhry,Environmental Engineering
+Mr. Hamza Baig,Molecular Biology
+Dr. Sameer Baloch,Data Science
+Prof. Dr. Talha Cheema,Sociology
+Dr. Mahad Rizvi,Psychology
+Dr. Ibrahim Mirza,Geology
+Engr. Danish Jafferi,Microbiology
+Dr. Sameer Abbasi,Public Administration
+Engr. Dr. Waleed Mirza,Management Sciences
+Mr. Nabeel Awan,Data Science
+Engr. Ammar Chaudhry,Statistics
+Prof. Dr. Kashif Usmani,Microbiology
+Mr. Musa Khosa,Electronic Engineering
+Mr. Huzaifa Wani,Philosophy
+Dr. Mahad Bangash,Telecommunications Engineering
+Dr. Huzaifa Rajput,Data Science
+Prof. Dr. Azlan Chishti,Human Resource Management
+Engr. Dr. Ayaan Warraich,Energy Systems Engineering
+Mr. Zain Rizvi,Political Science
+Mr. Waleed Kakakhel,Commerce
+Mr. Hasan Rajput,Civil Engineering
+Mr. Imran Baig,History
+Dr. Taha Mughal,Development Studies
+Prof. Dr. Arham Awan,History
+Engr. Fahad Mirza,Entrepreneurship
+Prof. Dr. Areeb Alvi,History
+Engr. Rayyan Mengal,Political Science
+Dr. Talha Bhatti,Public Administration
+Mr. Abdullah Rizvi,Business Administration
+Mr. Sameer Naqvi,Law
+Prof. Dr. Nabeel Leghari,Mechatronics Engineering
+Engr. Ehsan Siddiqui,Supply Chain Management
+Mr. Daniyal Khan,Materials Engineering
+Engr. Saad Madni,Architecture
+Engr. Salman Ali,Law
+Engr. Dr. Qasim Gilani,Peace & Conflict Studies
+Mr. Rehan Khan,Geophysics
+Engr. Dr. Shayan Leghari,Criminology
+Mr. Musa Chishti,Mathematics
+Engr. Saad Sial,Sociology
+Prof. Dr. Haris Sial,Marketing
+Prof. Dr. Sameer Khan,Business Administration
+Mr. Uzair Pandith,Computer Science
+Dr. Sameer Rizvi,Computer Science
+Prof. Dr. Waleed Jamali,Information Technology
+Engr. Dr. Areeb Kakakhel,Forensic Science
+Dr. Afnan Chishti,Human Resource Management
+Mr. Mahad Rajput,Computer Science
+Mr. Kamran Orakzai,Political Science
+Mr. Taha Lodhi,Media Studies
+Mr. Taha Yousafzai,English Literature
+Engr. Dr. Yasir Rajput,Education
+Prof. Dr. Ahsan Rizvi,Project Management
+Prof. Dr. Asad Butt,Public Administration
+Engr. Afnan Mengal,Media Studies
+Dr. Sameer Leghari,Philosophy
+Prof. Dr. Talha Pandith,Media Studies
+Dr. Junaid Orakzai,Supply Chain Management
+Prof. Dr. Danish Khosa,Environmental Engineering
+Dr. Adeel Sabri,Management Sciences
+Mr. Kashif Gondal,English Literature
+Dr. Faris Shah,Microbiology
+Dr. Haris Baloch,Materials Engineering
+Engr. Adeel Jamali,Media Studies
+Dr. Ahsan Faruqi,Commerce
+Mr. Rameez Siddiqui,Physics
+Dr. Kashif Yousafzai,Human Resource Management
+Engr. Dr. Zain Ansari,Geophysics
+Dr. Daniyal Ansari,Electrical Engineering
+Dr. Shahzaib Sabri,Biomedical Engineering
+Mr. Haris Wani,Civil Engineering
+Dr. Asad Shah,Sociology
+Mr. Hamza Pandith,Software Engineering
+Dr. Haris Orakzai,Remote Sensing & GIS
+Mr. Shehroz Lodhi,Psychology
+Dr. Rehan Khosa,Commerce
+Mr. Rayyan Bangash,Mathematics
+Mr. Yasir Farooq,Education
+Engr. Rehan Shah,Architecture
+Engr. Dr. Naveed Mughal,Development Studies
+Engr. Burhan Memon,Statistics
+Engr. Dr. Murtaza Butt,Criminology
+Dr. Zubair Mirza,Artificial Intelligence
+Dr. Afnan Bangash,Artificial Intelligence
+Engr. Dr. Faris Yousafzai,Media Studies
+Engr. Dr. Imran Butt,English Literature
+Engr. Dr. Hussain Warraich,Sociology
+Prof. Dr. Daniyal Rizvi,Forensic Science
+Dr. Anas Hussain,Architecture
+Prof. Dr. Arham Siddiqui,Economics
+Engr. Dr. Uzair Mirza,Political Science
+Dr. Zaryab Baloch,Forensic Science
+Prof. Dr. Afnan Sial,Civil Engineering
+Prof. Dr. Ahmed Mirza,Biotechnology
+Prof. Dr. Haris Naqvi,Philosophy
+Mr. Talha Ali,Psychology
+Engr. Dr. Murtaza Rajput,Microbiology
+Dr. Moiz Afridi,Sociology
+Prof. Dr. Zaryab Bugti,Data Science
+Engr. Zain Ali,Mass Communication
+Mr. Adnan Wani,Psychology
+Prof. Dr. Bilal Ansari,Biomedical Engineering
+Prof. Dr. Haris Jamali,Electrical Engineering
+Engr. Dr. Adnan Zaidi,Commerce
+Prof. Dr. Ahsan Ansari,Linguistics
+Engr. Dr. Asad Rajput,Industrial Engineering
+Prof. Dr. Qasim Malik,Psychology
+Engr. Junaid Siddiqui,Mathematics
+Dr. Ismail Bhatti,Islamic Studies
+Dr. Hamza Abbasi,Philosophy
+Prof. Dr. Rehan Ansari,Energy Systems Engineering
+Mr. Murtaza Khosa,Media Studies
+Mr. Bilal Pandith,Civil Engineering
+Dr. Ahmed Kakakhel,Commerce
+Engr. Dr. Murtaza Ali,Materials Engineering
+Engr. Waleed Mughal,Chemical Engineering
+Prof. Dr. Imran Awan,Electrical Engineering
+Mr. Fahad Pandith,Pakistan Studies
+Dr. Anas Bangash,Mechanical Engineering
+Engr. Dr. Anas Khatri,Supply Chain Management
+Prof. Dr. Ahsan Usmani,Civil Engineering
+Engr. Areeb Zaidi,Mechatronics Engineering
+Prof. Dr. Ahmed Mughal,Education
+Engr. Hussain Chishti,Project Management
+Dr. Taha Baig,Materials Engineering
+Engr. Zain Khosa,Telecommunications Engineering
+Dr. Adeel Chaudhry,Telecommunications Engineering
+Engr. Saad Faruqi,Islamic Banking & Finance
+Mr. Rameez Shah,Criminology
+Mr. Ibrahim Farooq,Management Sciences
+Engr. Dr. Musa Baloch,Biomedical Engineering
+Mr. Shehroz Rizvi,Remote Sensing & GIS
+Prof. Dr. Qasim Bhatti,Biomedical Engineering
+Prof. Dr. Ayaan Sandhu,Business Administration
+Mr. Ibrahim Dar,Mechanical Engineering
+Mr. Junaid Khosa,International Relations
+Engr. Yasir Mughal,Accounting & Finance
+Dr. Junaid Leghari,Sociology
+Dr. Naveed Jafferi,Mathematics
+Mr. Hamza Malik,Information Technology
+Engr. Moiz Kazmi,Sociology
+Prof. Dr. Murtaza Yousafzai,History
+Dr. Yasir Mirza,Statistics
+Mr. Musa Bangash,Pakistan Studies
+Mr. Ibrahim Bugti,Materials Engineering
+Prof. Dr. Fahad Leghari,Chemical Engineering
+Prof. Dr. Ibrahim Gondal,Philosophy
+Dr. Faris Dar,Remote Sensing & GIS
+Prof. Dr. Hamza Hashmi,Psychology
+Engr. Faris Arain,Islamic Studies
+Engr. Kashif Farooq,Law
+Engr. Dr. Kashif Madni,Supply Chain Management
+Dr. Danish Baloch,Chemistry
+Mr. Qasim Sial,Mechanical Engineering
+Prof. Dr. Daniyal Arain,Electrical Engineering
+Engr. Dr. Taha Leghari,Philosophy
+Prof. Dr. Yasir Lodhi,Mathematics
+Prof. Dr. Rameez Pasha,History
+Engr. Dr. Haris Usmani,History
+Engr. Ismail Kiani,Biotechnology
+Engr. Abdullah Hashmi,Computer Engineering
+Prof. Dr. Musa Khan,Data Science
+Prof. Dr. Huzaifa Kakakhel,Business Administration
+Engr. Dr. Uzair Sheikh,Commerce
+Engr. Areeb Wani,International Relations
+Engr. Burhan Khatri,Software Engineering
+Engr. Qasim Shah,Accounting & Finance
+Prof. Dr. Rehan Tareen,Chemistry
+Dr. Hussain Sabri,Marketing
+Dr. Murtaza Jafferi,Entrepreneurship
+Mr. Shoaib Shah,Information Technology
+Mr. Salman Memon,Education
+Mr. Danish Sabri,Law
+Dr. Haseeb Chaudhry,Economics
+Dr. Salman Pasha,Physics
+Engr. Zaryab Gilani,Public Administration
+Mr. Shehroz Ali,Software Engineering
+Prof. Dr. Salman Sheikh,Human Resource Management
+Mr. Ehsan Baig,Telecommunications Engineering
+Engr. Dr. Naveed Jamali,Islamic Studies
+Dr. Taha Memon,History
+Engr. Moiz Bukhari,Energy Systems Engineering
+Dr. Ehsan Bhatti,Chemistry
+Engr. Qasim Orakzai,Urban & Regional Planning
+Prof. Dr. Adeel Madni,Statistics
+Prof. Dr. Ahsan Hashmi,Forensic Science
+Prof. Dr. Zubair Wani,Biomedical Engineering
+Dr. Naveed Farooq,Urban & Regional Planning
+Dr. Afnan Gondal,Islamic Studies
+Mr. Hamza Khan,Law
+Dr. Ammar Cheema,Mathematics
+Engr. Dr. Nabeel Zaidi,Chemical Engineering
+Engr. Dr. Yasir Abbasi,Chemical Engineering
+Prof. Dr. Haseeb Hussain,International Relations
+Prof. Dr. Shoaib Sial,Mechatronics Engineering
+Engr. Dr. Ibrahim Baloch,History
+Mr. Zaryab Yousafzai,Telecommunications Engineering
+Dr. Nabeel Lodhi,English Literature
+Prof. Dr. Moiz Naqvi,Materials Engineering
+Mr. Haris Rizvi,Psychology
+Engr. Salman Leghari,Human Resource Management
+Prof. Dr. Anas Wani,Biotechnology
+Engr. Dr. Daniyal Abbasi,Computer Engineering
+Dr. Uzair Khan,Public Administration
+Engr. Ismail Mughal,Media Studies
+Mr. Moiz Siddiqui,Microbiology
+Mr. Shehroz Ahmed,Statistics
+Engr. Dr. Zain Butt,Mechatronics Engineering
+Engr. Rafay Dar,Mechanical Engineering
+Engr. Dr. Adeel Gilani,Mechatronics Engineering
+Dr. Danish Yousafzai,Mechatronics Engineering
+Engr. Afnan Afridi,Development Studies
+Engr. Ehsan Jamali,Supply Chain Management
+Mr. Hamza Baloch,Computer Engineering
+Engr. Ahsan Orakzai,Entrepreneurship
+Prof. Dr. Imran Tareen,Molecular Biology
+Dr. Waleed Baloch,Development Studies
+Prof. Dr. Rayyan Khosa,Electronic Engineering
+Prof. Dr. Burhan Naqvi,Pakistan Studies
+Mr. Danish Siddiqui,Islamic Banking & Finance
+Dr. Talha Hashmi,Management Sciences
+Dr. Faizan Ansari,Islamic Studies
+Mr. Burhan Sial,Computer Engineering
+Dr. Waleed Siddiqui,Remote Sensing & GIS
+Mr. Afnan Baig,Pakistan Studies
+Dr. Qasim Mengal,Linguistics
+Engr. Mahad Bhatti,Psychology
+Prof. Dr. Shahmeer Khatri,Business Administration
+Mr. Rameez Memon,Geology
+Engr. Dr. Hamza Rizvi,History
+Dr. Zaryab Baig,Civil Engineering
+Engr. Dr. Shayan Wani,Mechatronics Engineering
+Engr. Dr. Afnan Butt,Chemical Engineering
+Dr. Arham Kakakhel,Economics
+Mr. Moiz Bangash,Islamic Banking & Finance
+Prof. Dr. Moiz Khatri,Sociology
+Engr. Yasir Tareen,Law
+Dr. Hasan Arain,Pakistan Studies
+Dr. Kamran Warraich,Business Administration
+Mr. Abdullah Rajput,Pakistan Studies
+Dr. Taha Cheema,Electronic Engineering
+Engr. Dr. Ehsan Kazmi,Chemistry
+Engr. Zaryab Madni,Telecommunications Engineering
+Mr. Adnan Malik,Political Science
+Engr. Dr. Zain Hashmi,Industrial Engineering
+Dr. Shahzaib Warraich,Philosophy
+Engr. Mahad Chishti,Islamic Banking & Finance
+Mr. Asad Khosa,Biomedical Engineering
+Engr. Zubair Gilani,Forensic Science
+Engr. Zubair Alvi,Public Administration
+Engr. Fahad Farooq,Project Management
+Mr. Asad Siddiqui,Law
+Mr. Kashif Tareen,Microbiology
+Engr. Dr. Nabeel Yousafzai,Media Studies
+Dr. Shayan Chaudhry,Economics
+Mr. Zubair Sheikh,Entrepreneurship
+Mr. Ismail Leghari,Accounting & Finance
+Engr. Dr. Rayyan Butt,Sociology
+Mr. Qasim Awan,Chemical Engineering
+Prof. Dr. Salman Pandith,Urban & Regional Planning
+Dr. Azlan Baig,Islamic Banking & Finance
+Prof. Dr. Shehroz Ansari,Biotechnology
+Mr. Naveed Madni,Islamic Studies
+Dr. Faris Jamali,Media Studies
+Engr. Rafay Farooq,Software Engineering
+Mr. Zaryab Sabri,Mathematics
+Dr. Kashif Sheikh,Human Resource Management
+Engr. Mahad Hussain,International Relations
+Engr. Asad Khatri,Forensic Science
+Dr. Shahmeer Rajput,Sociology
+Mr. Talha Hussain,Mathematics
+Engr. Talha Afridi,Geology
+Mr. Salman Hussain,Law
+Mr. Taha Orakzai,Mechatronics Engineering
+Mr. Ahmed Abbasi,Islamic Studies
+Engr. Fahad Yousafzai,Marketing
+Prof. Dr. Saad Shah,Entrepreneurship
+Engr. Dr. Abdullah Jamali,Management Sciences
+Engr. Dr. Ayaan Gondal,Environmental Engineering
+Engr. Qasim Hashmi,Sociology
+Engr. Abdullah Mengal,Marketing
+Prof. Dr. Sameer Faruqi,Materials Engineering
+Dr. Moiz Pasha,Human Resource Management
+Mr. Shayan Malik,Computer Science
+Engr. Ehsan Hashmi,Business Administration
+Dr. Zain Wani,Development Studies
+Mr. Zaryab Chishti,Statistics
+Dr. Rehan Bhatti,International Relations
+Engr. Musa Ansari,Computer Science
+Engr. Dr. Adeel Dar,Energy Systems Engineering
+Dr. Shahmeer Gondal,Law
+Engr. Burhan Qureshi,Mass Communication
+Engr. Dr. Afnan Kiani,Public Administration
+Dr. Haseeb Mirza,Microbiology
+Engr. Dr. Ibrahim Afridi,Electrical Engineering
+Mr. Shehroz Hussain,Electrical Engineering
+Engr. Haris Afridi,Mathematics
+Engr. Rafay Malik,Political Science
+Mr. Rafay Rizvi,Chemical Engineering
+Prof. Dr. Asad Qureshi,Molecular Biology
+Engr. Danish Shah,Public Administration
+Dr. Hasan Kazmi,Economics
+Mr. Ehsan Awan,Electrical Engineering
+Dr. Shahzaib Ali,Management Sciences
+Mr. Rehan Awan,Political Science
+Engr. Waleed Farooq,Media Studies
+Mr. Waleed Sheikh,Islamic Studies
+Prof. Dr. Rameez Jafferi,Biomedical Engineering
+Dr. Shahzaib Lodhi,Industrial Engineering
+Mr. Shahmeer Bangash,Business Administration
+Prof. Dr. Ismail Sabri,Economics
+Mr. Saad Kazmi,Remote Sensing & GIS
+Dr. Waleed Arain,Statistics
+Mr. Shoaib Sandhu,Molecular Biology
+Engr. Dr. Uzair Bukhari,Remote Sensing & GIS
+Engr. Dr. Haris Sandhu,Islamic Studies
+Engr. Hamza Bukhari,Supply Chain Management
+Prof. Dr. Talha Leghari,Remote Sensing & GIS
+Prof. Dr. Asad Mughal,Chemistry
+Mr. Taha Bugti,Economics
+Prof. Dr. Ahmed Orakzai,Chemistry
+Dr. Abdullah Usmani,Human Resource Management
+Mr. Ahsan Sial,Computer Science
+Prof. Dr. Asad Dar,Biomedical Engineering
+Dr. Zaryab Faruqi,Marketing
+Engr. Dr. Zubair Rajput,Computer Science
+Dr. Musa Memon,Mechanical Engineering
+Prof. Dr. Faris Jafferi,Entrepreneurship
+Engr. Ammar Pandith,Electronic Engineering
+Engr. Shoaib Wani,History
+Mr. Faizan Lodhi,Remote Sensing & GIS
+Engr. Dr. Qasim Baig,Development Studies
+Engr. Dr. Ayaan Memon,Computer Science
+Dr. Azlan Jamali,Biotechnology
+Mr. Naveed Butt,Mechatronics Engineering
+Engr. Dr. Burhan Warraich,Electrical Engineering
+Engr. Dr. Afnan Tareen,Marketing
+Engr. Dr. Arham Cheema,Electronic Engineering
+Prof. Dr. Naveed Abbasi,Entrepreneurship
+Engr. Ismail Afridi,International Relations
+Dr. Shahmeer Cheema,Data Science
+Dr. Anas Faruqi,Materials Engineering
+Engr. Dr. Naveed Khosa,Project Management
+Mr. Shahzaib Farooq,Civil Engineering
+Engr. Kamran Gondal,Media Studies
+Engr. Bilal Jamali,International Relations
+Engr. Dr. Sameer Madni,Human Resource Management
+Dr. Rafay Chishti,Law
+Dr. Fahad Wani,Remote Sensing & GIS
+Prof. Dr. Faris Lodhi,Commerce
+Dr. Arham Mughal,Sociology
+Prof. Dr. Uzair Naqvi,Computer Engineering
+Mr. Adnan Siddiqui,Computer Science
+Prof. Dr. Shahmeer Farooq,History
+Prof. Dr. Rehan Mengal,Artificial Intelligence
+Prof. Dr. Adnan Orakzai,Economics
+Dr. Haris Ali,Data Science
+Prof. Dr. Moiz Khosa,Energy Systems Engineering
+Engr. Dr. Rehan Rajput,Energy Systems Engineering
+Prof. Dr. Kamran Bangash,Physics
+Prof. Dr. Areeb Ali,Development Studies
+Dr. Shahzaib Malik,Political Science
+Engr. Saad Leghari,Data Science
+Engr. Dr. Fahad Khatri,Mechanical Engineering
+Engr. Kashif Khan,Development Studies
+Engr. Shahmeer Baloch,Environmental Engineering
+Dr. Rayyan Awan,Geophysics
+Engr. Dr. Sameer Chaudhry,Architecture
+Engr. Dr. Ehsan Gondal,Chemistry
+Engr. Adeel Tareen,Sociology
+Prof. Dr. Anas Lodhi,Chemistry
+Engr. Ismail Pandith,Development Studies
+Engr. Adnan Baloch,Architecture
+Engr. Ibrahim Awan,Energy Systems Engineering
+Prof. Dr. Moiz Jamali,Linguistics
+Engr. Azlan Alvi,Forensic Science
+Engr. Hamza Mengal,Psychology
+Prof. Dr. Ismail Gondal,Computer Science
+Mr. Moiz Farooq,Biomedical Engineering
+Prof. Dr. Adnan Madni,Materials Engineering
+Mr. Rameez Sial,Software Engineering
+Mr. Anas Cheema,Philosophy
+Dr. Rameez Khan,Industrial Engineering
+Prof. Dr. Murtaza Bangash,Chemical Engineering
+Mr. Hasan Khan,Philosophy
+Engr. Dr. Abdullah Baig,Mechanical Engineering
+Engr. Zubair Tareen,Civil Engineering
+Mr. Ismail Khatri,English Literature
+Engr. Dr. Zubair Warraich,Pakistan Studies
+Prof. Dr. Adnan Usmani,Entrepreneurship
+Mr. Bilal Siddiqui,Philosophy
+Prof. Dr. Kamran Lodhi,Chemistry
+Engr. Dr. Rameez Faruqi,Criminology
+Dr. Zain Abbasi,Psychology
+Dr. Rafay Zaidi,Chemical Engineering
+Engr. Qasim Faruqi,Forensic Science
+Prof. Dr. Azlan Jafferi,Human Resource Management
+Engr. Dr. Salman Jafferi,Artificial Intelligence
+Dr. Shayan Zaidi,Geophysics
+Engr. Moiz Orakzai,Project Management
+Engr. Shehroz Alvi,Mechatronics Engineering
+Prof. Dr. Saad Butt,History
+Engr. Shehroz Butt,Psychology
+Mr. Haseeb Usmani,Mass Communication
+Engr. Faizan Khosa,Law
+Prof. Dr. Burhan Farooq,Chemistry
+Engr. Dr. Waleed Khan,Geophysics
+Dr. Ehsan Qureshi,Software Engineering
+Dr. Uzair Rizvi,Biotechnology
+Engr. Dr. Shahzaib Alvi,History
+Prof. Dr. Adnan Pasha,Geology
+Engr. Dr. Abdullah Jafferi,Industrial Engineering
+Engr. Dr. Zubair Gondal,Geology
+Engr. Dr. Haseeb Farooq,Software Engineering
+Engr. Shahzaib Bugti,Physics
+Dr. Faizan Warraich,Entrepreneurship
+Mr. Ehsan Dar,Management Sciences
+Mr. Zaryab Zaidi,Sociology
+Dr. Kashif Kazmi,Materials Engineering
+Engr. Dr. Adeel Hashmi,Accounting & Finance
+Engr. Dr. Ahsan Baloch,Computer Engineering
+Engr. Ayaan Alvi,Computer Engineering
+Mr. Haris Pandith,Mathematics
+Dr. Haseeb Siddiqui,Urban & Regional Planning
+Dr. Afnan Usmani,Chemical Engineering
+Dr. Danish Usmani,History
+Engr. Arham Sial,International Relations
+Dr. Huzaifa Qureshi,Architecture
+Prof. Dr. Ehsan Shah,Project Management
+Engr. Dr. Abdullah Sheikh,Civil Engineering
+Engr. Dr. Taha Kiani,Political Science
+Engr. Ehsan Abbasi,Commerce
+Engr. Dr. Shoaib Bugti,Mass Communication
+Dr. Waleed Ansari,Mathematics
+Mr. Shahmeer Jafferi,Criminology
+Mr. Imran Pasha,Psychology
+Engr. Dr. Mahad Awan,History
+Engr. Ahmed Sheikh,Sociology
+Dr. Yasir Rizvi,Geology
+Dr. Ismail Baloch,Accounting & Finance
+Prof. Dr. Hussain Shah,Software Engineering
+Prof. Dr. Bilal Hashmi,Mathematics
+Dr. Ehsan Bangash,Sociology
+Engr. Dr. Moiz Baig,Data Science
+Engr. Dr. Ahsan Rajput,Economics
+Dr. Shahzaib Mirza,Project Management
+Engr. Dr. Ahmed Awan,Data Science
+Prof. Dr. Ayaan Ali,Chemistry
+Prof. Dr. Yasir Naqvi,Philosophy
+Engr. Sameer Qureshi,Philosophy
+Engr. Daniyal Hussain,Biotechnology
+Engr. Dr. Anas Butt,Telecommunications Engineering
+Engr. Ayaan Hussain,History
+Engr. Rehan Pandith,Computer Science
+Dr. Murtaza Ahmed,Biotechnology
+Mr. Murtaza Lodhi,Chemical Engineering
+Engr. Dr. Shahmeer Butt,Management Sciences
+Engr. Dr. Ismail Orakzai,Accounting & Finance
+Engr. Hamza Cheema,Islamic Banking & Finance
+Prof. Dr. Taha Abbasi,Telecommunications Engineering
+Prof. Dr. Faizan Chaudhry,Biomedical Engineering
+Engr. Naveed Bangash,Remote Sensing & GIS
+Dr. Saad Khatri,Economics
+Dr. Salman Rizvi,Electrical Engineering
+Dr. Adeel Bugti,Industrial Engineering
+Engr. Ayaan Jafferi,Sociology
+Mr. Zubair Madni,Sociology
+Dr. Waleed Sandhu,Biotechnology
+Engr. Bilal Faruqi,Islamic Studies
+Mr. Shahmeer Sheikh,Architecture
+Dr. Zain Mengal,Artificial Intelligence
+Prof. Dr. Junaid Khan,Forensic Science
+Dr. Naveed Orakzai,Chemistry
+Prof. Dr. Huzaifa Shah,Pakistan Studies
+Engr. Kamran Rajput,Geology
+Mr. Rayyan Bhatti,Geophysics
+Prof. Dr. Uzair Sial,Entrepreneurship
+Mr. Abdullah Ansari,Data Science
+Prof. Dr. Ahsan Malik,Mechatronics Engineering
+Dr. Daniyal Bukhari,Architecture
+Engr. Dr. Rameez Bangash,Biotechnology
+Dr. Ahsan Khatri,Islamic Studies
+Engr. Junaid Gilani,Mechatronics Engineering
+Prof. Dr. Hamza Jamali,Development Studies
+Engr. Mahad Jafferi,Civil Engineering
+Prof. Dr. Faris Gilani,Telecommunications Engineering
+Engr. Shayan Jafferi,Microbiology
+Engr. Rayyan Memon,Supply Chain Management
+Prof. Dr. Adnan Qureshi,Architecture
+Prof. Dr. Faizan Tareen,Political Science
+Engr. Dr. Faris Abbasi,Public Administration
+Prof. Dr. Ahsan Warraich,Computer Science
+Dr. Zaryab Afridi,Pakistan Studies
+Engr. Dr. Adeel Ahmed,Media Studies
+Engr. Dr. Rehan Sandhu,Artificial Intelligence
+Engr. Ehsan Sandhu,Commerce
+Mr. Ismail Hussain,Psychology
+Mr. Rameez Butt,Statistics
+Prof. Dr. Uzair Bangash,Mechatronics Engineering
+Mr. Zubair Leghari,Data Science
+Mr. Faris Pasha,Telecommunications Engineering
+Mr. Rehan Hashmi,Data Science
+Prof. Dr. Waleed Yousafzai,Civil Engineering
+Engr. Fahad Usmani,Human Resource Management
+Engr. Kamran Kazmi,Development Studies
+Dr. Afnan Arain,Biomedical Engineering
+Mr. Kamran Ansari,Chemistry
+Engr. Dr. Murtaza Kazmi,Physics
+Prof. Dr. Zubair Hussain,Geology
+Mr. Shahzaib Mughal,Mass Communication
+Engr. Dr. Anas Orakzai,Marketing
+Engr. Dr. Nabeel Baloch,Chemistry
+Dr. Junaid Kakakhel,Biomedical Engineering
+Dr. Fahad Jamali,Telecommunications Engineering
+Engr. Mahad Bukhari,Psychology
+Dr. Yasir Sandhu,Industrial Engineering
+Engr. Dr. Rafay Alvi,Education
+Engr. Dr. Rayyan Sabri,Physics
+Dr. Zaryab Butt,Mechanical Engineering
+Dr. Naveed Rizvi,Sociology
+Engr. Rameez Ansari,History
+Dr. Ahmed Sandhu,Software Engineering
+Dr. Ehsan Rizvi,Geology
+Engr. Anas Hashmi,Project Management
+Engr. Rameez Malik,Forensic Science
+Dr. Saad Chaudhry,Chemical Engineering
+Engr. Musa Cheema,Telecommunications Engineering
+Engr. Nabeel Usmani,History
+Engr. Arham Kazmi,Geophysics
+Mr. Haseeb Baig,Molecular Biology
+Prof. Dr. Ehsan Sabri,Criminology
+Prof. Dr. Rehan Ali,Political Science
+Mr. Asad Rizvi,Civil Engineering
+Engr. Huzaifa Naqvi,Information Technology
+Engr. Areeb Bukhari,History
+Dr. Afnan Chaudhry,Public Administration
+Engr. Ehsan Leghari,Computer Engineering
+Dr. Rayyan Bugti,Statistics
+Engr. Dr. Mahad Mirza,Entrepreneurship
+Engr. Imran Wani,Urban & Regional Planning
+Engr. Fahad Ansari,Mechatronics Engineering
+Engr. Dr. Azlan Leghari,Data Science
+Engr. Dr. Naveed Warraich,Entrepreneurship
+Engr. Dr. Haris Sheikh,Law
+Engr. Yasir Yousafzai,Software Engineering
+Engr. Imran Farooq,Forensic Science
+Prof. Dr. Ayaan Hashmi,Project Management
+Mr. Talha Rajput,Civil Engineering
+Prof. Dr. Ayaan Farooq,Urban & Regional Planning
+Engr. Murtaza Leghari,Education
+Engr. Daniyal Jamali,Sociology
+Mr. Faizan Madni,Software Engineering
+Prof. Dr. Ahmed Gilani,Islamic Studies
+Engr. Dr. Kamran Gilani,Education
+Engr. Arham Pandith,Chemistry
+Engr. Dr. Rehan Farooq,Economics
+Dr. Zain Jamali,International Relations
+Prof. Dr. Shoaib Kazmi,Linguistics
+Mr. Musa Naqvi,Commerce
+Engr. Dr. Qasim Rajput,Civil Engineering
+Dr. Mahad Wani,Mechanical Engineering
+Mr. Junaid Hashmi,Data Science
+Prof. Dr. Uzair Bhatti,Political Science
+Mr. Hussain Bhatti,Supply Chain Management
+Prof. Dr. Danish Khan,Architecture
+Dr. Zain Pasha,Development Studies
+Dr. Bilal Dar,Biotechnology
+Engr. Musa Hashmi,Law
+Prof. Dr. Shayan Sandhu,Statistics
+Engr. Dr. Ahmed Ali,Software Engineering
+Engr. Salman Khatri,Data Science
+Prof. Dr. Rehan Siddiqui,Accounting & Finance
+Engr. Dr. Faris Baig,Education
+Dr. Rehan Warraich,Data Science
+Engr. Abdullah Ahmed,History
+Mr. Ehsan Cheema,Marketing
+Mr. Adnan Chishti,Mechanical Engineering
+Engr. Dr. Rayyan Shah,Chemistry
+Engr. Dr. Ammar Hashmi,Commerce
+Engr. Dr. Zain Bangash,Information Technology
+Dr. Ahsan Gilani,Pakistan Studies
+Dr. Afnan Hussain,Chemistry
+Engr. Zain Gilani,Civil Engineering
+Prof. Dr. Haris Sabri,Peace & Conflict Studies
+Engr. Areeb Farooq,Philosophy
+Dr. Zain Kazmi,Mechatronics Engineering
+Engr. Dr. Haris Baig,Telecommunications Engineering
+Prof. Dr. Fahad Ali,Media Studies
+Engr. Anas Gilani,Chemical Engineering
+Engr. Dr. Ahmed Rizvi,Peace & Conflict Studies
+Dr. Musa Alvi,Psychology
+Dr. Abdullah Malik,Data Science
+Dr. Ehsan Madni,Law
+Engr. Dr. Saad Usmani,Computer Science
+Engr. Dr. Ahsan Leghari,Artificial Intelligence
+Engr. Dr. Arham Hussain,Chemistry
+Engr. Dr. Hasan Chaudhry,Computer Science
+Dr. Yasir Sial,Psychology
+Engr. Yasir Faruqi,Islamic Studies
+Mr. Saad Pasha,Environmental Engineering
+Mr. Kamran Bhatti,Human Resource Management
+Dr. Zaryab Mirza,Statistics
+Engr. Dr. Yasir Gilani,Philosophy
+Dr. Rameez Warraich,Energy Systems Engineering
+Prof. Dr. Ibrahim Chishti,Chemical Engineering
+Mr. Shahmeer Arain,Mechatronics Engineering
+Engr. Dr. Hasan Warraich,Chemical Engineering
+Dr. Afnan Naqvi,Islamic Banking & Finance
+Prof. Dr. Junaid Khatri,Statistics
+Mr. Moiz Rizvi,Psychology
+Engr. Ismail Cheema,Political Science
+Engr. Mahad Qureshi,Economics
+Engr. Dr. Murtaza Ansari,Mechanical Engineering
+Prof. Dr. Arham Ansari,Environmental Engineering
+Engr. Salman Baloch,Industrial Engineering
+Mr. Ahsan Bangash,Electronic Engineering
+Engr. Imran Madni,Media Studies
+Prof. Dr. Nabeel Shah,Civil Engineering
+Prof. Dr. Shayan Sabri,Environmental Engineering
+Dr. Daniyal Baig,Business Administration
+Dr. Asad Kazmi,Electrical Engineering
+Engr. Dr. Hussain Madni,Accounting & Finance
+Mr. Abdullah Madni,Urban & Regional Planning
+Prof. Dr. Shehroz Mughal,Peace & Conflict Studies
+Dr. Ayaan Usmani,Microbiology
+Engr. Hasan Ali,Materials Engineering
+Mr. Shehroz Bugti,Criminology
+Engr. Rameez Abbasi,Electronic Engineering
+Mr. Ibrahim Ahmed,Telecommunications Engineering
+Prof. Dr. Ahsan Sheikh,Management Sciences
+Prof. Dr. Hasan Malik,Project Management
+Prof. Dr. Fahad Chishti,Geology
+Dr. Hussain Siddiqui,Biotechnology
+Engr. Fahad Dar,Civil Engineering
+Engr. Rehan Memon,Software Engineering
+Engr. Daniyal Bugti,Architecture
+Engr. Dr. Ayaan Shah,Human Resource Management
+Engr. Abdullah Pandith,Education
+Dr. Shayan Naqvi,Entrepreneurship
+Dr. Areeb Baig,Pakistan Studies
+Engr. Dr. Faizan Malik,Remote Sensing & GIS
+Engr. Arham Usmani,Human Resource Management
+Engr. Dr. Imran Jafferi,History
+Engr. Rafay Baig,Electrical Engineering
+Engr. Talha Sandhu,Business Administration
+Engr. Dr. Mahad Shah,Information Technology
+Engr. Dr. Talha Khatri,Sociology
+Prof. Dr. Talha Shah,Supply Chain Management
+Engr. Zain Leghari,Biomedical Engineering
+Engr. Zain Madni,Chemical Engineering
+Dr. Ammar Faruqi,Project Management
+Prof. Dr. Moiz Madni,Philosophy
+Engr. Dr. Rafay Chaudhry,Telecommunications Engineering
+Mr. Ammar Dar,Urban & Regional Planning
+Prof. Dr. Naveed Zaidi,Pakistan Studies
+Mr. Kashif Ahmed,Architecture
+Mr. Arham Yousafzai,History
+Prof. Dr. Haris Kazmi,Computer Science
+Mr. Ibrahim Hussain,Computer Science
+Engr. Afnan Faruqi,Philosophy
+Engr. Musa Kakakhel,Public Administration
+Engr. Kashif Baloch,Chemistry
+Engr. Dr. Faris Khatri,Computer Science
+Mr. Mahad Arain,Project Management
+Prof. Dr. Sameer Pasha,Philosophy
+Engr. Dr. Talha Zaidi,Economics
+Engr. Asad Usmani,Mechatronics Engineering
+Engr. Hussain Kakakhel,Computer Science
+Dr. Rehan Khatri,Materials Engineering
+Mr. Murtaza Gondal,Psychology
+Mr. Zain Pandith,Electrical Engineering
+Mr. Shahmeer Pasha,Microbiology
+Engr. Dr. Rehan Zaidi,Commerce
+Prof. Dr. Burhan Sheikh,Public Administration
+Dr. Talha Naqvi,Political Science
+Prof. Dr. Yasir Malik,Media Studies
+Dr. Faris Khosa,Information Technology
+Prof. Dr. Fahad Baig,English Literature
+Dr. Ammar Mirza,Geology
+Mr. Murtaza Wani,Mechatronics Engineering
+Engr. Adnan Sheikh,Industrial Engineering
+Prof. Dr. Shahmeer Jamali,Economics
+Prof. Dr. Zubair Jamali,Computer Science
+Prof. Dr. Arham Bukhari,Criminology
+Engr. Dr. Fahad Hashmi,Project Management
+Dr. Junaid Faruqi,Mathematics
+Engr. Talha Alvi,Civil Engineering
+Mr. Zain Afridi,Philosophy
+Engr. Dr. Faizan Usmani,Public Administration
+Engr. Azlan Warraich,Criminology
+Mr. Rayyan Naqvi,Public Administration
+Mr. Musa Qureshi,Computer Engineering
+Mr. Rehan Arain,Peace & Conflict Studies
+Prof. Dr. Burhan Jamali,Mass Communication
+Engr. Dr. Daniyal Baloch,Chemistry
+Dr. Burhan Kazmi,Computer Science
+Engr. Dr. Saad Mughal,English Literature
+Engr. Dr. Burhan Bhatti,Accounting & Finance
+Dr. Waleed Hussain,Geology
+Engr. Dr. Afnan Warraich,Criminology
+Engr. Danish Rizvi,Pakistan Studies
+Engr. Adeel Orakzai,Chemical Engineering
+Dr. Kashif Gilani,Data Science
+Engr. Dr. Azlan Dar,Criminology
+Engr. Ayaan Zaidi,Economics
+Mr. Moiz Abbasi,Islamic Banking & Finance
+Engr. Rameez Tareen,Chemistry
+Engr. Dr. Shahmeer Zaidi,Software Engineering
+Dr. Zaryab Chaudhry,Islamic Banking & Finance
+Mr. Rehan Jamali,Sociology
+Engr. Dr. Moiz Memon,Mechanical Engineering
+Dr. Hussain Baig,History
+Engr. Huzaifa Arain,Economics
+Engr. Afnan Jafferi,Mathematics
+Dr. Zain Memon,Public Administration
+Mr. Qasim Khosa,Peace & Conflict Studies
+Prof. Dr. Rameez Leghari,Civil Engineering
+Mr. Moiz Lodhi,Architecture
+Engr. Dr. Faris Malik,Physics
+Engr. Dr. Rafay Jafferi,Entrepreneurship
+Engr. Dr. Areeb Memon,Psychology
+Prof. Dr. Waleed Kazmi,Artificial Intelligence
+Mr. Qasim Ahmed,Forensic Science
+Prof. Dr. Kamran Alvi,Public Administration
+Mr. Shoaib Madni,Civil Engineering
+Engr. Dr. Burhan Abbasi,International Relations
+Mr. Faizan Pasha,Geophysics
+Mr. Imran Hashmi,Commerce
+Dr. Ahsan Shah,Mechanical Engineering
+Mr. Haris Khosa,English Literature
+Engr. Murtaza Sheikh,Microbiology
+Mr. Moiz Sheikh,Entrepreneurship
+Engr. Rayyan Mirza,Psychology
+Engr. Dr. Uzair Usmani,Computer Science
+Prof. Dr. Ibrahim Cheema,Architecture
+Prof. Dr. Adeel Ansari,Physics
+Engr. Dr. Arham Memon,Political Science
+Engr. Taha Arain,Criminology
+Mr. Shayan Alvi,Psychology
+Mr. Rafay Rajput,Chemistry
+Engr. Dr. Shehroz Khatri,Development Studies
+Dr. Salman Bangash,History
+Dr. Rafay Pandith,Microbiology
+Mr. Zubair Jafferi,Economics
+Engr. Naveed Mengal,Materials Engineering
+Prof. Dr. Talha Baig,Computer Science
+Mr. Sameer Khatri,Artificial Intelligence
+Engr. Dr. Ahmed Zaidi,Psychology
+Prof. Dr. Shahmeer Naqvi,Chemistry
+Engr. Dr. Talha Ahmed,Energy Systems Engineering
+Dr. Junaid Rajput,International Relations
+Prof. Dr. Rafay Kiani,Data Science
+Engr. Dr. Mahad Chaudhry,Forensic Science
+Prof. Dr. Abdullah Farooq,Economics
+Dr. Shahzaib Mengal,Psychology
+Engr. Dr. Haseeb Madni,Data Science
+Dr. Ahmed Hussain,Mathematics
+Mr. Danish Abbasi,Marketing
+Engr. Imran Faruqi,History
+Mr. Qasim Siddiqui,Business Administration
+Prof. Dr. Rayyan Warraich,Management Sciences
+Mr. Shahmeer Lodhi,Philosophy
+Engr. Dr. Faizan Arain,Forensic Science
+Dr. Asad Khan,Media Studies
+Mr. Shayan Orakzai,Management Sciences
+Mr. Zubair Bhatti,Political Science
+Dr. Areeb Pasha,Islamic Studies
+Mr. Shehroz Cheema,Forensic Science
+Engr. Dr. Rayyan Alvi,Accounting & Finance
+Prof. Dr. Mahad Dar,Geology
+Engr. Dr. Ibrahim Hashmi,Information Technology
+Mr. Zaryab Usmani,Entrepreneurship
+Engr. Dr. Azlan Kiani,International Relations
+Prof. Dr. Salman Bugti,English Literature
+Prof. Dr. Bilal Alvi,Energy Systems Engineering
+Mr. Haseeb Jamali,English Literature
+Prof. Dr. Junaid Dar,Mathematics
+Engr. Dr. Hussain Ansari,Environmental Engineering
+Engr. Bilal Mughal,English Literature
+Engr. Murtaza Warraich,Mass Communication
+Dr. Taha Gilani,Energy Systems Engineering
+Dr. Kashif Abbasi,Remote Sensing & GIS
+Engr. Dr. Azlan Khatri,Biotechnology
+Dr. Ismail Dar,Management Sciences
+Engr. Dr. Sameer Usmani,Telecommunications Engineering
+Engr. Huzaifa Usmani,Geology
+Dr. Rameez Usmani,Sociology
+Engr. Dr. Abdullah Khan,English Literature
+Engr. Dr. Rameez Bhatti,Sociology
+Engr. Dr. Musa Afridi,Education
+Dr. Rafay Orakzai,Marketing
+Prof. Dr. Sameer Ali,Electronic Engineering
+Engr. Salman Alvi,Artificial Intelligence
+Dr. Shahzaib Rizvi,Linguistics
+Mr. Shahmeer Hashmi,Civil Engineering
+Mr. Sameer Mirza,Economics
+Prof. Dr. Anas Alvi,Psychology
+Engr. Nabeel Cheema,Management Sciences
+Prof. Dr. Ayaan Arain,Energy Systems Engineering
+Prof. Dr. Sameer Kiani,Molecular Biology
+Dr. Rafay Faruqi,Supply Chain Management
+Dr. Ammar Yousafzai,Molecular Biology
+Mr. Kamran Shah,Data Science
+Mr. Sameer Mughal,History
+Engr. Dr. Rehan Kakakhel,Electronic Engineering
+Mr. Daniyal Dar,Software Engineering
+Engr. Dr. Naveed Rajput,Criminology
+Engr. Dr. Musa Warraich,Project Management
+Engr. Dr. Shayan Awan,Education
+Engr. Daniyal Kakakhel,Economics
+Engr. Waleed Sial,Linguistics
+Engr. Dr. Moiz Chishti,Computer Engineering
+Mr. Ammar Bangash,Islamic Banking & Finance
+Mr. Waleed Khatri,Islamic Banking & Finance
+Prof. Dr. Asad Sial,Data Science
+Prof. Dr. Shahzaib Shah,Urban & Regional Planning
+Engr. Uzair Yousafzai,Energy Systems Engineering
+Mr. Qasim Memon,Environmental Engineering
+Dr. Ayaan Afridi,Public Administration
+Mr. Areeb Rizvi,Remote Sensing & GIS
+Engr. Dr. Moiz Pandith,International Relations
+Mr. Abdullah Bugti,Geophysics
+Prof. Dr. Mahad Butt,Mechatronics Engineering
+Dr. Kashif Afridi,Islamic Studies
+Engr. Dr. Imran Sandhu,Islamic Studies
+Mr. Kamran Ahmed,Data Science
+Dr. Rafay Gondal,Software Engineering
+Engr. Anas Shah,Entrepreneurship
+Prof. Dr. Daniyal Rajput,Biomedical Engineering
+Mr. Shahzaib Sial,Urban & Regional Planning
+Prof. Dr. Moiz Wani,Media Studies
+Dr. Rayyan Jamali,Public Administration
+Engr. Dr. Rehan Cheema,Commerce
+Mr. Waleed Bangash,Supply Chain Management
+Engr. Dr. Shehroz Kakakhel,Energy Systems Engineering
+Prof. Dr. Ehsan Naqvi,International Relations
+Mr. Hussain Sandhu,Information Technology
+Engr. Ahmed Siddiqui,Geophysics
+Prof. Dr. Shoaib Leghari,Chemical Engineering
+Engr. Azlan Afridi,Electrical Engineering
+Prof. Dr. Rayyan Khan,Chemical Engineering
+Mr. Afnan Sheikh,Computer Engineering
+Engr. Arham Mirza,Law
+Prof. Dr. Naveed Gilani,Molecular Biology
+Prof. Dr. Shahzaib Afridi,Public Administration
+Mr. Shoaib Memon,Molecular Biology
+Dr. Rafay Butt,Biotechnology
+Engr. Areeb Malik,Mass Communication
+Engr. Areeb Pandith,Psychology
+Mr. Asad Awan,Human Resource Management
+Dr. Waleed Ahmed,Media Studies
+Dr. Rayyan Khatri,Development Studies
+Engr. Dr. Azlan Tareen,Project Management
+Engr. Hussain Ahmed,English Literature
+Engr. Dr. Salman Abbasi,Criminology
+Dr. Shahzaib Rajput,Islamic Banking & Finance
+Prof. Dr. Ahsan Butt,Accounting & Finance
+Dr. Waleed Lodhi,Chemical Engineering
+Engr. Dr. Hamza Hussain,Microbiology
+Mr. Faizan Yousafzai,Energy Systems Engineering
+Engr. Rameez Dar,Physics
+Dr. Ayaan Mirza,Geophysics
+Engr. Dr. Naveed Arain,Business Administration
+Engr. Dr. Ismail Usmani,Statistics
+Dr. Hasan Abbasi,Law
+Engr. Musa Siddiqui,Biotechnology
+Engr. Dr. Asad Hashmi,Geology
+Engr. Rayyan Kiani,Data Science
+Mr. Shahzaib Kazmi,Business Administration
+Mr. Ammar Afridi,Architecture
+Dr. Faizan Ali,Materials Engineering
+Dr. Rafay Gilani,Human Resource Management
+Prof. Dr. Rehan Jafferi,Criminology
+Engr. Fahad Mughal,Molecular Biology
+Engr. Imran Leghari,Mass Communication
+Engr. Dr. Rafay Ansari,Telecommunications Engineering
+Mr. Adnan Kazmi,Civil Engineering
+Mr. Qasim Khan,Public Administration
+Engr. Shahzaib Jafferi,Remote Sensing & GIS
+Engr. Yasir Butt,Marketing
+Prof. Dr. Huzaifa Siddiqui,Management Sciences
+Mr. Shehroz Gondal,Materials Engineering
+Dr. Murtaza Hashmi,Project Management
+Mr. Bilal Leghari,Geology
+Engr. Uzair Sandhu,Geology
+Engr. Dr. Abdullah Sial,Electrical Engineering
+Dr. Hussain Bugti,Project Management
+Engr. Dr. Shahmeer Kazmi,Data Science
+Mr. Zain Qureshi,English Literature
+Dr. Qasim Yousafzai,Mechatronics Engineering
+Dr. Bilal Rizvi,Criminology
+Engr. Kamran Arain,Philosophy
+Dr. Ammar Gilani,Islamic Banking & Finance
+Prof. Dr. Hamza Pasha,Microbiology
+Dr. Junaid Afridi,Economics
+Mr. Qasim Ali,Islamic Banking & Finance
+Engr. Dr. Talha Bukhari,Microbiology
+Prof. Dr. Daniyal Warraich,Supply Chain Management
+Dr. Salman Warraich,Mechanical Engineering
+Engr. Afnan Bhatti,Data Science
+Prof. Dr. Shoaib Dar,Economics
+Dr. Shoaib Gilani,English Literature
+Engr. Kamran Sial,Psychology
+Engr. Huzaifa Khatri,Accounting & Finance
+Dr. Haseeb Tareen,Supply Chain Management
+Engr. Dr. Huzaifa Rizvi,Business Administration
+Mr. Musa Jamali,Project Management
+Engr. Adeel Gondal,Linguistics
+Engr. Sameer Butt,Computer Engineering
+Mr. Junaid Bukhari,Computer Science
+Engr. Dr. Ammar Gondal,Architecture
+Prof. Dr. Nabeel Khan,History
+Prof. Dr. Kamran Jafferi,Pakistan Studies
+Mr. Adeel Jafferi,Computer Engineering
+Dr. Azlan Butt,Mechatronics Engineering
+Engr. Faizan Kazmi,Telecommunications Engineering
+Engr. Yasir Madni,Molecular Biology
+Prof. Dr. Yasir Awan,Geology
+Dr. Uzair Jafferi,Project Management
+Dr. Abdullah Baloch,Electronic Engineering
+Engr. Shehroz Orakzai,Geophysics
+Engr. Dr. Arham Rizvi,Linguistics
+Mr. Adnan Bukhari,Biotechnology
+Engr. Dr. Danish Pasha,Political Science
+Mr. Saad Abbasi,Philosophy
+Prof. Dr. Fahad Bhatti,Islamic Banking & Finance
+Engr. Rehan Mughal,Electronic Engineering
+Engr. Dr. Ibrahim Khan,Management Sciences
+Dr. Burhan Mengal,Islamic Studies
+Mr. Ehsan Jafferi,Entrepreneurship
+Engr. Azlan Madni,Computer Engineering
+Prof. Dr. Zain Khatri,Human Resource Management
+Prof. Dr. Danish Arain,Electronic Engineering
+Engr. Dr. Ahmed Cheema,Project Management
+Engr. Dr. Ehsan Warraich,Islamic Studies
+Engr. Faizan Faruqi,Chemical Engineering
+Mr. Shayan Siddiqui,Media Studies
+Engr. Shoaib Butt,Marketing
+Prof. Dr. Shahzaib Gilani,Entrepreneurship
+Prof. Dr. Arham Warraich,Biomedical Engineering
+Engr. Azlan Sial,Forensic Science
+Engr. Dr. Junaid Cheema,Commerce
+Dr. Hasan Hussain,Civil Engineering
+Engr. Dr. Mahad Ansari,Molecular Biology
+Mr. Huzaifa Kiani,Development Studies
+Mr. Danish Mughal,Development Studies
+Engr. Dr. Ahsan Bugti,Microbiology
+Engr. Dr. Bilal Farooq,Physics
+Engr. Dr. Nabeel Tareen,Architecture
+Mr. Talha Madni,Law
+Engr. Dr. Adnan Gondal,Mechatronics Engineering
+Mr. Asad Chaudhry,Software Engineering
+Dr. Abdullah Warraich,Biotechnology
+Prof. Dr. Rameez Kazmi,Biotechnology
+Mr. Haseeb Jafferi,Accounting & Finance
+Mr. Zain Chishti,Media Studies
+Mr. Hamza Arain,Islamic Banking & Finance
+Engr. Dr. Shayan Butt,Political Science
+Engr. Dr. Faris Baloch,Accounting & Finance
+Engr. Shahmeer Usmani,Pakistan Studies
+Engr. Dr. Ahsan Chaudhry,Electrical Engineering
+Engr. Ismail Wani,Entrepreneurship
+Dr. Naveed Afridi,Marketing
+Dr. Arham Khatri,Industrial Engineering
+Dr. Rafay Baloch,Psychology
+Mr. Haseeb Gondal,Civil Engineering
+Engr. Nabeel Sial,Geology
+Engr. Dr. Zubair Faruqi,Biotechnology
+Mr. Shayan Hussain,Chemical Engineering
+Prof. Dr. Naveed Tareen,Linguistics
+Mr. Abdullah Zaidi,Information Technology
+Prof. Dr. Hasan Baig,Sociology
+Prof. Dr. Junaid Zaidi,Business Administration
+Mr. Waleed Faruqi,Software Engineering
+Mr. Faris Rizvi,Economics
+Mr. Bilal Orakzai,Supply Chain Management
+Dr. Danish Bukhari,Mechatronics Engineering
+Mr. Musa Tareen,English Literature
+Engr. Danish Sandhu,Telecommunications Engineering
+Engr. Dr. Ismail Jafferi,Political Science
+Prof. Dr. Nabeel Rajput,Criminology
+Mr. Daniyal Hashmi,Materials Engineering
+Engr. Kashif Rajput,Biomedical Engineering
+Engr. Dr. Afnan Khosa,Islamic Banking & Finance
+Prof. Dr. Ahmed Ahmed,Data Science
+Mr. Kamran Madni,Electrical Engineering
+Prof. Dr. Ammar Ahmed,Mechatronics Engineering
+Dr. Ismail Qureshi,Sociology
+Prof. Dr. Ayaan Siddiqui,Business Administration
+Prof. Dr. Ahmed Ansari,Geology
+Dr. Ahmed Afridi,Pakistan Studies
+Engr. Dr. Taha Bhatti,Physics
+Prof. Dr. Shahzaib Khosa,Sociology
+Engr. Ammar Ali,Artificial Intelligence
+Prof. Dr. Zubair Arain,Electrical Engineering
+Mr. Areeb Bangash,Pakistan Studies
+Mr. Ehsan Zaidi,Statistics
+Dr. Moiz Gilani,Mass Communication
+Dr. Nabeel Mirza,Telecommunications Engineering
+Dr. Shoaib Malik,Law
+Engr. Dr. Waleed Baig,Physics
+Engr. Burhan Shah,Environmental Engineering
+Engr. Dr. Murtaza Sial,Energy Systems Engineering
+Dr. Haseeb Mughal,Molecular Biology
+Prof. Dr. Adnan Rizvi,Electrical Engineering
+Engr. Rameez Khatri,Civil Engineering
+Engr. Hasan Qureshi,Marketing
+Mr. Shayan Dar,Mechatronics Engineering
+Engr. Dr. Huzaifa Baloch,Computer Science
+Mr. Shehroz Tareen,Geophysics
+Prof. Dr. Ayaan Madni,International Relations
+Dr. Abdullah Hussain,Statistics
+Engr. Ahmed Khatri,Civil Engineering
+Engr. Dr. Asad Alvi,Urban & Regional Planning
+Mr. Shahzaib Gondal,Law
+Dr. Kamran Sandhu,Media Studies
+Engr. Fahad Mengal,Computer Engineering
+Engr. Faizan Sabri,International Relations
+Engr. Dr. Ibrahim Bhatti,Management Sciences
+Mr. Saad Bhatti,International Relations
+Engr. Areeb Sabri,Psychology
+Mr. Huzaifa Farooq,Marketing
+Mr. Azlan Bugti,Management Sciences
+Prof. Dr. Areeb Tareen,Statistics
+Engr. Shehroz Bukhari,Electrical Engineering
+Mr. Anas Malik,Materials Engineering
+Engr. Dr. Waleed Abbasi,Energy Systems Engineering
+Engr. Dr. Ayaan Bangash,Microbiology
+Mr. Hamza Ansari,Mechatronics Engineering
+Engr. Fahad Awan,Law
+Mr. Kamran Khatri,Environmental Engineering
+Dr. Hasan Rizvi,Business Administration
+Engr. Dr. Bilal Sandhu,Entrepreneurship
+Engr. Dr. Musa Sandhu,Industrial Engineering
+Dr. Adnan Mengal,Law
+Engr. Hamza Alvi,Physics
+Prof. Dr. Shahzaib Yousafzai,Mass Communication
+Engr. Dr. Zaryab Leghari,Computer Science
+Prof. Dr. Hasan Khosa,Chemistry
+Dr. Rafay Wani,International Relations
+Prof. Dr. Daniyal Sial,Industrial Engineering
+Dr. Shahzaib Kiani,Linguistics
+Engr. Qasim Ansari,Computer Science
+Engr. Asad Wani,Islamic Banking & Finance
+Dr. Shoaib Tareen,Geology
+Dr. Taha Madni,Project Management
+Engr. Dr. Fahad Rajput,Mathematics
+Dr. Adeel Baloch,Public Administration
+Dr. Uzair Qureshi,Molecular Biology
+Engr. Fahad Sabri,Biomedical Engineering
+Engr. Dr. Saad Awan,Philosophy
+Engr. Dr. Kamran Malik,Project Management
+Dr. Imran Rajput,Supply Chain Management
+Engr. Dr. Arham Pasha,Political Science
+Mr. Mahad Ahmed,Entrepreneurship

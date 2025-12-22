@@ -1,0 +1,44 @@
+CS101,DSA,Data Structures and Algorithms
+CS102,PF,Programming Fundamentals
+CS103,OOP,Object Oriented Programming
+CS104,DB,Database Systems
+CS105,OS,Operating Systems
+CS106,SE,Software Engineering
+CS107,CO,Computer Organization
+CS108,WT,Web Technologies
+CS109,ALGO,Design and Analysis of Algorithms
+CS110,PL,Programming Languages
+CS201,CN,Computer Networks
+CS202,AI,Artificial Intelligence
+CS203,ML,Machine Learning
+CS204,DS,Data Science
+CS205,CG,Computer Graphics
+CS206,HCI,Human Computer Interaction
+CS207,IS,Information Security
+CS208,CC,Cloud Computing
+CS209,DM,Data Mining
+CS210,NLP,Natural Language Processing
+AI201,AI,Artificial Intelligence Concepts
+AI202,DL,Deep Learning
+AI203,CV,Computer Vision
+AI204,RL,Reinforcement Learning
+AI205,KRR,Knowledge Representation and Reasoning
+SE201,REQ,Software Requirements Engineering
+SE202,QA,Software Quality Assurance
+SE203,PM,Project Management
+SE204,ARCH,Software Architecture
+MT101,CAL,Calculus and Analytical Geometry
+MT102,LA,Linear Algebra
+MT201,STAT,Probability and Statistics
+MT202,NUM,Numerical Methods
+EE201,CIR,Electric Circuits
+EE202,EL,Electronics
+EE203,SIG,Signals and Systems
+EE204,EM,Electromagnetics
+SS101,ISL,Islamic Studies
+SS102,PST,Pakistan Studies
+SS201,ETH,Professional Ethics
+SS202,COM,Communication Skills
+IT301,ERP,Enterprise Resource Planning
+IT302,BI,Business Intelligence
+IT303,IoT,Internet of Things

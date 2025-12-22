@@ -33,6 +33,7 @@ public:
     string full_name;
     Section* left;
     Section* right;
+    int height=0;
     Slot* slots=nullptr;
     Section() :left(nullptr),right(nullptr),slots(nullptr) {}
     Section(string a) :left(nullptr),right(nullptr), slots(nullptr), full_name(a) {
@@ -64,6 +65,7 @@ class Course_Name {
     Course_Name* right;
     string name; 
     string full_name;
+    int height=0;
 
     Course_Name() :left(nullptr),right(nullptr) {}
     Course_Name(string a, string b, string c) :course_code(a), short_form(b), full_form(c), left(nullptr),right(nullptr) {
@@ -75,6 +77,19 @@ class Course_Name {
 bool equal_course(Course_Name* t, Course_Name* t1){
     return (t->name==t1->name);
 }
+
+
+class location {
+public:
+    string building;
+    string floor;
+    string room_number;
+    location(string b, string fl, string rn) {
+        building = b;
+        floor = fl;
+        room_number = rn;
+    }
+};
 
 struct Time {
 public:
@@ -126,52 +141,24 @@ bool equal_time(Time* t, Time* t1){
     return (t->day==t1->day&&t->s_hours==t1->s_hours&&t->s_minutes==t1->s_minutes&&t->e_hours==t1->e_hours&&t->e_minutes==t1->e_minutes);
 }
 
-int brute_force_search(string text, string pattern){
-    int n = text.length();
-    int m = pattern.length();
-    for (int i = 0; i <= n - m; i++) {
-        int j = 0;
-        while (j < m && text[i + j] == pattern[j]) {
-            j++;
-        }
-        if (j == m) {
-            return i+m;
-        }
-    }
-    return -1;
-}
 
 class Teacher {   
 public:
     string full_name="";
-    string full_name_2="";
     string name="";
     string email="";
     string department="";
     Teacher* left=nullptr;
     Teacher* right=nullptr;
     Slot* slots = nullptr;
+    int height=0;
     Teacher(){}
     Teacher(string a, string b) :full_name(a),department(b){
-        full_name_2=full_name;
-        string titles[6]={"Prof. Dr. ","Engr. Dr. ","Dr. ","Ms. ","Mr. ","Engr. "};
-        int index=-1;
-        for(int i=0;i<6;i++){
-            index=brute_force_search(full_name,titles[i]);
-            if(index!=-1) break;
-        }
-        if(index!=-1){
-            full_name="";
-            for(int i=index;i<full_name_2.size();i++) full_name+=full_name_2[i];
-        }
-        name=to_lowercase(full_name);
-        int count=2;
+        name = to_lowercase(full_name);
         for(int i=0;i<full_name.size();i++){
             if(full_name[i]>='A'&&full_name[i]<='Z') email+=full_name[i]+32;
             else if(full_name[i]==' '){
-                count--;
-                if(count==0) break;
-                email+='.';
+                if(full_name[i-1]!='.') email+='.';
             }
             else email+=full_name[i];
         }
@@ -181,7 +168,7 @@ public:
     bool check_collision(Time* t);
     void print_slots_list(string day);
     void print_info(string day){
-        cout<<"Full Name: "<<full_name_2<<endl;
+        cout<<"Full Name: "<<full_name<<endl;
         cout<<"Department: "<<department<<endl;
         cout<<"Email: "<<email<<endl;
         if(this->slots!=nullptr){
@@ -207,6 +194,7 @@ public:
     int capacity;
     Classroom* left;
     Classroom* right;
+    int height=0;
     Classroom():left(nullptr), right(nullptr){}
     Classroom(string a):full_name(a),left(nullptr),right(nullptr),building(""),room(""){
         int i;
@@ -251,17 +239,55 @@ bool equal_room(Classroom* t, Classroom* t1){
 }
 
 template<typename T>
-class BST {
+class AVL{  
+    T* head;
     string List;
-    void add_entity_main(T*& head, T* newone) {
-        if (head == nullptr) {
-            head = newone;
-            return;
-        }
-        if (newone->name < head->name) add_entity_main(head->left, newone);
-        else add_entity_main(head->right, newone);
+    int height(T* node){
+        return node ? node->height:0;
+    };
+    int balanced(T* node){
+        return node? height(node->left)-height(node->right):0;
+    };
+    void update_height(T* node){
+        node->height=max(height(node->left),height(node->right))+1;
     }
-    void display_main(T*& head) {
+    T* rotate_right(T* x){
+        T* y=x->left;
+        T* t2=y->right;
+        y->right=x;
+        x->left=t2;
+        update_height(x);
+        update_height(y);
+        return y;
+    }
+    T* rotate_left(T* x){
+        T* y=x->right;
+        T* t2=y->left;
+        y->left=x;
+        x->right=t2;
+        update_height(x);
+        update_height(y);
+        return y;
+    }
+    T* add_entity_main(T* head, T* newone){
+        if(head==nullptr) return newone;
+        if(newone->name<head->name) head->left=add_entity_main(head->left, newone);
+        else head->right=add_entity_main(head->right, newone);
+        update_height(head);
+        int bal=balanced(head);
+        if(bal>1&&newone->name<head->left->name) return rotate_right(head);
+        if(bal<-1&&newone->name>head->right->name) return rotate_left(head);
+        if(bal>1&&newone->name>head->left->name){
+            head->left=rotate_left(head->left);
+            return rotate_right(head);
+        }
+        if(bal<-1&&newone->name<head->right->name){
+            head->right=rotate_right(head->right);
+            return rotate_left(head);   
+        }
+        return head;
+    }
+    void display_main(T* head) {
         if (head == nullptr) return;
         display_main(head->left);
         cout << head->name << ":";
@@ -274,7 +300,6 @@ class BST {
         List += ':';
         update_string_main(head->right);
     }
-
     T* searchHelper(T* node, string target) {
         if (!node) return nullptr;
 
@@ -286,16 +311,16 @@ class BST {
         else
             return searchHelper(node->right, target);
     }
-public:
-    T* head;
-    BST() :head(nullptr), List("") {}
-    void add_entity(T* newone) {
-        this->add_entity_main(this->head, newone);
-        List = "";
-        this->update_string_main(this->head);
+    public:
+    AVL():head(nullptr),List(""){}
+    void add_entity(T* newone){
+        head=add_entity_main(head,newone);
     }
-    void display() {
-        this->display_main(this->head);
+    void create_list(){
+        update_string_main(head);
+    }
+    void display(){
+        display_main(head);
     }
     T* search(string newone) {
         return searchHelper(this->head, newone);
@@ -307,7 +332,7 @@ public:
 
 
 
-void setup_file_data(BST<Course_Name>& courses, BST<Teacher>& teachers, BST<Classroom>& rooms,BST<Section>& section) {
+void setup_file_data(AVL<Course_Name>& courses, AVL<Teacher>& teachers, AVL<Classroom>& rooms,AVL<Section>& section) {
     fstream file;
     file.open("Courses.txt");
     string line;
@@ -355,12 +380,15 @@ void setup_file_data(BST<Course_Name>& courses, BST<Teacher>& teachers, BST<Clas
         section.add_entity(newone);
     }
     file.close();
-    
+    section.create_list();
+    rooms.create_list();
+    teachers.create_list();
+    courses.create_list();
 }
 
 
 template <typename T>
-void findMatches(BST<T> tree,string big, string pattern) {
+void findMatches(AVL<T> tree,string big, string pattern) {
     bool found=false;
     int n = big.size();
     int m = pattern.size();
@@ -878,12 +906,12 @@ bool validate_day(string day){
 
 int main() {
     int opt  ; 
-    BST<Course_Name> courses;
-    BST<Teacher> teachers;
-    BST<Classroom> rooms;
-    BST<Section> section;
+    AVL<Course_Name> courses;
+    AVL<Teacher> teachers;
+    AVL<Classroom> rooms;
+    AVL<Section> section;
     setup_file_data(courses, teachers, rooms, section);  
-    
+
     HashMap Admins;
     int  i =  1 ;
      // Get console size

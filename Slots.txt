@@ -1,0 +1,12 @@
+Day: monday
+Time: 9:00 - 09:50
+Course: CS107,CO,Computer Organization
+Section: BCS-3D
+Classroom: AB2,Lab-11(46)
+Teacher: Abdul Aziz
+Day: wednesday
+Time: 10:00 - 11:45
+Course: CS101,DS,Data Structures And Algorithms
+Section: BCS-1C
+Classroom: AB1,E-1(50)
+Teacher: Farrukh Hasan Syed

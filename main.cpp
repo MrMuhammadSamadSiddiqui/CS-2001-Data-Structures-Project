@@ -212,8 +212,8 @@ bool equal_teacher(Teacher* t, Teacher* t1){
 
 class Classroom { 
 public:
-    Slot* slots=nullptr;
-    string building;
+string building;
+Slot* slots=nullptr;
     string room;
     string full_name;
     string name;
@@ -263,6 +263,49 @@ public:
 bool equal_room(Classroom* t, Classroom* t1){
     return (t->full_name==t1->full_name);
 }
+
+
+class Slot {
+public:
+    Time* time_of_class;
+    Teacher* teacher;
+    Classroom* classroom;
+    Course_Name* course;
+    Section* section;
+    Slot* next;
+    Slot():next(nullptr){}
+    Slot(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4) :next(nullptr), teacher(t1), time_of_class(t), classroom(t2), course(t3), section(t4) {}
+    void print() {
+    cout << "Day: " << time_of_class->day << endl;
+    cout << "Time: " << time_of_class->starttime 
+         << " - " << time_of_class->endtime << endl;
+    cout << "Course: " << course->full_name << endl;
+    cout << "Section: " << section->full_name << endl;
+    cout << "Classroom: " << classroom->full_name << endl;
+    cout << "Teacher: " << teacher->full_name << endl;
+}
+
+    Slot(Slot& other) {
+    time_of_class = other.time_of_class;
+    teacher = other.teacher;
+    classroom = other.classroom;
+    course = other.course;
+    section = other.section;
+    next = nullptr;
+    }
+    friend ostream& operator<<(ostream& out,const Slot& other){
+        
+            out << "Day: " << other.time_of_class->day << endl;
+            out << "Time: " << other.time_of_class->starttime << " - " << other.time_of_class->endtime << endl;
+            out << "Course: " << other.course->full_name << endl;
+            out << "Section: " << other.section->full_name << endl;
+            out << "Classroom: " << other.classroom->full_name<<endl;
+            out << "Teacher: " << other.teacher->full_name<<endl;
+            return out;
+     
+    }
+};
+
 
 
 
@@ -351,6 +394,18 @@ class AVL{
         return searchHelper_course_code(node->right, target);
         
     }
+    void inorder_store_slots(T* head,fstream* file) {
+        if (head == nullptr) return; 
+        inorder_store_slots(head->left,file);
+        Slot* temp=head->slots;              
+        if(temp!=nullptr){
+            while(temp!=nullptr){
+                *file <<*temp;
+                temp=temp->next;
+            }
+        }
+        inorder_store_slots(head->right,file);
+    }
     public:
     T* head;
     AVL():head(nullptr),List(""){}
@@ -372,63 +427,16 @@ class AVL{
     string get_List() {
         return this->List;
     }
+    void store_slot_file(fstream* F){
+       inorder_store_slots(head,F);
+    }
+    
 };
 
 
 
-void setup_file_data(AVL<Course_Name>& courses, AVL<Teacher>& teachers, AVL<Classroom>& rooms,AVL<Section>& section) {
-    fstream file;
-    file.open("Courses.txt");
-    string line;
-    while (getline(file, line)) {
-        string code = "";
-        string form = "";
-        string full = "";
-        int index = 0;
-        for (int i = 0; line[i] != ','; i++, index++) code += line[i];
-        for (int i = index + 1; line[i] != ','; i++, index++) form += line[i];
-        for (int i = index + 2; i < line.size(); i++) full += line[i];
-        Course_Name* newone = new Course_Name(code, form, full);
-        courses.add_entity(newone);
-    }
-    file.close();
-    file.open("Teachers.txt");
-    line = "";
-    while (getline(file, line)) {
-        string name = "";
-        string dep = "";
-        int index = 0;
-        for (int i = 0; line[i] != ','; i++, index++) name += line[i];
-        for (int i = index + 1; i < line.size(); i++, index++) dep += line[i];
-        Teacher* newone = new Teacher(name, dep);
-        teachers.add_entity(newone);
-    }
-    file.close();
-    file.open("Classrooms.txt");
-    line = "";
-    while (getline(file, line)) {
-        string name = "";
-        int index = 0;
-        for (int i = 0; i < line.size(); i++, index++) name += line[i];
-        Classroom* newone = new Classroom(name);
-        rooms.add_entity(newone);
-    }
-    file.close();
-    file.open("Sections.txt");
-    line = "";
-    while (getline(file, line)) {
-        string name = "";
-        int index = 0;
-        for (int i = 0; i < line.size(); i++, index++) name += line[i];
-        Section* newone = new Section(name);
-        section.add_entity(newone);
-    }
-    file.close();
-    section.create_list();
-    rooms.create_list();
-    teachers.create_list();
-    courses.create_list();
-}
+
+
 
 
 template <typename T>
@@ -494,35 +502,6 @@ void findMatches(AVL<T> tree,string big, string pattern) {
     else cout<<endl;
 }
 
-class Slot {
-public:
-    Time* time_of_class;
-    Teacher* teacher;
-    Classroom* classroom;
-    Course_Name* course;
-    Section* section;
-    Slot* next;
-    Slot():next(nullptr){}
-    Slot(Time* t, Teacher* t1, Classroom* t2, Course_Name* t3, Section* t4) :next(nullptr), teacher(t1), time_of_class(t), classroom(t2), course(t3), section(t4) {}
-    void print() {
-    cout << "Day: " << time_of_class->day << endl;
-    cout << "Time: " << time_of_class->starttime 
-         << " - " << time_of_class->endtime << endl;
-    cout << "Course: " << course->full_name << endl;
-    cout << "Section: " << section->full_name << endl;
-    cout << "Classroom: " << classroom->full_name << endl;
-    cout << "Teacher: " << teacher->full_name << endl;
-    cout << "-----------------------------" << endl;
-}
-    Slot(Slot& other) {
-    time_of_class = other.time_of_class;
-    teacher = other.teacher;
-    classroom = other.classroom;
-    course = other.course;
-    section = other.section;
-    next = nullptr;
-    }
-};
 
 int get_day_order(string a){
     if(a=="monday") return 0;
@@ -955,6 +934,160 @@ bool validate_day(string day){
     return(to_lowercase(day) == "monday" || to_lowercase(day) == "tuesday" || to_lowercase(day) == "wednesday" || to_lowercase(day) == "thursday" || to_lowercase(day) == "friday");
 }
 
+
+
+void store_data(AVL<Teacher>& teachers){
+    fstream file;
+    file.open("Slots.txt",ios::out);
+    teachers.store_slot_file(&file);
+    file.close();
+}
+
+void setup_file_data(AVL<Course_Name>& courses, AVL<Teacher>& teachers, AVL<Classroom>& rooms,AVL<Section>& section) {
+    fstream file;
+    file.open("Courses.txt");
+    string line;
+    while (getline(file, line)) {
+        string code = "";
+        string form = "";
+        string full = "";
+        int index = 0;
+        for (int i = 0; line[i] != ','; i++, index++) code += line[i];
+        for (int i = index + 1; line[i] != ','; i++, index++) form += line[i];
+        for (int i = index + 2; i < line.size(); i++) full += line[i];
+        Course_Name* newone = new Course_Name(code, form, full);
+        courses.add_entity(newone);
+    }
+    file.close();
+    file.open("Teachers.txt");
+    line = "";
+    while (getline(file, line)) {
+        string name = "";
+        string dep = "";
+        int index = 0;
+        for (int i = 0; line[i] != ','; i++, index++) name += line[i];
+        for (int i = index + 1; i < line.size(); i++, index++) dep += line[i];
+        Teacher* newone = new Teacher(name, dep);
+        teachers.add_entity(newone);
+    }
+    file.close();
+    file.open("Classrooms.txt");
+    line = "";
+    while (getline(file, line)) {
+        string name = "";
+        int index = 0;
+        for (int i = 0; i < line.size(); i++, index++) name += line[i];
+        Classroom* newone = new Classroom(name);
+        rooms.add_entity(newone);
+    }
+    file.close();
+    file.open("Sections.txt");
+    line = "";
+    while (getline(file, line)) {
+        string name = "";
+        int index = 0;
+        for (int i = 0; i < line.size(); i++, index++) name += line[i];
+        Section* newone = new Section(name);
+        section.add_entity(newone);
+    }
+    file.close();
+    section.create_list();
+    rooms.create_list();
+    teachers.create_list();
+    courses.create_list();
+}
+
+
+void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>section,AVL<Course_Name>&courses){
+    fstream file;
+    file.open("Slots.txt");
+    while(1){
+        string line;
+        string day="";
+        if(!getline(file, line)) break;
+        int index=0;
+        for(int i=0;line[i]!=':';i++,index++){} 
+        for(int i=index+2;i<line.size();i++)  day+=line[i];
+        string starttime;
+        int n;
+        int a=0;
+        int b=0;
+        getline(file,line);
+        string t="";
+        index=0;
+        for(int i=0;line[i]!=':';i++,index++){}
+        index+=2;
+        for(int i=index;line[i]!=':';index++,i++){
+            t+=line[i];
+            starttime+=line[i];
+        }
+        starttime+=':';
+        if(t.size()==1) a+=(t[0]-48)*60;
+        else{
+            a+=((t[0]-48)*10+(t[1]-48))*60;
+        }
+        starttime+=line[index+1];
+        starttime+=line[index+2];
+        a+=(line[index+1]-48)*10+(line[index+2]-48);
+        index+=2;
+        t="";
+        for(int i=index;line[i]!='-';i++,index++){}
+        index+=2;
+        for(int i=index;line[i]!=':';index++,i++) t+=line[i];
+        if(t.size()==1) b+=(t[0]-48)*60;
+        else{
+            b+=((t[0]-48)*10+(t[1]-48))*60;
+        }
+        b+=(line[index+1]-48)*10+(line[index+2]-48);
+        n=(b-a)/50;
+        Time* tim=new Time(day,starttime,n);
+        getline(file,line);
+        string course_name="";
+        index=0;
+        for(int i=0;line[i]!=':';i++,index++){}
+        for(int i=++(++index);i<line.size();i++) course_name+=line[i];
+        Course_Name* t4;
+        t4=courses.search(to_lowercase(course_name));
+
+        
+        getline(file,line);
+        index=0;
+        string section_name="";
+        for(int i=0;line[i]!=':';i++,index++){}
+        for(int i=++(++index);i<line.size();i++) section_name+=line[i];
+        Section* t3;
+        t3=section.search(to_lowercase(section_name));
+
+
+        getline(file,line);
+        string classroom_name="";
+        index=0;
+        for(int i=0;line[i]!=':';i++,index++){}
+        for(int i=++(++index);line[i]!='(';i++) classroom_name+=line[i];
+        Classroom* t2;
+        t2=rooms.search(to_lowercase(classroom_name));
+
+
+        getline(file,line);
+        index=0;
+        string teacher_name="";
+        for(int i=0;line[i]!=':';i++,index++){}
+        for(int i=++(++index);i<line.size();i++,index++) teacher_name+=line[i];
+        Teacher* t1;
+        t1=teachers.search(to_lowercase(teacher_name));
+
+        Slot* S=new Slot(tim,t1,t2,t4,t3);
+        Slot* S_teacher = new Slot(*S);
+        Slot* S_section = new Slot(*S);
+        Slot* S_room    = new Slot(*S);
+        delete S;
+        t1->add_slot(S_teacher);
+        t3->add_slot(S_section);
+        t2->add_slot(S_room);
+    }
+    file.close();
+}
+
 int main() {
     int opt  ; 
     AVL<Course_Name> courses;
@@ -962,9 +1095,7 @@ int main() {
     AVL<Classroom> rooms;
     AVL<Section> section;
     setup_file_data(courses, teachers, rooms, section);  
-    
-    
-
+    load_slots_data(teachers, rooms, section,courses);
 
     HashMap Admins;
     int  i =  1 ;
@@ -1382,6 +1513,10 @@ int main() {
             else if(choice ==4) break;
         }
     }     
-    else if(opt==3) break;
+    else if(opt==3){
+        store_data(teachers);
+        break;
+    }
 }
+
 }

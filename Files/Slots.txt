@@ -1,0 +1,6 @@
+Day: wednesday
+Time: 10:00 - 11:45
+Course: CS3005,TA,Theory Of Automata
+Section: BCS-7C
+Classroom: AB2,Physics Lab(50)
+Teacher: Abuzar Zafar

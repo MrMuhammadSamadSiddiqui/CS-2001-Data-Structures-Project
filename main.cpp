@@ -8,6 +8,7 @@
 #include <iomanip>
 #include <type_traits>
 using namespace std;
+
 class Slot;
 class Teacher;
 class Classroom;
@@ -294,15 +295,13 @@ public:
     next = nullptr;
     }
     friend ostream& operator<<(ostream& out,const Slot& other){
-        
-            out << "Day: " << other.time_of_class->day << endl;
-            out << "Time: " << other.time_of_class->starttime << " - " << other.time_of_class->endtime << endl;
-            out << "Course: " << other.course->full_name << endl;
-            out << "Section: " << other.section->full_name << endl;
+            out <<"Day: "<<other.time_of_class->day<< endl;
+            out <<"Time: " << other.time_of_class->starttime << " - "<<other.time_of_class->endtime <<endl;
+            out <<"Course: " << other.course->full_name <<endl;
+            out << "Section: " << other.section->full_name<< endl;
             out << "Classroom: " << other.classroom->full_name<<endl;
             out << "Teacher: " << other.teacher->full_name<<endl;
             return out;
-     
     }
 };
 
@@ -696,49 +695,37 @@ bool Section::check_collision(Time* t){
 }
 
 void Teacher::print_slots_list(string day){
-   
-    
-
     Slot* temp = slots;
     while(temp != nullptr){
-        if(day =="all" || day == temp->time_of_class->day)
+        if(to_lowercase(day) =="all"|| day == temp->time_of_class->day)
             temp->print();
         temp = temp->next;
     }
 }
 
 void Classroom::print_slots_list(string day){
-    
-
-    
-
     Slot* temp = slots;
     while(temp != nullptr){
-        if(day == "all" || day == temp->time_of_class->day)
+        if(to_lowercase(day) == "all" || day == temp->time_of_class->day)
             temp->print();
         temp = temp->next;
     }
 }
 
 void Section::print_slots_list(string day){
-    
-
-    
-
     Slot* temp = slots;
     while(temp != nullptr){
-        if(day == "all" || day == temp->time_of_class->day)
+        if(to_lowercase(day) == "all" || day == temp->time_of_class->day)
             temp->print();
         temp = temp->next;
     }
 }
-// Move cursor to (x,y)
+
 void goToXY(int x, int y) {
     COORD pos = { (SHORT)x, (SHORT)y };
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
 }
 
-// Print message centered horizontally at given row (vertical)
 void inputCentered(const string& message, int row) {
     CONSOLE_SCREEN_BUFFER_INFO csbi;
     GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &csbi);
@@ -855,7 +842,7 @@ class HashMap{
     Admin* table[26]={nullptr};
     HashMap(){
         fstream file;
-        file.open("Admins.txt");
+        file.open("./Files/Admins.txt");
         string line;
         while (getline(file, line)) {
             string username="";
@@ -938,14 +925,14 @@ bool validate_day(string day){
 
 void store_data(AVL<Teacher>& teachers){
     fstream file;
-    file.open("Slots.txt",ios::out);
+    file.open("./Files/Slots.txt",ios::out);
     teachers.store_slot_file(&file);
     file.close();
 }
 
 void setup_file_data(AVL<Course_Name>& courses, AVL<Teacher>& teachers, AVL<Classroom>& rooms,AVL<Section>& section) {
     fstream file;
-    file.open("Courses.txt");
+    file.open("./Files/Courses.txt");
     string line;
     while (getline(file, line)) {
         string code = "";
@@ -959,7 +946,7 @@ void setup_file_data(AVL<Course_Name>& courses, AVL<Teacher>& teachers, AVL<Clas
         courses.add_entity(newone);
     }
     file.close();
-    file.open("Teachers.txt");
+    file.open("./Files/Teachers.txt");
     line = "";
     while (getline(file, line)) {
         string name = "";
@@ -971,7 +958,7 @@ void setup_file_data(AVL<Course_Name>& courses, AVL<Teacher>& teachers, AVL<Clas
         teachers.add_entity(newone);
     }
     file.close();
-    file.open("Classrooms.txt");
+    file.open("./Files/Classrooms.txt");
     line = "";
     while (getline(file, line)) {
         string name = "";
@@ -981,7 +968,7 @@ void setup_file_data(AVL<Course_Name>& courses, AVL<Teacher>& teachers, AVL<Clas
         rooms.add_entity(newone);
     }
     file.close();
-    file.open("Sections.txt");
+    file.open("./Files/Sections.txt");
     line = "";
     while (getline(file, line)) {
         string name = "";
@@ -997,10 +984,9 @@ void setup_file_data(AVL<Course_Name>& courses, AVL<Teacher>& teachers, AVL<Clas
     courses.create_list();
 }
 
-
 void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>section,AVL<Course_Name>&courses){
     fstream file;
-    file.open("Slots.txt");
+    file.open("./Files/Slots.txt");
     while(1){
         string line;
         string day="";
@@ -1013,6 +999,7 @@ void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>sectio
         int a=0;
         int b=0;
         getline(file,line);
+        
         string t="";
         index=0;
         for(int i=0;line[i]!=':';i++,index++){}
@@ -1041,16 +1028,22 @@ void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>sectio
         b+=(line[index+1]-48)*10+(line[index+2]-48);
         n=(b-a)/50;
         Time* tim=new Time(day,starttime,n);
+
+        
+
         getline(file,line);
+        
         string course_name="";
         index=0;
         for(int i=0;line[i]!=':';i++,index++){}
         for(int i=++(++index);i<line.size();i++) course_name+=line[i];
         Course_Name* t4;
         t4=courses.search(to_lowercase(course_name));
-
+        
+        
         
         getline(file,line);
+        
         index=0;
         string section_name="";
         for(int i=0;line[i]!=':';i++,index++){}
@@ -1058,8 +1051,11 @@ void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>sectio
         Section* t3;
         t3=section.search(to_lowercase(section_name));
 
+        
+
 
         getline(file,line);
+        
         string classroom_name="";
         index=0;
         for(int i=0;line[i]!=':';i++,index++){}
@@ -1067,8 +1063,10 @@ void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>sectio
         Classroom* t2;
         t2=rooms.search(to_lowercase(classroom_name));
 
+    
 
         getline(file,line);
+        
         index=0;
         string teacher_name="";
         for(int i=0;line[i]!=':';i++,index++){}
@@ -1087,6 +1085,8 @@ void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>sectio
     }
     file.close();
 }
+
+
 
 int main() {
     int opt  ; 
@@ -1418,7 +1418,7 @@ int main() {
                     if(!quit){                        
                             cout<<"Enter the Day (Write 'all' for complete Slots): ";
                             cin>>day;
-                            if(!validate_day(day)&&day!="all"){
+                            if(!validate_day(day)&&to_lowercase(day)!="all"){
                                 cout<<"Enter Valid Day"<<endl;
                                 cout<<"\nPress Any key to continue: ";
                                 _getch(); 
@@ -1457,7 +1457,7 @@ int main() {
                  if(!quit){                        
                         cout<<"Enter the Day (Write 'all' for complete Slots): ";
                         cin>>day;
-                        if(!validate_day(day)&&day!="all"){
+                        if(!validate_day(day)&&to_lowercase(day)!="all"){
                             cout<<"Enter Valid Day"<<endl;
                             cout<<"\nPress Any key to continue: ";
                             _getch(); 
@@ -1496,7 +1496,7 @@ int main() {
                 if(!quit){                        
                             cout<<"Enter the Day (Write 'all' for complete Slots): ";
                             cin>>day;
-                            if(!validate_day(day)&&day!="all"){
+                            if(!validate_day(day)&&to_lowercase(day)!="all"){
                                 cout<<"Enter Valid Day"<<endl;
                                 cout<<"\nPress Any key to continue: ";
                                 _getch(); 

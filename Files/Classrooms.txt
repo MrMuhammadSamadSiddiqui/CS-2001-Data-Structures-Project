@@ -60,9 +60,9 @@ AB2,Lab-11(46)
 AB2,Lab-12(47)
 AB2,Lab-13(47)
 AB2,Lab-14(43)
-AB2,Microprocessor and Interfeacing Lab
-AB2,Electronics Lab
-AB2,Engineering Workshop Lab
-AB2,Electromechnincal Systems Lab
-AB2,Power Lab
-AB2,Physics Lab
+AB2,Microprocessor and Interfeacing Lab(50)
+AB2,Electronics Lab(50)
+AB2,Engineering Workshop Lab(50)
+AB2,Electromechnincal Systems Lab(50)
+AB2,Power Lab(50)
+AB2,Physics Lab(50)

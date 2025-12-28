@@ -1,4 +1,3 @@
-CS100,b,c,
 CS101,DS,Data Structures And Algorithms
 CS104,PF,Programming Fundamentals
 CS107,CO,Computer Organization
@@ -9,3 +8,8 @@ AI2002,AI,Artificial Intelligence
 MT1002,CAL,Calculus And Analytical Geometry
 EE2003,COAL,Computer Organization And Assembly Language
 SS2002,ISL,Islamic Studies
+NS1001,AP,Applied Physics
+EE1005,DLD,Digital Logic Design
+MT1008,MVC,Multivariable Calculus
+MT1004,LA,Linear Algebra
+

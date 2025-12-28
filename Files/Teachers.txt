@@ -1,4 +1,3 @@
-abcd,asdf
 Dr. Fahad Samad,Computer Science
 Dr. Abdul Aziz,Computer Science
 Prof. Dr. Zulfiqar Ali Memon,Computer Science

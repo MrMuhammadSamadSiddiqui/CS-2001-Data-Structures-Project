@@ -8,7 +8,7 @@ Engr. Dr. Fahad Sherwani,Computer Science
 Dr. Shakil Ahmed,Computer Science
 Dr. Nadeem Kafi,Computer Science
 Dr. Farrukh Hasan Syed,Computer Science
-Dr.-Ing. Farrukh Salim Shaikh,Computer Science
+Dr. Farrukh Salim Shaikh,Computer Science
 Dr. Aqsa Aslam,Computer Science
 Dr. Nasir Uddin,Computer Science
 Dr. Waheed Ahmed Abro,Computer Science

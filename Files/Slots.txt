@@ -1,6 +1,24 @@
-Day: wednesday
+Day: monday
 Time: 10:00 - 11:45
-Course: CS3005,TA,Theory Of Automata
-Section: BCS-7C
-Classroom: AB2,Physics Lab(50)
+Course: CS101,DS,Data Structures And Algorithms
+Section: BAI-1C
+Classroom: AB1,E-2(50)
 Teacher: Abuzar Zafar
+Day: monday
+Time: 9:00 - 09:50
+Course: CS101,DS,Data Structures And Algorithms
+Section: BCS-1C
+Classroom: AB1,E-1(50)
+Teacher: Farrukh Hasan Syed
+Day: friday
+Time: 10:00 - 11:45
+Course: CS109,ALGO,Design And Analysis Of Algorithms
+Section: BCS-1D
+Classroom: AB2,Physics Lab(50)
+Teacher: Shoaib Rauf
+Day: wednesday
+Time: 11:00 - 13:40
+Course: MT1004,LA,Linear Algebra
+Section: BEE-1A
+Classroom: AB1,E-2(50)
+Teacher: Wajiha Raheeq

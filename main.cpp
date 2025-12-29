@@ -842,7 +842,7 @@ class HashMap{
     Admin* table[26]={nullptr};
     HashMap(){
         fstream file;
-        file.open("./Files/Admins.txt");
+        file.open("Files/Admins.txt");
         string line;
         while (getline(file, line)) {
             string username="";
@@ -925,40 +925,52 @@ bool validate_day(string day){
 
 void store_data(AVL<Teacher>& teachers){
     fstream file;
-    file.open("./Files/Slots.txt",ios::out);
+    file.open("Files/Slots.txt",ios::out);
     teachers.store_slot_file(&file);
     file.close();
 }
 
 void setup_file_data(AVL<Course_Name>& courses, AVL<Teacher>& teachers, AVL<Classroom>& rooms,AVL<Section>& section) {
     fstream file;
-    file.open("./Files/Courses.txt");
+    file.open("Files/Courses.txt");
     string line;
     while (getline(file, line)) {
         string code = "";
         string form = "";
         string full = "";
         int index = 0;
-        for (int i = 0; line[i] != ','; i++, index++) code += line[i];
-        for (int i = index + 1; line[i] != ','; i++, index++) form += line[i];
+        for (int i = 0; i<line.size(); i++, index++){
+    if(line[i]==',') break;
+            code += line[i];
+        }
+
+        for (int i = index + 1; i<line.size(); i++, index++){
+            if(line[i]==',') break;
+            form += line[i];
+
+        }
         for (int i = index + 2; i < line.size(); i++) full += line[i];
         Course_Name* newone = new Course_Name(code, form, full);
         courses.add_entity(newone);
     }
     file.close();
-    file.open("./Files/Teachers.txt");
+    file.open("Files/Teachers.txt");
     line = "";
     while (getline(file, line)) {
         string name = "";
         string dep = "";
         int index = 0;
-        for (int i = 0; line[i] != ','; i++, index++) name += line[i];
+        for (int i = 0;i<line.size();i++, index++) {
+            
+            if(line[i]==',') break;
+            name += line[i];
+        }
         for (int i = index + 1; i < line.size(); i++, index++) dep += line[i];
         Teacher* newone = new Teacher(name, dep);
         teachers.add_entity(newone);
     }
     file.close();
-    file.open("./Files/Classrooms.txt");
+    file.open("Files/Classrooms.txt");
     line = "";
     while (getline(file, line)) {
         string name = "";
@@ -968,7 +980,7 @@ void setup_file_data(AVL<Course_Name>& courses, AVL<Teacher>& teachers, AVL<Clas
         rooms.add_entity(newone);
     }
     file.close();
-    file.open("./Files/Sections.txt");
+    file.open("Files/Sections.txt");
     line = "";
     while (getline(file, line)) {
         string name = "";
@@ -986,13 +998,15 @@ void setup_file_data(AVL<Course_Name>& courses, AVL<Teacher>& teachers, AVL<Clas
 
 void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>section,AVL<Course_Name>&courses){
     fstream file;
-    file.open("./Files/Slots.txt");
+    file.open("Files/Slots.txt");
     while(1){
         string line;
         string day="";
         if(!getline(file, line)) break;
         int index=0;
-        for(int i=0;line[i]!=':';i++,index++){} 
+        for(int i=0;i<line.size();i++,index++){
+            if(line[i]==':') break;
+        } 
         for(int i=index+2;i<line.size();i++)  day+=line[i];
         string starttime;
         int n;
@@ -1002,9 +1016,12 @@ void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>sectio
         
         string t="";
         index=0;
-        for(int i=0;line[i]!=':';i++,index++){}
+        for(int i=0;i<line.size();i++,index++){
+            if(line[i]==':') break;
+        } 
         index+=2;
-        for(int i=index;line[i]!=':';index++,i++){
+        for(int i=index;i<line.size();index++,i++){
+            if(line[i]==':') break;
             t+=line[i];
             starttime+=line[i];
         }
@@ -1018,9 +1035,14 @@ void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>sectio
         a+=(line[index+1]-48)*10+(line[index+2]-48);
         index+=2;
         t="";
-        for(int i=index;line[i]!='-';i++,index++){}
+        for(int i=index;i<line.size();i++,index++){
+            if(line[i]=='-') break;
+        }
         index+=2;
-        for(int i=index;line[i]!=':';index++,i++) t+=line[i];
+        for(int i=index;i<line.size();index++,i++){
+            if(line[i]==':') break;
+            t+=line[i];
+        }
         if(t.size()==1) b+=(t[0]-48)*60;
         else{
             b+=((t[0]-48)*10+(t[1]-48))*60;
@@ -1035,7 +1057,9 @@ void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>sectio
         
         string course_name="";
         index=0;
-        for(int i=0;line[i]!=':';i++,index++){}
+        for(int i=0;i<line.size();i++,index++){
+            if(line[i]==':') break;
+        }
         for(int i=++(++index);i<line.size();i++) course_name+=line[i];
         Course_Name* t4;
         t4=courses.search(to_lowercase(course_name));
@@ -1046,7 +1070,9 @@ void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>sectio
         
         index=0;
         string section_name="";
-        for(int i=0;line[i]!=':';i++,index++){}
+        for(int i=0;i<line.size();i++,index++){
+            if(line[i]==':') break;
+        }
         for(int i=++(++index);i<line.size();i++) section_name+=line[i];
         Section* t3;
         t3=section.search(to_lowercase(section_name));
@@ -1058,8 +1084,13 @@ void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>sectio
         
         string classroom_name="";
         index=0;
-        for(int i=0;line[i]!=':';i++,index++){}
-        for(int i=++(++index);line[i]!='(';i++) classroom_name+=line[i];
+        for(int i=0;i<line.size();i++,index++){
+            if(line[i]==':') break;
+        }
+        for(int i=++(++index);i<line.size();i++){
+            if(line[i]=='(') break;
+            classroom_name+=line[i];
+        }
         Classroom* t2;
         t2=rooms.search(to_lowercase(classroom_name));
 
@@ -1069,7 +1100,9 @@ void load_slots_data(AVL<Teacher>teachers,AVL<Classroom>rooms,AVL<Section>sectio
         
         index=0;
         string teacher_name="";
-        for(int i=0;line[i]!=':';i++,index++){}
+        for(int i=0;i<line.size();i++,index++){
+            if(line[i]==':') break;
+        }
         for(int i=++(++index);i<line.size();i++,index++) teacher_name+=line[i];
         Teacher* t1;
         t1=teachers.search(to_lowercase(teacher_name));

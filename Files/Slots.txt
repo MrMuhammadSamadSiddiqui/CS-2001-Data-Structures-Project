@@ -22,3 +22,9 @@ Course: MT1004,LA,Linear Algebra
 Section: BEE-1A
 Classroom: AB1,E-2(50)
 Teacher: Wajiha Raheeq
+Day: tuesday
+Time: 11:00 - 12:45
+Course: CS3001,CN,Computer Networks
+Section: BCY-7C
+Classroom: AB2,C-21(50)
+Teacher: Zulfiqar Ali

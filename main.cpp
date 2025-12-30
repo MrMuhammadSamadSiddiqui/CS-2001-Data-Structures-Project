@@ -1,12 +1,12 @@
 #include<iostream>
 #include<fstream>
 #include<string>
-#include<vector>
 #include<limits>
 #include <windows.h>
 #include <conio.h>
 #include <iomanip>
 #include <type_traits>
+#include<vector>     // ----------> Used only to store lps table for KMP Algorithm 
 using namespace std;
 
 class Slot;
@@ -490,7 +490,7 @@ void findMatches(AVL<T> tree,string big, string pattern) {
                 r++;
                 i=R+1;
                 j=0;
-                // j = lps[j - 1]; 
+                
             }
         }
         else {

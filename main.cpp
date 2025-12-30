@@ -284,6 +284,7 @@ public:
     cout << "Section: " << section->full_name << endl;
     cout << "Classroom: " << classroom->full_name << endl;
     cout << "Teacher: " << teacher->full_name << endl;
+    cout<<endl;
 }
 
     Slot(Slot& other) {
